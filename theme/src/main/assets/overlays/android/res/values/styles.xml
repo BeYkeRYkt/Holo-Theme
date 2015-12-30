@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="devTheme" parent="@android:style/Theme.Holo">
+    </style>
+
+    <!-- Dark Device -->
+    <!-- <style name="Theme.DeviceDefault" parent="@style/devTheme" /> - Bootloop -->
+    <!-- Light Device -->
+    <style name="Theme.DeviceDefault.Light" parent="@android:Theme.Holo" />
+
+    <!-- <style name="Theme.DeviceDefault.Dialog" parent="@android:style/Theme.Holo.Dialog" />
+    <style name="Theme.DeviceDefault.Light.Dialog" parent="@android:style/Theme.Holo.Dialog"/> -->
+
+    <style name="Theme.DeviceDefault.Dialog.MinWidth" parent="@android:style/Theme.Holo.Dialog.MinWidth" />
+    <style name="Theme.DeviceDefault.Light.Dialog.MinWidth" parent="@android:style/Theme.Holo.Dialog.MinWidth" />
+
+    <style name="Theme.DeviceDefault.Dialog.NoActionBar" parent="@android:style/Theme.Holo.Dialog.NoActionBar" />
+    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar" parent="@android:style/Theme.Holo.Dialog.NoActionBar" />
+    <style name="Theme.DeviceDefault.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth" />
+    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth" />
+
+    <style name="Theme.DeviceDefault.NoActionBar" parent="@android:style/Theme.Holo.NoActionBar" />
+    <style name="Theme.DeviceDefault.Light.NoActionBar" parent="@android:style/Theme.Holo.NoActionBar" />
+
+    <style name="Theme.DeviceDefault.NoActionBar.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+    <style name="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+
+    <style name="Theme.DeviceDefault.NoActionBar.Overscan" parent="@android:style/Theme.Holo.NoActionBar.Overscan" />
+    <style name="Theme.DeviceDefault.Light.NoActionBar.Overscan" parent="@android:style/Theme.Holo.NoActionBar.Overscan" />
+
+    <style name="Theme.DeviceDefault.NoActionBar.TranslucentDecor" parent="@android:style/Theme.Holo.NoActionBar.TranslucentDecor" />
+    <style name="Theme.DeviceDefault.Light.NoActionBar.TranslucentDecor" parent="@android:style/Theme.Holo.NoActionBar.TranslucentDecor" />
+
+    <style name="Theme.DeviceDefault.Panel" parent="@android:style/Theme.Holo.Panel" />
+    <style name="Theme.DeviceDefault.Light.Panel" parent="@android:style/Theme.Holo.Panel" />
+
+    <style name="Theme.DeviceDefault.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge" />
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge" />
+    <style name="Theme.DeviceDefault.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Holo.DialogWhenLarge.NoActionBar" />
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Holo.DialogWhenLarge.NoActionBar" />
+
+    <style name="Theme.DeviceDefault.DarkActionBar" parent="@style/devTheme" />
+    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@style/devTheme" />
+
+    <style name="Theme.DeviceDefault.Dialog.Presentation" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+    <style name="Theme.DeviceDefault.Light.Dialog.Presentation" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+
+    <!-- Use common -->
+    <style name="Theme.DeviceDefault.Dialog" parent="@*common:style/Holo.Dialog.BaseAlert" />
+    <style name="Theme.DeviceDefault.Light.Dialog" parent="@*common:style/Holo.Dialog.BaseAlert"/>
+
+    <style name="Theme.DeviceDefault.Dialog.Alert" parent="@*common:style/Holo.Dialog.BaseAlert" />
+    <style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="@*common:style/Holo.Dialog.BaseAlert" />
+
+    <style name="Theme.DeviceDefault.Dialog.NoFrame" parent="@*common:style/Holo.Dialog.NoFrame" />
+    <style name="Theme.DeviceDefault.Light.Dialog.NoFrame" parent="@*common:style/Holo.Dialog.NoFrame" />
+
+    <!-- Notifications -->
+    <style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textColor">@color/theme_white</item>
+    </style>
+
+    <style name="TextAppearance.Material.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title">
+        <item name="android:textColor">@color/theme_white</item>
+    </style>
+
+    <style name="TextAppearance.Material.Notification.Emphasis" parent="@android:style/TextAppearance.Material.Notification.Emphasis">
+        <item name="android:textColor">@color/theme_white</item>
+    </style>
+
+    <style name="TextAppearance.Material.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Menu">
+        <item name="android:textColor">@color/theme_white</item>
+    </style>
+
+
+</resources>

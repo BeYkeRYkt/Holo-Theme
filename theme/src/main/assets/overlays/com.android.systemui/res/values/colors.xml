@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary & accent colors -->
+    <color name="material_deep_teal_200">#ff33b5e5</color>
+    <color name="material_deep_teal_500">#ff33b5e5</color>
+
+    <color name="qs_detail_transition">#ff000000</color>
+    <color name="system_primary_color">#ff292929</color>
+    <color name="system_accent_color">#ff33b5e5</color>
+
+    <!-- Notifications -->
+    <!-- The color of the material notification background -->
+    <color name="notification_material_background_color">@color/system_primary_color</color>
+
+    <!-- The color of the material notification background when dimmed -->
+    <color name="notification_material_background_dimmed_color">@color/system_primary_color</color>
+
+    <!-- The color of the material notification background when low priority -->
+    <color name="notification_material_background_low_priority_color">@color/system_primary_color</color>
+
+    <!-- The color of the material notification background for media notifications -->
+    <color name="notification_material_background_media_default_color">@color/system_primary_color</color>
+
+    <!-- The color of the legacy notification background -->
+    <color name="notification_legacy_background_color">@color/system_primary_color</color>
+
+    <color name="notification_ripple_untinted_color">#8000b1e5</color>
+    <color name="notification_ripple_color_low_priority">#4800b1e5</color>
+    <color name="notification_ripple_tinted_color">#8000b1e5</color>
+
+    <!-- The "inside" of a notification, reached via longpress -->
+    <color name="notification_guts_bg_color">@color/system_primary_color</color>
+    <color name="notification_guts_title_color">#FFf3f3f3</color>
+    <color name="notification_guts_text_color">#FFf3f3f3</color>
+    <color name="notification_guts_btn_color">@color/system_primary_color</color>
+</resources>

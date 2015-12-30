@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector android:constantSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:id="@*android:id/off">
+        <nine-patch android:gravity="center" android:src="@drawable/btn_switch_off" />
+    </item>
+    <item android:state_checked="true" android:id="@*android:id/on">
+        <nine-patch android:gravity="center" android:src="@drawable/btn_switch_on" />
+    </item>
+    <item android:id="@*android:id/off">
+        <nine-patch android:gravity="center" android:src="@drawable/btn_switch_off" />
+    </item>
+	 <item android:id="@*android:id/on">
+        <nine-patch android:gravity="center" android:src="@drawable/btn_switch_on" />
+    </item>
+    
+</animated-selector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <dimen name="actionbar_contentInsetStart">16.0dip</dimen>
+      <dimen name="switchbar_margin_start">16.0dip</dimen>
+    <dimen name="switchbar_margin_end">16.0dip</dimen>
+</resources>

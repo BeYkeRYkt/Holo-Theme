@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <nine-patch android:src="@*common:drawable/appwidget_settings_ind_on_l_holo" android:tint="#ff823B3B"  />
+    </item>
+</selector>

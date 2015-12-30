@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary & accent colors -->
+
+    <!-- Holo_primary -->
+    <color name="material_deep_teal_200">#ffe6e6e6</color>
+
+    <!-- Blue color-->
+    <color name="material_deep_teal_500">#ff33b5e5</color>
+
+    <color name="theme_white">#ffffffff</color>
+</resources>

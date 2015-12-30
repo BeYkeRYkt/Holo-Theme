@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="detailedview_pager_background">#ff292929</color>
+    <color name="title_author_background">#ff292929</color>
+    <color name="offwhite">#ff212021</color>
+    <color name="author_grey">#ff292929</color>
+    <color name="primary">#ff212021</color>
+    <color name="primary_dark">#ff212021</color>
+    <color name="accent">#ff212021</color>
+    <color name="actionbar_text_color">#ffffffff</color>
+    <color name="primary_text_color">#ffffffff</color>
+
+    <color name="apply_button_text_color_enabled">#ffffffff</color>
+    <color name="apply_button_text_color_disabled">#ffffffff</color>
+    <color name="apply_button_progress_color">#6bd1e9</color>
+    <color name="apply_button_default_color">#00b1e5</color>
+    <color name="apply_button_pressed_color">#008ef2</color>
+
+    <color name="designed_for_color">#ffffffff</color>
+
+    <color name="drawer_item_textcolor">#ffffffff</color>
+    <color name="drawer_item_default">#ff212021</color>
+    <color name="drawer_item_pressed">#90000000</color>
+    <color name="drawer_divider_line">#ff484648</color>
+
+    <color name="default_circle_indicator_fill_color">#ff00b1e5</color>
+    <color name="default_circle_indicator_page_color">#ff808184</color>
+    <color name="default_circle_indicator_stroke_color">#ffdddddd</color>
+</resources>

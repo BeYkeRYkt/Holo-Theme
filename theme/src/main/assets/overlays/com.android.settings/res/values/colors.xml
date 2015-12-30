@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dashboard_category_background_color">@android:color/transparent</color>
+    <color name="system_primary_color">#ff292929</color>
+
+    <!-- SwitchBar -->
+    <!-- <color name="switchbar_background_color">@color/system_primary_color</color> TEST -->
+    <color name="switchbar_background_color">@android:color/transparent</color>
+</resources>
