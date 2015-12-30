@@ -4,6 +4,6 @@
         <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
     </style>
 
-    <style name="Theme.ActionBar.SubSettings" parent="@android:style/Widget.Holo.ActionBar.Solid">
-    </style>
+    <style name="Theme.ActionBar.SubSettings"
+        parent="@android:style/Widget.Holo.ActionBar.Solid"></style>
 </resources>

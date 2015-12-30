@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge.NoActionBar" />
+    <style name="Theme.DialogWhenLarge"
+        parent="@android:style/Theme.Holo.DialogWhenLarge.NoActionBar" />
 
-    <style name="Theme.AlertDialogActivity" parent="@android:style/Theme.Holo.Panel">
-    </style>
+    <style name="Theme.AlertDialogActivity" parent="@android:style/Theme.Holo.Panel"></style>
 
     <style name="Theme.Header.Settings" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/ActionBar</item>
     </style>
 
-    <style name="ActionBar" parent="@android:style/Widget.Holo.ActionBar.Solid">
-    </style>
+    <style name="ActionBar" parent="@android:style/Widget.Holo.ActionBar.Solid"></style>
 </resources>

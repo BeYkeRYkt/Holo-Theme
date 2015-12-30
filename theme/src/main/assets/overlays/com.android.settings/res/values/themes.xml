@@ -10,35 +10,28 @@
     </style>
 
     <!--BASE-->
-    <style name="Theme.SettingsBase" parent="@android:style/Theme.Holo" >
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
         <!-- <item name="android:colorBackground">@color/system_primary_color</item> -->
     </style>
 
-    <style name="Theme.Settings" parent="@style/Theme.SettingsBase">
-    </style>
+    <style name="Theme.Settings" parent="@style/Theme.SettingsBase"></style>
 
-    <style name="Theme.SubSettings" parent="@style/Theme.Settings">
-    </style>
+    <style name="Theme.SubSettings" parent="@style/Theme.Settings"></style>
 
-    <style name="Theme.SwitchBar.Settings" parent="@style/Theme.Settings">
-    </style>
+    <style name="Theme.SwitchBar.Settings" parent="@style/Theme.Settings"></style>
 
     <!-- NOW USE BASEALERT!-->
-    <style name="Theme.AlertDialog" parent="@*common:style/Holo.Dialog.BaseAlert">
-    </style>
+    <style name="Theme.AlertDialog" parent="@*common:style/Holo.Dialog.BaseAlert"></style>
 
-    <style name="Theme.ActionBar" parent="@android:style/Widget.Holo.ActionBar.Solid">
-    </style>
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Holo.ActionBar.Solid"></style>
 
-    <style name="Theme.ActionBar.SubSettings" parent="@style/Theme.ActionBar">
-    </style>
+    <style name="Theme.ActionBar.SubSettings" parent="@style/Theme.ActionBar"></style>
 
     <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge">
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
     </style>
 
-    <style name="Theme.SubSettingsDialogWhenLarge" parent="@style/Theme.DialogWhenLarge">
-    </style>
+    <style name="Theme.SubSettingsDialogWhenLarge" parent="@style/Theme.DialogWhenLarge"></style>
     <!--BASE-->
 </resources>

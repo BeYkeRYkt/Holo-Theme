@@ -1,44 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<!-- Calculator -->
-	<item component="ComponentInfo{com.android.calculator2}" drawable="calculator" />
+    <!-- Calculator -->
+    <item component="ComponentInfo{com.android.calculator2}" drawable="calculator" />
 
-	<!-- Calendar -->
-	<item component="ComponentInfo{com.android.calendar}" drawable="calendar"/>
-	<item component="ComponentInfo{com.google.android.calendar}" drawable="calendar"/>
+    <!-- Calendar -->
+    <item component="ComponentInfo{com.android.calendar}" drawable="calendar" />
+    <item component="ComponentInfo{com.google.android.calendar}" drawable="calendar" />
 
-	<!-- Camera -->
-	<item component="ComponentInfo{com.android.camera}" drawable="camera" />
-	<item component="ComponentInfo{com.google.android.camera}" drawable="camera" />
-	<item component="ComponentInfo{com.android.camera2}" drawable="camera" />
+    <!-- Camera -->
+    <item component="ComponentInfo{com.android.camera}" drawable="camera" />
+    <item component="ComponentInfo{com.google.android.camera}" drawable="camera" />
+    <item component="ComponentInfo{com.android.camera2}" drawable="camera" />
 
-	<!-- Clock -->
-	<item component="ComponentInfo{com.android.alarmclock/com.android.alarmclock.AlarmClock}" drawable="clock" />
-	<item component="ComponentInfo{com.google.android.deskclock}" drawable="clock" />
+    <!-- Clock -->
+    <item component="ComponentInfo{com.android.alarmclock/com.android.alarmclock.AlarmClock}"
+        drawable="clock" />
+    <item component="ComponentInfo{com.google.android.deskclock}" drawable="clock" />
     <item component="ComponentInfo{com.android.deskclock}" drawable="clock" />
 
-	<!-- Contacts -->
-	<item component="ComponentInfo{com.android.contacts}" drawable="contacts" />
+    <!-- Contacts -->
+    <item component="ComponentInfo{com.android.contacts}" drawable="contacts" />
 
-	<!-- Android downloader -->
+    <!-- Android downloader -->
     <item component="ComponentInfo{com.android.providers.downloads.ui}" drawable="downloads" />
 
-	<!-- Email -->
+    <!-- Email -->
     <item component="ComponentInfo{com.android.email}" drawable="email" />
 
-	<!-- Gallery -->
-	<item component="ComponentInfo{com.google.android.gallery3d}" drawable="gallery" />
+    <!-- Gallery -->
+    <item component="ComponentInfo{com.google.android.gallery3d}" drawable="gallery" />
     <item component="ComponentInfo{com.android.gallery3d}" drawable="gallery" />
 
-	<!-- Messaging -->
-	<item component="ComponentInfo{com.android.messaging}" drawable="messaging" />
+    <!-- Messaging -->
+    <item component="ComponentInfo{com.android.messaging}" drawable="messaging" />
 
-	<!-- System settings -->
-	<item component="ComponentInfo{com.android.settings}" drawable="system_settings"/>
+    <!-- System settings -->
+    <item component="ComponentInfo{com.android.settings}" drawable="system_settings" />
 
-	<!-- Dialer -->
+    <!-- Dialer -->
     <item component="ComponentInfo{com.android.dialer}" drawable="phone" />
 
-	<!-- Voicesearch -->
-	<item component="ComponentInfo{com.google.android.voicesearch}" drawable="voicesearch" />
+    <!-- Voicesearch -->
+    <item component="ComponentInfo{com.google.android.voicesearch}" drawable="voicesearch" />
 </resources>

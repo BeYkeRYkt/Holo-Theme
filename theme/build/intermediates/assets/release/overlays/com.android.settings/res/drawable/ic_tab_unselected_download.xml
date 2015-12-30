@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<bitmap
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:src="@drawable/ic_tab_unselected_download_akkd"
-    android:tint="@*common:color/holo_blue_light"/>

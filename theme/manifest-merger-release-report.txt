@@ -29,6 +29,8 @@ ADDED from AndroidManifest.xml:23:5
 		ADDED from AndroidManifest.xml:23:15
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
+	android:maxSdkVersion
+		ADDED from AndroidManifest.xml:23:72
 meta-data#org.cyanogenmod.theme.name
 ADDED from AndroidManifest.xml:25:5
 	android:name

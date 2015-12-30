@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme.Main" parent="@android:style/Theme.Holo">
-        <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
-    </style>
-
-    <style name="Theme.ActionBar.SubSettings" parent="@android:style/Widget.Holo.ActionBar.Solid">
-    </style>
-</resources>
