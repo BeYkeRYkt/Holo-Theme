@@ -96,5 +96,13 @@
         <item name="android:textColor">@color/theme_white</item>
     </style>
 
+    <!-- Settings -->
+    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+    </style>
 
+    <style name="Theme.DeviceDefault.Settings.CompactMenu" parent="@style/Theme.DeviceDefault.Settings">
+    </style>
+
+    <style name="Theme.DeviceDefault.Settings.BaseDialog" parent="@style/Theme.DeviceDefault.Settings">
+    </style>
 </resources>
