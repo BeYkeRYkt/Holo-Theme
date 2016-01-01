@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- AudioFX -->
+    <item component="ComponentInfo{org.cyanogenmod.audiofx}" drawable="audiofx" />
+
+    <!-- Browser -->
+    <item component="ComponentInfo{com.android.browser}" drawable="browser" />
+
     <!-- Calculator -->
     <item component="ComponentInfo{com.android.calculator2}" drawable="calculator" />
 
@@ -27,9 +33,15 @@
     <!-- Email -->
     <item component="ComponentInfo{com.android.email}" drawable="email" />
 
+    <!-- Eleven -->
+    <item component="ComponentInfo{com.cyanogenmod.eleven}" drawable="eleven" />
+
     <!-- Gallery -->
     <item component="ComponentInfo{com.google.android.gallery3d}" drawable="gallery" />
     <item component="ComponentInfo{com.android.gallery3d}" drawable="gallery" />
+
+    <!-- FileManager -->
+    <item component="ComponentInfo{com.cyanogenmod.filemanager}" drawable="filemanager" />
 
     <!-- Messaging -->
     <item component="ComponentInfo{com.android.messaging}" drawable="messaging" />
@@ -39,6 +51,9 @@
 
     <!-- Dialer -->
     <item component="ComponentInfo{com.android.dialer}" drawable="phone" />
+
+    <!-- Themes-->
+    <item component="ComponentInfo{org.cyanogenmod.theme.chooser}" drawable="themes" />
 
     <!-- Voicesearch -->
     <item component="ComponentInfo{com.google.android.voicesearch}" drawable="voicesearch" />
