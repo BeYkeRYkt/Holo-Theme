@@ -105,4 +105,11 @@
 
     <style name="Theme.DeviceDefault.Settings.BaseDialog" parent="@style/Theme.DeviceDefault.Settings">
     </style>
+
+    <style name="Theme.DeviceDefault.Settings.Dialog" parent="@style/Theme.DeviceDefault.Dialog">
+    </style>
+
+    <!-- Ringtone picker -->
+    <style name="Theme.Material.Settings.Dialog" parent="@style/Theme.DeviceDefault.Dialog">
+    </style>
 </resources>
