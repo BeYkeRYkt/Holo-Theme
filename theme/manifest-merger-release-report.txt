@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from AndroidManifest.xml:18:1
+ADDED from AndroidManifest.xml:17:1
 	xmlns:android
-		ADDED from AndroidManifest.xml:18:11
+		ADDED from AndroidManifest.xml:17:11
 	package
-		ADDED from AndroidManifest.xml:19:5
+		ADDED from AndroidManifest.xml:18:5
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:versionName
@@ -14,46 +14,46 @@ ADDED from AndroidManifest.xml:18:1
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 uses-feature#org.cyanogenmod.theme
-ADDED from AndroidManifest.xml:21:5
+ADDED from AndroidManifest.xml:20:5
 	android:required
-		ADDED from AndroidManifest.xml:21:19
+		ADDED from AndroidManifest.xml:21:9
 	android:name
-		ADDED from AndroidManifest.xml:21:43
+		ADDED from AndroidManifest.xml:22:9
 uses-sdk
-ADDED from AndroidManifest.xml:23:5
+ADDED from AndroidManifest.xml:24:5
 	android:targetSdkVersion
-		ADDED from AndroidManifest.xml:23:42
+		ADDED from AndroidManifest.xml:26:9
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:minSdkVersion
-		ADDED from AndroidManifest.xml:23:15
+		ADDED from AndroidManifest.xml:25:9
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:maxSdkVersion
-		ADDED from AndroidManifest.xml:23:72
+		ADDED from AndroidManifest.xml:27:9
 meta-data#org.cyanogenmod.theme.name
-ADDED from AndroidManifest.xml:25:5
-	android:name
-		ADDED from AndroidManifest.xml:25:16
-	android:value
-		ADDED from AndroidManifest.xml:25:58
-meta-data#org.cyanogenmod.theme.author
-ADDED from AndroidManifest.xml:26:5
-	android:name
-		ADDED from AndroidManifest.xml:26:16
-	android:value
-		ADDED from AndroidManifest.xml:26:60
-meta-data#org.cyanogenmod.theme.email
-ADDED from AndroidManifest.xml:27:5
-	android:name
-		ADDED from AndroidManifest.xml:27:16
-	android:value
-		ADDED from AndroidManifest.xml:27:59
-application
 ADDED from AndroidManifest.xml:29:5
-	android:label
-		ADDED from AndroidManifest.xml:31:9
-	android:icon
+	android:name
 		ADDED from AndroidManifest.xml:30:9
+	android:value
+		ADDED from AndroidManifest.xml:31:9
+meta-data#org.cyanogenmod.theme.author
+ADDED from AndroidManifest.xml:32:5
+	android:name
+		ADDED from AndroidManifest.xml:33:9
+	android:value
+		ADDED from AndroidManifest.xml:34:9
+meta-data#org.cyanogenmod.theme.email
+ADDED from AndroidManifest.xml:35:5
+	android:name
+		ADDED from AndroidManifest.xml:36:9
+	android:value
+		ADDED from AndroidManifest.xml:37:9
+application
+ADDED from AndroidManifest.xml:39:5
+	android:label
+		ADDED from AndroidManifest.xml:42:9
+	android:icon
+		ADDED from AndroidManifest.xml:41:9
 	android:hasCode
-		ADDED from AndroidManifest.xml:29:18
+		ADDED from AndroidManifest.xml:40:9
