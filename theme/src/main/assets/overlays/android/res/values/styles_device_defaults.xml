@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Copyright (C) 2011 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+===============================================================
+                        PLEASE READ
+===============================================================
+This file contains the themes that are the Device Defaults.
+If you want to edit styles to skin your device, do it here.
+We recommend that you do not edit styles.xml and instead edit
+this file.
+Editing this file instead of styles.xml will greatly simplify
+merges for future platform versions and CTS compliance will be
+easier.
+===============================================================
+                        PLEASE READ
+===============================================================
+ -->
+<resources>
+    <!-- Widget Styles -->
+    <style name="Widget.DeviceDefault" parent="@*android:Widget.Holo" />
+    <style name="Widget.DeviceDefault.Button" parent="@*android:Widget.Holo.Button" />
+    <style name="Widget.DeviceDefault.Button.Small" parent="@*android:Widget.Holo.Button.Small" />
+    <style name="Widget.DeviceDefault.Button.Inset" parent="@*android:Widget.Holo.Button.Inset" />
+    <style name="Widget.DeviceDefault.Button.Toggle" parent="@*android:Widget.Holo.Button.Toggle" />
+    <style name="Widget.DeviceDefault.TextView" parent="@*android:Widget.Holo.TextView" />
+    <style name="Widget.DeviceDefault.CheckedTextView" parent="@*android:Widget.Holo.CheckedTextView" />
+    <style name="Widget.DeviceDefault.AutoCompleteTextView" parent="@*android:Widget.Holo.AutoCompleteTextView" />
+    <style name="Widget.DeviceDefault.CompoundButton.CheckBox" parent="@*android:Widget.Holo.CompoundButton.CheckBox" />
+    <style name="Widget.DeviceDefault.ListView.DropDown" parent="@*android:Widget.Holo.ListView.DropDown" />
+    <style name="Widget.DeviceDefault.EditText" parent="@*android:Widget.Holo.EditText" />
+    <style name="Widget.DeviceDefault.ExpandableListView" parent="@*android:Widget.Holo.ExpandableListView" />
+    <style name="Widget.DeviceDefault.GridView" parent="@*android:Widget.Holo.GridView" />
+    <style name="Widget.DeviceDefault.ImageButton" parent="@*android:Widget.Holo.ImageButton" />
+    <style name="Widget.DeviceDefault.ListView" parent="@*android:Widget.Holo.ListView" />
+    <style name="Widget.DeviceDefault.PopupWindow" parent="@*android:Widget.Holo.PopupWindow" />
+    <style name="Widget.DeviceDefault.ProgressBar" parent="@*android:Widget.Holo.ProgressBar" />
+    <style name="Widget.DeviceDefault.ProgressBar.Horizontal" parent="@*android:Widget.Holo.ProgressBar.Horizontal" />
+    <style name="Widget.DeviceDefault.ProgressBar.Small" parent="@*android:Widget.Holo.ProgressBar.Small" />
+    <style name="Widget.DeviceDefault.ProgressBar.Small.Title" parent="@*android:Widget.Holo.ProgressBar.Small.Title" />
+    <style name="Widget.DeviceDefault.ProgressBar.Large" parent="@*android:Widget.Holo.ProgressBar.Large" />
+    <style name="Widget.DeviceDefault.SeekBar" parent="@*android:Widget.Holo.SeekBar" />
+    <style name="Widget.DeviceDefault.RatingBar" parent="@*android:Widget.Holo.RatingBar" />
+    <style name="Widget.DeviceDefault.RatingBar.Indicator" parent="@*android:Widget.Holo.RatingBar.Indicator" />
+    <style name="Widget.DeviceDefault.RatingBar.Small" parent="@*android:Widget.Holo.RatingBar.Small" />
+    <style name="Widget.DeviceDefault.CompoundButton.RadioButton" parent="@*android:Widget.Holo.CompoundButton.RadioButton" />
+    <style name="Widget.DeviceDefault.ScrollView" parent="@*android:Widget.Holo.ScrollView" />
+    <style name="Widget.DeviceDefault.HorizontalScrollView" parent="@*android:Widget.Holo.HorizontalScrollView" />
+    <style name="Widget.DeviceDefault.Spinner" parent="@*android:Widget.Holo.Spinner" />
+    <style name="Widget.DeviceDefault.CompoundButton.Star" parent="@*android:Widget.Holo.CompoundButton.Star" />
+    <style name="Widget.DeviceDefault.TabWidget" parent="@*android:Widget.Holo.TabWidget" />
+    <style name="Widget.DeviceDefault.WebTextView" parent="@*android:Widget.Holo.WebTextView" />
+    <style name="Widget.DeviceDefault.WebView" parent="@*android:Widget.Holo.WebView" />
+    <style name="Widget.DeviceDefault.DropDownItem" parent="@*android:Widget.Holo.DropDownItem" />
+    <style name="Widget.DeviceDefault.DropDownItem.Spinner" parent="@*android:Widget.Holo.DropDownItem.Spinner" />
+    <style name="Widget.DeviceDefault.TextView.SpinnerItem" parent="@*android:Widget.Holo.TextView.SpinnerItem" />
+    <style name="Widget.DeviceDefault.ListPopupWindow" parent="@*android:Widget.Holo.ListPopupWindow" />
+    <style name="Widget.DeviceDefault.PopupMenu" parent="@*android:Widget.Holo.PopupMenu" />
+    <style name="Widget.DeviceDefault.ActionButton" parent="@*android:Widget.Holo.ActionButton" />
+    <style name="Widget.DeviceDefault.ActionButton.Overflow" parent="@*android:Widget.Holo.ActionButton.Overflow" />
+    <style name="Widget.DeviceDefault.ActionButton.TextButton" parent="@*android:Widget.Holo.ActionButton" />
+    <style name="Widget.DeviceDefault.ActionMode" parent="@*android:Widget.Holo.ActionMode" />
+    <style name="Widget.DeviceDefault.ActionButton.CloseMode" parent="@*android:Widget.Holo.ActionButton.CloseMode" />
+    <style name="Widget.DeviceDefault.ActionBar" parent="@*android:Widget.Holo.ActionBar" />
+    <style name="Widget.DeviceDefault.Button.Borderless" parent="@*android:Widget.Holo.Button.Borderless" />
+    <style name="Widget.DeviceDefault.Tab" parent="@*android:Widget.Holo.Tab" />
+    <style name="Widget.DeviceDefault.CalendarView" parent="@*android:Widget.Holo.CalendarView" />
+    <style name="Widget.DeviceDefault.DatePicker" parent="@*android:Widget.Holo.DatePicker" />
+    <style name="Widget.DeviceDefault.ActionBar.TabView" parent="@*android:Widget.Holo.ActionBar.TabView" />
+    <style name="Widget.DeviceDefault.ActionBar.TabText" parent="@*android:Widget.Holo.ActionBar.TabText" />
+    <style name="Widget.DeviceDefault.ActionBar.TabBar" parent="@*android:Widget.Holo.ActionBar.TabBar" />
+    <style name="Widget.DeviceDefault.ActionBar.Solid" parent="@*android:Widget.Holo.ActionBar.Solid" />
+    <style name="Widget.DeviceDefault.Button.Borderless.Small" parent="@*android:Widget.Holo.Button.Borderless.Small" />
+    <style name="Widget.DeviceDefault.AbsListView" parent="@*android:Widget.Holo.AbsListView" />
+    <style name="Widget.DeviceDefault.Spinner.DropDown.ActionBar" parent="@*android:Widget.Holo.Spinner.DropDown.ActionBar" />
+    <style name="Widget.DeviceDefault.PopupWindow.ActionMode" parent="@*android:Widget.Holo.PopupWindow.ActionMode" />
+    <style name="Widget.DeviceDefault.CompoundButton.Switch" parent="@*android:Widget.Holo.CompoundButton.Switch" />
+    <style name="Widget.DeviceDefault.ExpandableListView.White" parent="@*android:Widget.Holo.ExpandableListView.White" />
+    <style name="Widget.DeviceDefault.FastScroll" parent="@*android:Widget.Holo.FastScroll" />
+    <!-- The FragmentBreadCrumbs widget is deprecated starting in API level 21 ({@link android.os.Build.VERSION_CODES#.L}). -->
+    <style name="Widget.DeviceDefault.FragmentBreadCrumbs" parent="@*android:Widget.Holo.FragmentBreadCrumbs" />
+    <style name="Widget.DeviceDefault.Gallery" parent="@*android:Widget.Holo.Gallery" />
+    <style name="Widget.DeviceDefault.GestureOverlayView" parent="@*android:Widget.Holo.GestureOverlayView" />
+    <style name="Widget.DeviceDefault.ImageWell" parent="@*android:Widget.Holo.ImageWell" />
+    <style name="Widget.DeviceDefault.KeyboardView" parent="@*android:Widget.Holo.KeyboardView" />
+    <style name="Widget.DeviceDefault.ListView.White" parent="@*android:Widget.Holo.ListView.White" />
+    <style name="Widget.DeviceDefault.MediaRouteButton" parent="@*android:Widget.Holo.MediaRouteButton" />
+    <style name="Widget.DeviceDefault.NumberPicker" parent="@*android:Widget.Holo.NumberPicker" />
+    <style name="Widget.DeviceDefault.PreferenceFrameLayout" parent="@*android:Widget.Holo.PreferenceFrameLayout" />
+    <style name="Widget.DeviceDefault.ProgressBar.Inverse" parent="@*android:Widget.Holo.ProgressBar.Inverse" />
+    <style name="Widget.DeviceDefault.ProgressBar.Large.Inverse" parent="@*android:Widget.Holo.ProgressBar.Large.Inverse" />
+    <style name="Widget.DeviceDefault.ProgressBar.Small.Inverse" parent="@*android:Widget.Holo.ProgressBar.Small.Inverse" />
+    <style name="Widget.DeviceDefault.QuickContactBadge.WindowLarge" parent="@*android:Widget.Holo.QuickContactBadge.WindowLarge" />
+    <style name="Widget.DeviceDefault.QuickContactBadge.WindowMedium" parent="@*android:Widget.Holo.QuickContactBadge.WindowMedium" />
+    <style name="Widget.DeviceDefault.QuickContactBadge.WindowSmall" parent="@*android:Widget.Holo.QuickContactBadge.WindowSmall" />
+    <style name="Widget.DeviceDefault.QuickContactBadgeSmall.WindowLarge" parent="@*android:Widget.Holo.QuickContactBadgeSmall.WindowLarge" />
+    <style name="Widget.DeviceDefault.QuickContactBadgeSmall.WindowMedium" parent="@*android:Widget.Holo.QuickContactBadgeSmall.WindowMedium" />
+    <style name="Widget.DeviceDefault.QuickContactBadgeSmall.WindowSmall" parent="@*android:Widget.Holo.QuickContactBadgeSmall.WindowSmall" />
+    <style name="Widget.DeviceDefault.Spinner.DropDown" parent="@*android:Widget.Holo.Spinner.DropDown" />
+    <style name="Widget.DeviceDefault.StackView" parent="@*android:Widget.Holo.StackView" />
+    <style name="Widget.DeviceDefault.TextSelectHandle" parent="@*android:Widget.Holo.TextSelectHandle" />
+    <style name="Widget.DeviceDefault.TextSuggestionsPopupWindow" parent="@*android:Widget.Holo.TextSuggestionsPopupWindow" />
+    <style name="Widget.DeviceDefault.TextView.ListSeparator" parent="@*android:Widget.Holo.TextView.ListSeparator" />
+    <style name="Widget.DeviceDefault.TimePicker" parent="@*android:Widget.Holo.TimePicker" />
+
+    <style name="Widget.DeviceDefault.Light" parent="@*android:Widget.Holo.Light" />
+    <style name="Widget.DeviceDefault.Light.Button" parent="@*android:Widget.Holo.Light.Button" />
+    <style name="Widget.DeviceDefault.Light.Button.Small" parent="@*android:Widget.Holo.Light.Button.Small" />
+    <style name="Widget.DeviceDefault.Light.Button.Inset" parent="@*android:Widget.Holo.Light.Button.Inset" />
+    <style name="Widget.DeviceDefault.Light.Button.Toggle" parent="@*android:Widget.Holo.Light.Button.Toggle" />
+    <style name="Widget.DeviceDefault.Light.StackView" parent="@*android:Widget.Holo.Light.StackView" />
+    <style name="Widget.DeviceDefault.Light.TextView" parent="@*android:Widget.Holo.Light.TextView" />
+    <style name="Widget.DeviceDefault.Light.CheckedTextView" parent="@*android:Widget.Holo.Light.CheckedTextView" />
+    <style name="Widget.DeviceDefault.Light.AutoCompleteTextView" parent="@*android:Widget.Holo.Light.AutoCompleteTextView" />
+    <style name="Widget.DeviceDefault.Light.CompoundButton.CheckBox" parent="@*android:Widget.Holo.Light.CompoundButton.CheckBox" />
+    <style name="Widget.DeviceDefault.Light.ListView.DropDown" parent="@*android:Widget.Holo.Light.ListView.DropDown" />
+    <style name="Widget.DeviceDefault.Light.EditText" parent="@*android:Widget.Holo.Light.EditText" />
+    <style name="Widget.DeviceDefault.Light.ExpandableListView" parent="@*android:Widget.Holo.Light.ExpandableListView" />
+    <style name="Widget.DeviceDefault.Light.FastScroll" parent="@*android:Widget.Holo.Light.FastScroll" />
+    <!-- The FragmentBreadCrumbs widget is deprecated starting in API level 21 ({@link android.os.Build.VERSION_CODES#.L}). -->
+    <style name="Widget.DeviceDefault.Light.FragmentBreadCrumbs" parent="@*android:Widget.Holo.Light.FragmentBreadCrumbs" />
+    <style name="Widget.DeviceDefault.Light.GridView" parent="@*android:Widget.Holo.Light.GridView" />
+    <style name="Widget.DeviceDefault.Light.ImageButton" parent="@*android:Widget.Holo.Light.ImageButton" />
+    <style name="Widget.DeviceDefault.Light.ListView" parent="@*android:Widget.Holo.Light.ListView" />
+    <style name="Widget.DeviceDefault.Light.MediaRouteButton" parent="@*android:Widget.Holo.Light.MediaRouteButton" />
+    <style name="Widget.DeviceDefault.Light.PopupWindow" parent="@*android:Widget.Holo.Light.PopupWindow" />
+    <style name="Widget.DeviceDefault.Light.ProgressBar" parent="@*android:Widget.Holo.Light.ProgressBar" />
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Horizontal" parent="@*android:Widget.Holo.Light.ProgressBar.Horizontal" />
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Small" parent="@*android:Widget.Holo.Light.ProgressBar.Small" />
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Small.Title" parent="@*android:Widget.Holo.Light.ProgressBar.Small.Title" />
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Large" parent="@*android:Widget.Holo.Light.ProgressBar.Large" />
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Inverse" parent="@*android:Widget.Holo.Light.ProgressBar.Inverse" />
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Small.Inverse" parent="@*android:Widget.Holo.Light.ProgressBar.Small.Inverse" />
+    <style name="Widget.DeviceDefault.Light.ProgressBar.Large.Inverse" parent="@*android:Widget.Holo.Light.ProgressBar.Large.Inverse" />
+    <style name="Widget.DeviceDefault.Light.SeekBar" parent="@*android:Widget.Holo.Light.SeekBar" />
+    <style name="Widget.DeviceDefault.Light.RatingBar" parent="@*android:Widget.Holo.Light.RatingBar" />
+    <style name="Widget.DeviceDefault.Light.RatingBar.Indicator" parent="@*android:Widget.Holo.Light.RatingBar.Indicator" />
+    <style name="Widget.DeviceDefault.Light.RatingBar.Small" parent="@*android:Widget.Holo.Light.RatingBar.Small" />
+    <style name="Widget.DeviceDefault.Light.CompoundButton.RadioButton" parent="@*android:Widget.Holo.Light.CompoundButton.RadioButton" />
+    <style name="Widget.DeviceDefault.Light.ScrollView" parent="@*android:Widget.Holo.Light.ScrollView" />
+    <style name="Widget.DeviceDefault.Light.HorizontalScrollView" parent="@*android:Widget.Holo.Light.HorizontalScrollView" />
+    <style name="Widget.DeviceDefault.Light.Spinner" parent="@*android:Widget.Holo.Light.Spinner" />
+    <style name="Widget.DeviceDefault.Light.CompoundButton.Star" parent="@*android:Widget.Holo.Light.CompoundButton.Star" />
+    <style name="Widget.DeviceDefault.Light.TabWidget" parent="@*android:Widget.Holo.Light.TabWidget" />
+    <style name="Widget.DeviceDefault.Light.WebTextView" parent="@*android:Widget.Holo.Light.WebTextView" />
+    <style name="Widget.DeviceDefault.Light.WebView" parent="@*android:Widget.Holo.Light.WebView" />
+    <style name="Widget.DeviceDefault.Light.DropDownItem" parent="@*android:Widget.Holo.Light.DropDownItem" />
+    <style name="Widget.DeviceDefault.Light.DropDownItem.Spinner" parent="@*android:Widget.Holo.Light.DropDownItem.Spinner" />
+    <style name="Widget.DeviceDefault.Light.TextView.SpinnerItem" parent="@*android:Widget.Holo.Light.TextView.SpinnerItem" />
+    <style name="Widget.DeviceDefault.Light.ListPopupWindow" parent="@*android:Widget.Holo.Light.ListPopupWindow" />
+    <style name="Widget.DeviceDefault.Light.PopupMenu" parent="@*android:Widget.Holo.Light.PopupMenu" />
+    <style name="Widget.DeviceDefault.Light.Tab" parent="@*android:Widget.Holo.Light.Tab" />
+    <style name="Widget.DeviceDefault.Light.CalendarView" parent="@*android:Widget.Holo.Light.CalendarView" />
+    <style name="Widget.DeviceDefault.Light.Button.Borderless.Small" parent="@*android:Widget.Holo.Light.Button.Borderless.Small" />
+    <style name="Widget.DeviceDefault.Light.ActionButton" parent="@*android:Widget.Holo.Light.ActionButton" />
+    <style name="Widget.DeviceDefault.Light.ActionButton.Overflow" parent="@*android:Widget.Holo.Light.ActionButton.Overflow" />
+    <style name="Widget.DeviceDefault.Light.ActionMode" parent="@*android:Widget.Holo.Light.ActionMode" />
+    <style name="Widget.DeviceDefault.Light.ActionButton.CloseMode" parent="@*android:Widget.Holo.Light.ActionButton.CloseMode" />
+    <style name="Widget.DeviceDefault.Light.ActionBar" parent="@*android:Widget.Holo.Light.ActionBar" />
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabView" parent="@*android:Widget.Holo.Light.ActionBar.TabView" />
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabText" parent="@*android:Widget.Holo.Light.ActionBar.TabText" />
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabBar" parent="@*android:Widget.Holo.Light.ActionBar.TabBar" />
+    <style name="Widget.DeviceDefault.Light.ActionBar.Solid" parent="@*android:Widget.Holo.Light.ActionBar.Solid" />
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
+    <style name="Widget.DeviceDefault.Light.ActionBar.Solid.Inverse" parent="@*android:Widget.Holo.Light.ActionBar.Solid.Inverse" />
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabBar.Inverse" parent="@*android:Widget.Holo.Light.ActionBar.TabBar.Inverse" />
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabView.Inverse" parent="@*android:Widget.Holo.Light.ActionBar.TabView.Inverse" />
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
+    <style name="Widget.DeviceDefault.Light.ActionBar.TabText.Inverse" parent="@*android:Widget.Holo.Light.ActionBar.TabText.Inverse" />
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
+    <style name="Widget.DeviceDefault.Light.ActionMode.Inverse" parent="@*android:Widget.Holo.Light.ActionMode.Inverse" />
+    <style name="Widget.DeviceDefault.Light.AbsListView" parent="@*android:Widget.Holo.Light.AbsListView" />
+    <style name="Widget.DeviceDefault.Light.Spinner.DropDown.ActionBar" parent="@*android:Widget.Holo.Light.Spinner.DropDown.ActionBar" />
+    <style name="Widget.DeviceDefault.Light.PopupWindow.ActionMode" parent="@*android:Widget.Holo.Light.PopupWindow.ActionMode" />
+    <style name="Widget.DeviceDefault.Light.Button.Borderless" parent="@*android:Widget.Holo.Light.Button.Borderless" />
+    <style name="Widget.DeviceDefault.Light.DatePicker" parent="@*android:Widget.Holo.Light.DatePicker" />
+    <style name="Widget.DeviceDefault.Light.ExpandableListView.White" parent="@*android:Widget.Holo.Light.ExpandableListView.White" />
+    <style name="Widget.DeviceDefault.Light.Gallery" parent="@*android:Widget.Holo.Light.Gallery" />
+    <style name="Widget.DeviceDefault.Light.GestureOverlayView" parent="@*android:Widget.Holo.Light.GestureOverlayView" />
+    <style name="Widget.DeviceDefault.Light.ImageWell" parent="@*android:Widget.Holo.Light.ImageWell" />
+    <style name="Widget.DeviceDefault.Light.ListView.White" parent="@*android:Widget.Holo.Light.ListView.White" />
+    <style name="Widget.DeviceDefault.Light.NumberPicker" parent="@*android:Widget.Holo.Light.NumberPicker" />
+    <style name="Widget.DeviceDefault.Light.Spinner.DropDown" parent="@*android:Widget.Holo.Light.Spinner.DropDown" />
+    <style name="Widget.DeviceDefault.Light.TextView.ListSeparator" parent="@*android:Widget.Holo.Light.TextView.ListSeparator" />
+    <style name="Widget.DeviceDefault.Light.TimePicker" parent="@*android:Widget.Holo.Light.TimePicker" />
+    <style name="Widget.DeviceDefault.Light.TextSuggestionsPopupWindow" parent="@*android:Widget.Holo.Light.TextSuggestionsPopupWindow" />
+
+    <!-- Text Appearance Styles -->
+    <style name="TextAppearance.DeviceDefault" parent="@*android:TextAppearance.Holo" />
+    <style name="TextAppearance.DeviceDefault.Inverse" parent="@*android:TextAppearance.Holo.Inverse" />
+    <style name="TextAppearance.DeviceDefault.Large" parent="@*android:TextAppearance.Holo.Large" />
+    <style name="TextAppearance.DeviceDefault.Large.Inverse" parent="@*android:TextAppearance.Holo.Large.Inverse" />
+    <style name="TextAppearance.DeviceDefault.Medium" parent="@*android:TextAppearance.Holo.Medium" />
+    <style name="TextAppearance.DeviceDefault.Medium.Inverse" parent="@*android:TextAppearance.Holo.Medium.Inverse" />
+    <style name="TextAppearance.DeviceDefault.Small" parent="@*android:TextAppearance.Holo.Small" />
+    <style name="TextAppearance.DeviceDefault.Small.Inverse" parent="@*android:TextAppearance.Holo.Small.Inverse" />
+    <style name="TextAppearance.DeviceDefault.SearchResult.Title" parent="@*android:TextAppearance.Holo.SearchResult.Title" />
+    <style name="TextAppearance.DeviceDefault.SearchResult.Subtitle" parent="@*android:TextAppearance.Holo.SearchResult.Subtitle" />
+    <style name="TextAppearance.DeviceDefault.Widget" parent="@*android:TextAppearance.Holo.Widget" />
+    <style name="TextAppearance.DeviceDefault.Widget.Button" parent="@*android:TextAppearance.Holo.Widget.Button" />
+    <style name="TextAppearance.DeviceDefault.Widget.IconMenu.Item" parent="@*android:TextAppearance.Holo.Widget.IconMenu.Item" />
+    <style name="TextAppearance.DeviceDefault.Widget.TabWidget" parent="@*android:TextAppearance.Holo.Widget.TabWidget" />
+    <style name="TextAppearance.DeviceDefault.Widget.TextView" parent="@*android:TextAppearance.Holo.Widget.TextView" />
+    <style name="TextAppearance.DeviceDefault.Widget.TextView.PopupMenu" parent="@*android:TextAppearance.Holo.Widget.TextView.PopupMenu" />
+    <style name="TextAppearance.DeviceDefault.Widget.DropDownHint" parent="@*android:TextAppearance.Holo.Widget.DropDownHint" />
+    <style name="TextAppearance.DeviceDefault.Widget.DropDownItem" parent="@*android:TextAppearance.Holo.Widget.DropDownItem" />
+    <style name="TextAppearance.DeviceDefault.Widget.TextView.SpinnerItem" parent="@*android:TextAppearance.Holo.Widget.TextView.SpinnerItem" />
+    <style name="TextAppearance.DeviceDefault.Widget.EditText" parent="@*android:TextAppearance.Holo.Widget.EditText" />
+    <style name="TextAppearance.DeviceDefault.Widget.PopupMenu" parent="@*android:TextAppearance.Holo.Widget.PopupMenu" />
+    <style name="TextAppearance.DeviceDefault.Widget.PopupMenu.Large" parent="@*android:TextAppearance.Holo.Widget.PopupMenu.Large" />
+    <style name="TextAppearance.DeviceDefault.Widget.PopupMenu.Small" parent="@*android:TextAppearance.Holo.Widget.PopupMenu.Small" />
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Title" parent="@*android:TextAppearance.Holo.Widget.ActionBar.Title" />
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle" parent="@*android:TextAppearance.Holo.Widget.ActionBar.Subtitle" />
+    <style name="TextAppearance.DeviceDefault.Widget.ActionMode.Title" parent="@*android:TextAppearance.Holo.Widget.ActionMode.Title" />
+    <style name="TextAppearance.DeviceDefault.Widget.ActionMode.Subtitle" parent="@*android:TextAppearance.Holo.Widget.ActionMode.Subtitle" />
+    <style name="TextAppearance.DeviceDefault.WindowTitle" parent="@*android:TextAppearance.Holo.WindowTitle" />
+    <style name="TextAppearance.DeviceDefault.DialogWindowTitle" parent="@*android:TextAppearance.Holo.DialogWindowTitle" />
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse" parent="@*android:TextAppearance.Holo.Widget.ActionBar.Title.Inverse" />
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle.Inverse" parent="@*android:TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse" />
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
+    <style name="TextAppearance.DeviceDefault.Widget.ActionMode.Title.Inverse" parent="@*android:TextAppearance.Holo.Widget.ActionMode.Title.Inverse" />
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
+    <style name="TextAppearance.DeviceDefault.Widget.ActionMode.Subtitle.Inverse" parent="@*android:TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse" />
+    <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Menu" parent="@*android:TextAppearance.Holo.Widget.ActionBar.Menu" />
+
+    <!-- Preference Styles -->
+    <style name="Preference.DeviceDefault" parent="@*android:Preference.Holo" />
+    <style name="Preference.DeviceDefault.Category" parent="@*android:Preference.Holo.Category" />
+    <style name="Preference.DeviceDefault.CheckBoxPreference" parent="@*android:Preference.Holo.CheckBoxPreference" />
+    <style name="Preference.DeviceDefault.DialogPreference" parent="@*android:Preference.Holo.DialogPreference" />
+    <style name="Preference.DeviceDefault.DialogPreference.EditTextPreference" parent="@*android:Preference.Holo.DialogPreference.EditTextPreference" />
+    <style name="Preference.DeviceDefault.DialogPreference.YesNoPreference" parent="@*android:Preference.Holo.DialogPreference.YesNoPreference" />
+    <style name="Preference.DeviceDefault.Information" parent="@*android:Preference.Holo.Information" />
+    <style name="Preference.DeviceDefault.PreferenceScreen" parent="@*android:Preference.Holo.PreferenceScreen" />
+    <style name="Preference.DeviceDefault.RingtonePreference" parent="@*android:Preference.Holo.RingtonePreference" />
+    <style name="Preference.DeviceDefault.SwitchPreference" parent="@*android:Preference.Holo.SwitchPreference" />
+    <style name="Preference.DeviceDefault.SeekBarPreference" parent="@*android:Preference.Holo.SeekBarPreference" />
+
+    <!-- AlertDialog Styles -->
+    <style name="AlertDialog.DeviceDefault" parent="@*android:AlertDialog.Holo" />
+    <style name="AlertDialog.DeviceDefault.Light" parent="@*android:AlertDialog.Holo.Light" />
+
+    <!-- Animation Styles -->
+    <style name="Animation.DeviceDefault.Activity" parent="@*android:Animation.Holo.Activity" />
+    <style name="Animation.DeviceDefault.Dialog" parent="@*android:Animation.Holo.Dialog" />
+
+    <!-- DialogWindowTitle Styles -->
+    <style name="DialogWindowTitle.DeviceDefault" parent="@*android:DialogWindowTitle.Holo" />
+    <style name="DialogWindowTitle.DeviceDefault.Light" parent="@*android:DialogWindowTitle.Holo.Light" />
+
+    <!-- WindowTitle Styles -->
+    <style name="WindowTitle.DeviceDefault" parent="@*android:WindowTitle.Holo" />
+    <style name="WindowTitleBackground.DeviceDefault" parent="@*android:WindowTitleBackground.Holo" />
+</resources>

@@ -5,7 +5,8 @@
     <color name="material_deep_teal_500">#ff33b5e5</color>
 
     <color name="qs_detail_transition">#ff000000</color>
-    <color name="system_primary_color">#ff292929</color>
+    <color name="system_primary_color">#ff161616</color>
+    <!-- #ff292929 -->
     <color name="system_accent_color">#ff33b5e5</color>
 
     <!-- Notifications -->

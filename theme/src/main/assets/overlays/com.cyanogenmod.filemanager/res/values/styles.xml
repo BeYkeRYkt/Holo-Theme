@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Base themes -->
+    <style name="FileManager.Theme.Material.Light.NoActionBar" parent="@android:style/Theme.Holo.Light.NoActionBar"></style>
+
+    <!-- Base themes -->
+    <style name="FileManager.Theme.Material.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/FileManager.Widget.ActionBar.White</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="FileManager.Theme.Material.NoActionBar" parent="@android:style/Theme.Holo.NoActionBar"></style>
+
+    <style name="FileManager.Theme.Material" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/FileManager.Widget.ActionBar.White</item>
+    </style>
+
+    <!-- A theme with overlay -->
+    <style name="FileManager.Theme.Material.Light.Overlay" parent="@style/FileManager.Theme.Material.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="FileManager.Theme.Material.Overlay" parent="@style/FileManager.Theme.Material">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- Action bar -->
+    <style name="FileManager.Widget.ActionBar.White" parent="@android:style/Widget.Holo.Light.ActionBar"></style>
+
+    <style name="FileManager.NavigationActionBar" parent="@android:style/Theme.Holo.Light">
+        <item name="android:colorControlNormal">@android:color/white</item>
+    </style>
+
+</resources>

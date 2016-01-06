@@ -34,8 +34,7 @@
     </style>
 
     <!-- Text in the action bar at the top of the screen -->
-    <style name="ChooserActionBarTitleText"
-        parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <style name="ChooserActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textColor">#FFFFFF</item>
     </style>
 </resources>

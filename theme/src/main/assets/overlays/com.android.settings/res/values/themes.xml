@@ -9,6 +9,8 @@
         <item name="android:windowSoftInputMode">adjustResize</item>
     </style>
 
+    <style name="TextAppearance" parent="@*android:TextAppearance.Holo"></style>
+
     <!--BASE-->
     <style name="Theme.SettingsBase" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
@@ -22,7 +24,8 @@
     <style name="Theme.SwitchBar.Settings" parent="@style/Theme.Settings"></style>
 
     <!-- NOW USE BASEALERT!-->
-    <style name="Theme.AlertDialog" parent="@*common:style/Holo.Dialog.BaseAlert"></style>
+    <!-- <style name="Theme.AlertDialog" parent="@*common:style/Holo.Dialog.BaseAlert"></style> -->
+    <style name="Theme.AlertDialog" parent="@*android:style/Theme.Holo.Dialog.Alert" />
 
     <style name="Theme.ActionBar" parent="@android:style/Widget.Holo.ActionBar.Solid"></style>
 
@@ -34,4 +37,41 @@
 
     <style name="Theme.SubSettingsDialogWhenLarge" parent="@style/Theme.DialogWhenLarge"></style>
     <!--BASE-->
+
+    <style name="Theme.SwitchBar.SubSettings" parent="@android:style/Theme.Holo"></style>
+
+    <!-- Password Entry-->
+    <style name="TextAppearance.PasswordEntry" parent="@android:TextAppearance.Holo">
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.CryptKeeper_PasswordEntry" parent="@android:TextAppearance.Holo">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">flagForceAscii|actionDone</item>
+    </style>
+
+    <!-- Security Preference Button-->
+    <style name="SecurityPreferenceButton" parent="@android:style/Widget.Holo.Button.Borderless">
+        <!-- <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item> -->
+    </style>
+
+    <!-- PagerTabs -->
+    <style name="TextAppearance.PagerTabs" parent="@android:style/TextAppearance.Holo.Widget.TabWidget" />
+
+    <!-- AppListSwitch -->
+    <style name="AppListSwitchPreference" parent="@*android:style/Preference.Holo.DialogPreference">
+        <item name="android:widgetLayout">@*android:layout/preference_widget_switch</item>
+    </style>
+
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Holo.Medium" />
+    <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Holo.Small" />
 </resources>

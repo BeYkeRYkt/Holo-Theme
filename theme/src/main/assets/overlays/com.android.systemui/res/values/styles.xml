@@ -2,4 +2,19 @@
 <resources>
     <style name="Theme.AlertDialogHost" parent="@android:Theme.Holo" />
     <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Holo.Dialog" />
+    <style name="Theme.SystemUI.Dialog.Alert" parent="@*android:style/Theme.Holo.Dialog.Alert" />
+
+    <style name="RecentsStyle" parent="@android:style/Theme.Holo.Wallpaper.NoTitleBar"></style>
+
+    <style name="RecentsTheme" parent="@android:style/Theme.Holo">
+        <!-- NoTitle -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- Misc -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:ambientShadowAlpha">0.35</item>
+    </style>
+
+    <style name="VolumeButtons" parent="@android:style/Widget.DeviceDefault.Button.Borderless"></style>
 </resources>

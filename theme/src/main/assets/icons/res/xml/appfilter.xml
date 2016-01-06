@@ -19,8 +19,7 @@
     <item component="ComponentInfo{com.android.camera2}" drawable="camera" />
 
     <!-- Clock -->
-    <item component="ComponentInfo{com.android.alarmclock/com.android.alarmclock.AlarmClock}"
-        drawable="clock" />
+    <item component="ComponentInfo{com.android.alarmclock/com.android.alarmclock.AlarmClock}" drawable="clock" />
     <item component="ComponentInfo{com.google.android.deskclock}" drawable="clock" />
     <item component="ComponentInfo{com.android.deskclock}" drawable="clock" />
 
@@ -28,6 +27,7 @@
     <item component="ComponentInfo{com.android.contacts}" drawable="contacts" />
 
     <!-- Android downloader -->
+    <item component="ComponentInfo{com.android.providers.downloads}" drawable="downloads" />
     <item component="ComponentInfo{com.android.providers.downloads.ui}" drawable="downloads" />
 
     <!-- Email -->

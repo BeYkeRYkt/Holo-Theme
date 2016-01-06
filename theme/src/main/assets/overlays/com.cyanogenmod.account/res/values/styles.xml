@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="Theme.CMAccount" parent="@android:style/Theme.Holo.Light" />
+
+    <style name="ButtonBar" parent="@android:style/Widget.Holo.ActionButton">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:minWidth">15dp</item>
+        <item name="android:minHeight">15dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:drawablePadding">6dp</item>
+    </style>
+</resources>
