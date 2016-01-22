@@ -3,63 +3,54 @@
     <style name="devTheme" parent="@android:style/Theme.Holo"></style>
 
     <!-- Dark Device -->
-    <!-- <style name="Theme.DeviceDefault" parent="@style/devTheme" /> - Bootloop -->
+    <!-- <style name="Theme.DeviceDefault" parent="@style/devTheme" /> - Bootloop (CM 13)-->
+
     <!-- Light Device -->
-    <style name="Theme.DeviceDefault.Light" parent="@android:Theme.Holo" />
+    <style name="Theme.DeviceDefault.Light" parent="@style/devTheme"/>
 
-    <!-- <style name="Theme.DeviceDefault.Dialog" parent="@android:style/Theme.Holo.Dialog" />
-    <style name="Theme.DeviceDefault.Light.Dialog" parent="@android:style/Theme.Holo.Dialog"/> -->
+    <style name="Theme.DeviceDefault.Dialog.MinWidth" parent="@android:style/Theme.Holo.Dialog.MinWidth"/>
+    <style name="Theme.DeviceDefault.Light.Dialog.MinWidth" parent="@android:style/Theme.Holo.Dialog.MinWidth"/>
 
-    <style name="Theme.DeviceDefault.Dialog.MinWidth" parent="@android:style/Theme.Holo.Dialog.MinWidth" />
-    <style name="Theme.DeviceDefault.Light.Dialog.MinWidth" parent="@android:style/Theme.Holo.Dialog.MinWidth" />
+    <style name="Theme.DeviceDefault.Dialog.NoActionBar" parent="@android:style/Theme.Holo.Dialog.NoActionBar"/>
+    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar" parent="@android:style/Theme.Holo.Dialog.NoActionBar"/>
+    <style name="Theme.DeviceDefault.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth"/>
+    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth"/>
 
-    <style name="Theme.DeviceDefault.Dialog.NoActionBar" parent="@android:style/Theme.Holo.Dialog.NoActionBar" />
-    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar" parent="@android:style/Theme.Holo.Dialog.NoActionBar" />
-    <style name="Theme.DeviceDefault.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth" />
-    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth" />
+    <style name="Theme.DeviceDefault.NoActionBar" parent="@android:style/Theme.Holo.NoActionBar"/>
+    <style name="Theme.DeviceDefault.Light.NoActionBar" parent="@android:style/Theme.Holo.NoActionBar"/>
 
-    <style name="Theme.DeviceDefault.NoActionBar" parent="@android:style/Theme.Holo.NoActionBar" />
-    <style name="Theme.DeviceDefault.Light.NoActionBar" parent="@android:style/Theme.Holo.NoActionBar" />
+    <style name="Theme.DeviceDefault.NoActionBar.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen"/>
+    <style name="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen"/>
 
-    <style name="Theme.DeviceDefault.NoActionBar.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
-    <style name="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+    <style name="Theme.DeviceDefault.NoActionBar.Overscan" parent="@android:style/Theme.Holo.NoActionBar.Overscan"/>
+    <style name="Theme.DeviceDefault.Light.NoActionBar.Overscan" parent="@android:style/Theme.Holo.NoActionBar.Overscan"/>
 
-    <style name="Theme.DeviceDefault.NoActionBar.Overscan" parent="@android:style/Theme.Holo.NoActionBar.Overscan" />
-    <style name="Theme.DeviceDefault.Light.NoActionBar.Overscan" parent="@android:style/Theme.Holo.NoActionBar.Overscan" />
+    <style name="Theme.DeviceDefault.NoActionBar.TranslucentDecor" parent="@android:style/Theme.Holo.NoActionBar.TranslucentDecor"/>
+    <style name="Theme.DeviceDefault.Light.NoActionBar.TranslucentDecor" parent="@android:style/Theme.Holo.NoActionBar.TranslucentDecor"/>
 
-    <style name="Theme.DeviceDefault.NoActionBar.TranslucentDecor" parent="@android:style/Theme.Holo.NoActionBar.TranslucentDecor" />
-    <style name="Theme.DeviceDefault.Light.NoActionBar.TranslucentDecor" parent="@android:style/Theme.Holo.NoActionBar.TranslucentDecor" />
+    <style name="Theme.DeviceDefault.Panel" parent="@android:style/Theme.Holo.Panel"/>
+    <style name="Theme.DeviceDefault.Light.Panel" parent="@android:style/Theme.Holo.Panel"/>
 
-    <style name="Theme.DeviceDefault.Panel" parent="@android:style/Theme.Holo.Panel" />
-    <style name="Theme.DeviceDefault.Light.Panel" parent="@android:style/Theme.Holo.Panel" />
+    <style name="Theme.DeviceDefault.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge"/>
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge"/>
+    <style name="Theme.DeviceDefault.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Holo.DialogWhenLarge.NoActionBar"/>
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Holo.DialogWhenLarge.NoActionBar"/>
 
-    <style name="Theme.DeviceDefault.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge" />
-    <style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge" />
-    <style name="Theme.DeviceDefault.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Holo.DialogWhenLarge.NoActionBar" />
-    <style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Holo.DialogWhenLarge.NoActionBar" />
+    <style name="Theme.DeviceDefault.DarkActionBar" parent="@style/devTheme"/>
+    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@style/devTheme"/>
 
-    <style name="Theme.DeviceDefault.DarkActionBar" parent="@style/devTheme" />
-    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@style/devTheme" />
-
-    <style name="Theme.DeviceDefault.Dialog.Presentation" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
-    <style name="Theme.DeviceDefault.Light.Dialog.Presentation" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
+    <style name="Theme.DeviceDefault.Dialog.Presentation" parent="@*android:style/Theme.Holo.Dialog.Presentation"/>
+    <style name="Theme.DeviceDefault.Light.Dialog.Presentation" parent="@*android:style/Theme.Holo.Dialog.Presentation"/>
 
     <!-- Use common -->
-    <!-- <style name="Theme.DeviceDefault.Dialog" parent="@*common:style/Holo.Dialog.BaseAlert" />
-    <style name="Theme.DeviceDefault.Light.Dialog" parent="@*common:style/Holo.Dialog.BaseAlert" /> -->
-    <style name="Theme.DeviceDefault.Dialog" parent="@*android:style/Theme.Holo.Dialog" />
-    <style name="Theme.DeviceDefault.Light.Dialog" parent="@*android:style/Theme.Holo.Dialog" />
+    <style name="Theme.DeviceDefault.Dialog" parent="@*android:style/Theme.Holo.Dialog"/>
+    <style name="Theme.DeviceDefault.Light.Dialog" parent="@*android:style/Theme.Holo.Dialog"/>
 
-    <!-- <style name="Theme.DeviceDefault.Dialog.Alert" parent="@*common:style/Holo.Dialog.BaseAlert" />
-    <style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="@*common:style/Holo.Dialog.BaseAlert" /> -->
-    <style name="Theme.DeviceDefault.Dialog.Alert" parent="@*android:style/Theme.Holo.Dialog.Alert" />
-    <style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="@*android:style/Theme.Holo.Dialog.Alert" />
+    <style name="Theme.DeviceDefault.Dialog.Alert" parent="@*android:style/Theme.Holo.Dialog.Alert"/>
+    <style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="@*android:style/Theme.Holo.Dialog.Alert"/>
 
-    <!-- <style name="Theme.DeviceDefault.Dialog.NoFrame" parent="@*common:style/Holo.Dialog.NoFrame" />
-    <style name="Theme.DeviceDefault.Light.Dialog.NoFrame"
-        parent="@*common:style/Holo.Dialog.NoFrame" /> -->
-    <style name="Theme.DeviceDefault.Dialog.NoFrame" parent="@*android:style/Theme.Holo.Dialog.NoFrame" />
-    <style name="Theme.DeviceDefault.Light.Dialog.NoFrame" parent="@*android:style/Theme.Holo.Dialog.NoFrame" />
+    <style name="Theme.DeviceDefault.Dialog.NoFrame" parent="@*android:style/Theme.Holo.Dialog.NoFrame"/>
+    <style name="Theme.DeviceDefault.Light.Dialog.NoFrame" parent="@*android:style/Theme.Holo.Dialog.NoFrame"/>
 
     <!-- Notifications -->
     <style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance.Material.Notification">
@@ -99,15 +90,12 @@
 
     <style name="Theme.DeviceDefault.Settings.Dialog" parent="@style/Theme.DeviceDefault.Settings.BaseDialog"></style>
 
-    <!-- Ringtone picker -->
-    <style name="Theme.Material.Settings.Dialog" parent="@style/Theme.DeviceDefault.Dialog"></style>
-
     <!-- InputMethod -->
-    <style name="Theme.DeviceDefault.InputMethod" parent="@android:style/Theme.Holo.InputMethod" />
+    <style name="Theme.DeviceDefault.InputMethod" parent="@android:style/Theme.Holo.InputMethod"/>
 
     <!-- SearchBar -->
-    <style name="Theme.DeviceDefault.SearchBar" parent="@*android:style/Theme.Holo.SearchBar" />
-    <style name="Theme.DeviceDefault.Light.SearchBar" parent="@*android:style/Theme.Holo.SearchBar" />
+    <style name="Theme.DeviceDefault.SearchBar" parent="@*android:style/Theme.Holo.SearchBar"/>
+    <style name="Theme.DeviceDefault.Light.SearchBar" parent="@*android:style/Theme.Holo.SearchBar"/>
 
     <!-- Theme used for the intent picker activity. -->
     <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Holo.Light">

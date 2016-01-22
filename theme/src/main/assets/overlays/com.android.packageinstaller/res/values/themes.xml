@@ -4,5 +4,5 @@
         <item name="android:actionBarStyle">@style/ActionBar</item>
     </style>
 
-    <style name="GrantPermissions" parent="@android:style/Theme.Holo.Dialog.NoActionBar" />
+    <style name="GrantPermissions" parent="@android:style/Theme.Holo.Dialog.NoActionBar"/>
 </resources>

@@ -1,60 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- AudioFX -->
-    <item component="ComponentInfo{org.cyanogenmod.audiofx}" drawable="audiofx" />
+    <item component="ComponentInfo{org.cyanogenmod.audiofx}" drawable="audiofx"/>
 
     <!-- Browser -->
-    <item component="ComponentInfo{com.android.browser}" drawable="browser" />
+    <item component="ComponentInfo{com.android.bluetooth}" drawable="bluetooth"/>
+
+    <!-- Browser -->
+    <item component="ComponentInfo{com.android.browser}" drawable="browser"/>
 
     <!-- Calculator -->
-    <item component="ComponentInfo{com.android.calculator2}" drawable="calculator" />
+    <item component="ComponentInfo{com.android.calculator2}" drawable="calculator"/>
 
     <!-- Calendar -->
-    <item component="ComponentInfo{com.android.calendar}" drawable="calendar" />
-    <item component="ComponentInfo{com.google.android.calendar}" drawable="calendar" />
+    <item component="ComponentInfo{com.android.calendar}" drawable="calendar"/>
+    <item component="ComponentInfo{com.google.android.calendar}" drawable="calendar"/>
 
     <!-- Camera -->
-    <item component="ComponentInfo{com.android.camera}" drawable="camera" />
-    <item component="ComponentInfo{com.google.android.camera}" drawable="camera" />
-    <item component="ComponentInfo{com.android.camera2}" drawable="camera" />
+    <item component="ComponentInfo{com.android.camera}" drawable="camera"/>
+    <item component="ComponentInfo{com.google.android.camera}" drawable="camera"/>
+    <item component="ComponentInfo{com.android.camera2}" drawable="camera"/>
+    <item component="ComponentInfo{org.cyanogenmod.snap}" drawable="camera"/>
 
     <!-- Clock -->
-    <item component="ComponentInfo{com.android.alarmclock/com.android.alarmclock.AlarmClock}" drawable="clock" />
-    <item component="ComponentInfo{com.google.android.deskclock}" drawable="clock" />
-    <item component="ComponentInfo{com.android.deskclock}" drawable="clock" />
+    <item component="ComponentInfo{com.android.alarmclock/com.android.alarmclock.AlarmClock}" drawable="clock"/>
+    <item component="ComponentInfo{com.google.android.deskclock}" drawable="clock"/>
+    <item component="ComponentInfo{com.android.deskclock}" drawable="clock"/>
+
+    <!-- CyanogenMod Updater -->
+    <item component="ComponentInfo{com.cyanogenmod.updater}" drawable="cm_updater"/>
 
     <!-- Contacts -->
-    <item component="ComponentInfo{com.android.contacts}" drawable="contacts" />
+    <item component="ComponentInfo{com.android.contacts}" drawable="contacts"/>
 
     <!-- Android downloader -->
-    <item component="ComponentInfo{com.android.providers.downloads}" drawable="downloads" />
-    <item component="ComponentInfo{com.android.providers.downloads.ui}" drawable="downloads" />
+    <item component="ComponentInfo{com.android.providers.downloads}" drawable="downloads"/>
+    <item component="ComponentInfo{com.android.providers.downloads.ui}" drawable="downloads"/>
 
     <!-- Email -->
-    <item component="ComponentInfo{com.android.email}" drawable="email" />
+    <item component="ComponentInfo{com.android.email}" drawable="email"/>
 
     <!-- Eleven -->
-    <item component="ComponentInfo{com.cyanogenmod.eleven}" drawable="eleven" />
+    <item component="ComponentInfo{com.cyanogenmod.eleven}" drawable="eleven"/>
 
     <!-- Gallery -->
-    <item component="ComponentInfo{com.google.android.gallery3d}" drawable="gallery" />
-    <item component="ComponentInfo{com.android.gallery3d}" drawable="gallery" />
+    <item component="ComponentInfo{com.google.android.gallery3d}" drawable="gallery"/>
+    <item component="ComponentInfo{com.android.gallery3d}" drawable="gallery"/>
+    <item component="ComponentInfo{com.android.providers.media}" drawable="gallery"/>
 
     <!-- FileManager -->
-    <item component="ComponentInfo{com.cyanogenmod.filemanager}" drawable="filemanager" />
+    <item component="ComponentInfo{com.cyanogenmod.filemanager}" drawable="filemanager"/>
 
     <!-- Messaging -->
-    <item component="ComponentInfo{com.android.messaging}" drawable="messaging" />
+    <item component="ComponentInfo{com.android.messaging}" drawable="messaging"/>
+    <item component="ComponentInfo{com.android.mms}" drawable="messaging"/>
 
     <!-- System settings -->
-    <item component="ComponentInfo{com.android.settings}" drawable="system_settings" />
+    <item component="ComponentInfo{com.android.settings}" drawable="system_settings"/>
 
     <!-- Dialer -->
-    <item component="ComponentInfo{com.android.dialer}" drawable="phone" />
+    <item component="ComponentInfo{com.android.dialer}" drawable="phone"/>
+    <item component="ComponentInfo{com.android.phone}" drawable="phone"/>
 
     <!-- Themes-->
-    <item component="ComponentInfo{org.cyanogenmod.theme.chooser}" drawable="themes" />
+    <item component="ComponentInfo{org.cyanogenmod.theme.chooser}" drawable="themes"/>
 
     <!-- Voicesearch -->
-    <item component="ComponentInfo{com.google.android.voicesearch}" drawable="voicesearch" />
+    <item component="ComponentInfo{com.google.android.voicesearch}" drawable="voicesearch"/>
 </resources>

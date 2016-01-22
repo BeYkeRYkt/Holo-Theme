@@ -4,7 +4,7 @@ ADDED from AndroidManifest.xml:17:1
 	xmlns:android
 		ADDED from AndroidManifest.xml:17:11
 	package
-		ADDED from AndroidManifest.xml:18:5
+		ADDED from AndroidManifest.xml:18:11
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:versionName

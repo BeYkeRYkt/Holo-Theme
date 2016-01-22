@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <style name="Theme.CMAccount" parent="@android:style/Theme.Holo.Light" />
+    <style name="Theme.CMAccount" parent="@android:style/Theme.Holo.Light"/>
 
     <style name="ButtonBar" parent="@android:style/Widget.Holo.ActionButton">
         <item name="android:layout_height">56dp</item>

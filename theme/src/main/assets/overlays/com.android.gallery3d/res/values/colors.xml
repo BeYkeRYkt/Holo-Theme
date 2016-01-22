@@ -1,0 +1,36 @@
+<resources>
+    <color name="default_background">#000</color>
+
+    <!-- configuration for album set page -->
+    <color name="albumset_background">#1A1A1A</color>
+    <color name="albumset_placeholder">#333</color>
+    <color name="albumset_label_background">#EE414143</color>
+    <color name="albumset_label_title">#FBFBFB</color>
+    <color name="albumset_label_count">#A9ABAD</color>
+
+    <!-- configuration for album page -->
+    <color name="album_background">#1A1A1A</color>
+    <color name="album_placeholder">#333</color>
+
+    <!-- configuration for photo page -->
+    <color name="photo_background">#1A1A1A</color>
+    <color name="photo_placeholder">#333</color>
+
+    <!-- configuration for manage cache page -->
+    <color name="cache_background">#1A1A1A</color>
+    <color name="cache_placeholder">#333</color>
+
+    <color name="bitmap_screennail_placeholder">#333</color>
+
+    <color name="slideshow_background">#1A1A1A</color>
+
+    <color name="button_dark_transparent_background">#6000</color>
+
+    <color name="ingest_highlight_semitransparent">#8833b5e5</color>
+    <color name="ingest_date_tile_text">#33b5e5</color>
+
+    <!-- FAB -->
+    <color name="fab">#FF9800</color>
+    <color name="floating_action_button_touch_tint">#FFB74D</color>
+    <color name="floating_action_button_icon_color">#ffffff</color>
+</resources>

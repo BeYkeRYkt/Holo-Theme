@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- This must be a fullscreen theme for the alarm to be able to turn the screen on. -->
+    <style name="AlertFullScreenTheme" parent="@android:Theme.Holo.Wallpaper.NoTitleBar"/>
 
     <style name="CellBroadcastSettingsTheme" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
