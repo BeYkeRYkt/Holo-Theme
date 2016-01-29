@@ -61,6 +61,7 @@
     <!-- Dialer -->
     <item component="ComponentInfo{com.android.dialer}" drawable="phone"/>
     <item component="ComponentInfo{com.android.phone}" drawable="phone"/>
+    <item component="ComponentInfo{com.cyngn.dialer}" drawable="phone"/>
 
     <!-- Themes-->
     <item component="ComponentInfo{org.cyanogenmod.theme.chooser}" drawable="themes"/>

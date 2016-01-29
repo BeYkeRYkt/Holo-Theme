@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Wifi Dialogs -->
-    <style name="Theme.WifiDialog" parent="@*android:style/Theme.Holo.Dialog">
-        <item name="android:windowSoftInputMode">adjustResize</item>
-    </style>
-
-    <style name="Theme.Light.WifiDialog" parent="@*android:style/Theme.Holo.Light.Dialog">
-        <item name="android:windowSoftInputMode">adjustResize</item>
-    </style>
+    <attr name="switchBarTheme" format="reference"/>
 
     <!--BASE-->
     <style name="Theme.SettingsBase" parent="@android:style/Theme.Holo">
@@ -18,24 +11,34 @@
 
     <style name="Theme.SubSettings" parent="@style/Theme.Settings">
         <item name="android:actionBarStyle">@style/Theme.ActionBar.SubSettings</item>
+        <item name="switchBarTheme">@style/Theme.SwitchBar.SubSettings</item>
     </style>
 
-    <style name="Theme.SwitchBar.Settings" parent="@style/Theme.Settings"></style>
+    <style name="Theme.SwitchBar.Settings" parent="@style/Theme.Settings"/>
 
     <style name="Theme.AlertDialog" parent="@*android:style/Theme.Holo.Dialog.Alert"/>
 
-    <style name="Theme.ActionBar" parent="@android:style/Widget.Holo.ActionBar.Solid"></style>
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Holo.ActionBar.Solid"/>
 
-    <style name="Theme.ActionBar.SubSettings" parent="@style/Theme.ActionBar"></style>
+    <style name="Theme.ActionBar.SubSettings" parent="@style/Theme.ActionBar"/>
 
     <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge">
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
     </style>
 
-    <style name="Theme.SubSettingsDialogWhenLarge" parent="@style/Theme.DialogWhenLarge"></style>
+    <style name="Theme.SubSettingsDialogWhenLarge" parent="@style/Theme.DialogWhenLarge"/>
     <!--BASE-->
 
-    <style name="Theme.SwitchBar.SubSettings" parent="@android:style/Theme.Holo"></style>
+    <style name="Theme.SwitchBar.SubSettings" parent="@android:style/Theme.Holo"/>
+
+    <!-- Wifi Dialogs -->
+    <style name="Theme.WifiDialog" parent="@*android:style/Theme.Holo.Dialog">
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="Theme.Light.WifiDialog" parent="@*android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
 
     <!-- Password Entry-->
     <style name="TextAppearance.PasswordEntry" parent="@android:TextAppearance.Holo">
@@ -53,7 +56,20 @@
     </style>
 
     <!-- Security Preference Button-->
-    <style name="SecurityPreferenceButton" parent="@android:style/Widget.Holo.Button.Borderless"/>
+    <style name="SecurityPreferenceButtonContainer" parent="@android:style/Holo.SegmentedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:weightSum">2</item>
+        <item name="android:dividerPadding">8dip</item>
+    </style>
+
+    <style name="SecurityPreferenceButton" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
 
     <!-- PagerTabs -->
     <style name="TextAppearance.PagerTabs" parent="@android:style/TextAppearance.Holo.Widget.TabWidget"/>
@@ -69,4 +85,13 @@
     <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Holo.Small"/>
 
     <style name="TextAppearance.RemoveDialogContent" parent="@android:style/TextAppearance.Holo"/>
+
+    <!-- ??? -->
+    <style name="Theme.ConfirmDeviceCredentialsDark" parent="@android:style/Theme.Holo"/>
+
+    <!-- CryptKeeperBlankTheme -->
+    <style name="CryptKeeperBlankTheme" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:background">#ff000000</item>
+    </style>
+
 </resources>

@@ -5,6 +5,38 @@
     <color name="theme_accent">#ffe6e6e6</color>
 
     <!-- SwitchBar -->
-    <!-- <color name="switchbar_background_color">@color/system_primary_color</color> TEST -->
     <color name="switchbar_background_color">@android:color/transparent</color>
+
+    <drawable name="expanded_item_bg">@android:color/transparent</drawable>
+
+    <!-- Lockscreen shortcuts -->
+    <color name="lockscreen_shortcuts_text_color">@color/theme_accent</color>
+    <color name="lockscreen_shortcuts_tint_color">@color/theme_accent</color>
+
+    <!-- Multi-sim Color Picker Text Color -->
+    <color name="msim_color_picker_text_color">@color/theme_accent</color>
+
+    <!-- Multi-sim Edit Name Text Color -->
+    <color name="msim_edit_name_text_color">@color/theme_accent</color>
+    <color name="factory_reset_color">#FFFE412C</color>
+
+    <!-- Lockscreen Pattern-->
+    <color name="lock_pattern_view_regular_color">@color/theme_accent</color>
+    <color name="lock_pattern_view_success_color">#ff009688</color>
+    <color name="lock_pattern_view_error_color">#fff4511e</color>
+
+    <color name="unlock_pattern_view_regular_color">@color/theme_accent</color>
+    <color name="unlock_pattern_view_success_color">#ff009688</color>
+    <color name="unlock_pattern_view_error_color">#fff4511e</color>
+
+    <!-- Battery Menu (CM12) -->
+    <color name="text_color_black">@color/theme_accent</color>
+    <color name="text_color_darker_gray">@color/theme_accent</color>
+    <color name="regulatory_text_color">@color/theme_accent</color>
+    <color name="text_color_secondary_text_material_light">@color/theme_accent</color>
+
+    <!-- QS Tile Re-arrange Screen -->
+    <color name="qs_tile_default_background_color">#ff161616</color>
+    <color name="qs_tile_tint_color">#ffe6e6e6</color>
+    <color name="background_color_gray">@drawable/preference_background</color>
 </resources>

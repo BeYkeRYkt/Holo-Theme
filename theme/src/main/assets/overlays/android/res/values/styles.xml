@@ -4,6 +4,9 @@
 
     <!-- Dark Device -->
     <!-- <style name="Theme.DeviceDefault" parent="@style/devTheme" /> - Bootloop (CM 13)-->
+    <style name="Theme.DeviceDefault" parent="@style/devTheme">
+        <item name="android:colorAccent">@color/theme_accent</item>
+    </style>
 
     <!-- Light Device -->
     <style name="Theme.DeviceDefault.Light" parent="@style/devTheme"/>

@@ -9,4 +9,12 @@
     <color name="material_deep_teal_500">#ff33b5e5</color>
 
     <color name="theme_white">#ffffffff</color>
+    <color name="theme_accent">#ffe6e6e6</color>
+
+    <!-- Notification -->
+    <color name="notification_action_color_filter">@color/theme_accent</color>
+    <color name="notification_media_primary_color">@color/theme_accent</color>
+    <color name="notification_media_secondary_color">@color/theme_accent</color>
+    <color name="notification_mtrl_big_picture_bg">@color/theme_accent</color>
+    <color name="notification_mtrl_action_textcolor">@color/theme_accent</color>
 </resources>
