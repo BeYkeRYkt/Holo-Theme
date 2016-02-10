@@ -38,4 +38,7 @@
     <color name="notification_guts_title_color">#FFf3f3f3</color>
     <color name="notification_guts_text_color">#FFf3f3f3</color>
     <color name="notification_guts_btn_color">@color/system_primary_notification_color</color>
+
+    <!-- Secondary Color -->
+    <color name="system_secondary_color">@color/system_primary_color</color>
 </resources>

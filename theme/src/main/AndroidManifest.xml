@@ -23,8 +23,7 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="21"
-        android:maxSdkVersion="23"/>
+        android:targetSdkVersion="23"/>
 
     <meta-data
         android:name="org.cyanogenmod.theme.name"

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Themes -->
     <style name="devTheme" parent="@android:style/Theme.Holo"></style>
 
     <!-- Dark Device -->
-    <!-- <style name="Theme.DeviceDefault" parent="@style/devTheme" /> - Bootloop (CM 13)-->
     <style name="Theme.DeviceDefault" parent="@style/devTheme">
         <item name="android:colorAccent">@color/theme_accent</item>
     </style>
@@ -111,7 +111,7 @@
         <item name="android:windowDrawsSystemBarBackgrounds">false</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:colorControlActivated">?android:attr/colorControlHighlight</item>
-        <item name="android:listPreferredItemPaddingStart">?android:attr/dialogPreferredPadding</item>
-        <item name="android:listPreferredItemPaddingEnd">?android:attr/dialogPreferredPadding</item>
+        <!-- <item name="android:listPreferredItemPaddingStart">?android:attr/dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?android:attr/dialogPreferredPadding</item> -->
     </style>
 </resources>

@@ -4,9 +4,6 @@
     <item component="ComponentInfo{org.cyanogenmod.audiofx}" drawable="audiofx"/>
 
     <!-- Browser -->
-    <item component="ComponentInfo{com.android.bluetooth}" drawable="bluetooth"/>
-
-    <!-- Browser -->
     <item component="ComponentInfo{com.android.browser}" drawable="browser"/>
 
     <!-- Calculator -->

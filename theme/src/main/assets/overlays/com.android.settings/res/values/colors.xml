@@ -36,7 +36,7 @@
     <color name="text_color_secondary_text_material_light">@color/theme_accent</color>
 
     <!-- QS Tile Re-arrange Screen -->
-    <color name="qs_tile_default_background_color">#ff161616</color>
+    <!-- <color name="qs_tile_default_background_color">#ff161616</color> -->
     <color name="qs_tile_tint_color">#ffe6e6e6</color>
     <color name="background_color_gray">@drawable/preference_background</color>
 </resources>

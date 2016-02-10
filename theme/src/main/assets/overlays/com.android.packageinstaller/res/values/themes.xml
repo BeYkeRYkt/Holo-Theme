@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Settings" parent="@android:style/Theme.Holo">
+    <style name="Settings" parent="@android:style/Theme.DeviceDefault">
         <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:colorControlNormal">#ffe6e6e6</item>
     </style>
 
-    <style name="GrantPermissions" parent="@android:style/Theme.Holo.Dialog.NoActionBar"/>
+    <!-- <style name="GrantPermissions" parent="@android:style/Theme.Holo.Dialog.NoActionBar"/> -->
 </resources>

@@ -17,4 +17,7 @@
     <color name="notification_media_secondary_color">@color/theme_accent</color>
     <color name="notification_mtrl_big_picture_bg">@color/theme_accent</color>
     <color name="notification_mtrl_action_textcolor">@color/theme_accent</color>
+
+    <!-- Permissions Icon -->
+    <color name="app_permission_icon_tint">@android:color/white</color>
 </resources>

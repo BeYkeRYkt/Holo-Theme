@@ -5,6 +5,7 @@
     <!--BASE-->
     <style name="Theme.SettingsBase" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+        <!-- <item name="android:colorControlNormal">@color/theme_accent</item> -->
     </style>
 
     <style name="Theme.Settings" parent="@style/Theme.SettingsBase"/>
@@ -72,7 +73,18 @@
     </style>
 
     <!-- PagerTabs -->
-    <style name="TextAppearance.PagerTabs" parent="@android:style/TextAppearance.Holo.Widget.TabWidget"/>
+    <!-- <style name="TextAppearance.PagerTabs" parent="@android:style/TextAppearance.Holo.Widget.TabWidget"/> -->
+
+    <!-- CM11 PagerTabs-->
+    <style name="TextAppearance.PagerTabs" parent="@android:style/TextAppearance.DeviceDefault.Small">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Switch -->
+    <style name="TextAppearance.Switch" parent="@*android:style/TextAppearance.Holo.Widget.Switch">
+        <item name="android:textAllCaps">true</item>
+    </style>
 
     <!-- AppListSwitch -->
     <style name="AppListSwitchPreference" parent="@*android:style/Preference.Holo.DialogPreference">
@@ -93,5 +105,4 @@
     <style name="CryptKeeperBlankTheme" parent="@android:style/Theme.Holo.NoActionBar">
         <item name="android:background">#ff000000</item>
     </style>
-
 </resources>
