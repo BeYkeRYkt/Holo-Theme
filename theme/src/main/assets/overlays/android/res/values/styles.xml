@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Themes -->
-    <style name="devTheme" parent="@android:style/Theme.Holo"></style>
+    <style name="devTheme" parent="@android:style/Theme.Holo"/>
 
     <!-- Dark Device -->
     <style name="Theme.DeviceDefault" parent="@style/devTheme">
@@ -85,13 +85,13 @@
     </style>
 
     <!-- Settings -->
-    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Holo"></style>
+    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Holo"/>
 
-    <style name="Theme.DeviceDefault.Settings.CompactMenu" parent="@style/Theme.DeviceDefault.Settings"></style>
+    <style name="Theme.DeviceDefault.Settings.CompactMenu" parent="@style/Theme.DeviceDefault.Settings"/>
 
-    <style name="Theme.DeviceDefault.Settings.BaseDialog" parent="@style/Theme.DeviceDefault.Dialog"></style>
+    <style name="Theme.DeviceDefault.Settings.BaseDialog" parent="@style/Theme.DeviceDefault.Dialog"/>
 
-    <style name="Theme.DeviceDefault.Settings.Dialog" parent="@style/Theme.DeviceDefault.Settings.BaseDialog"></style>
+    <style name="Theme.DeviceDefault.Settings.Dialog" parent="@style/Theme.DeviceDefault.Settings.BaseDialog"/>
 
     <!-- InputMethod -->
     <style name="Theme.DeviceDefault.InputMethod" parent="@android:style/Theme.Holo.InputMethod"/>

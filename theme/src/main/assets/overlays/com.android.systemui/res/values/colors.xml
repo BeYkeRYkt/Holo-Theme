@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary & accent colors -->
-    <color name="material_deep_teal_200">#ff33b5e5</color>
-    <color name="material_deep_teal_500">#ff33b5e5</color>
+    <!-- <color name="material_deep_teal_200">#ff33b5e5</color>
+    <color name="material_deep_teal_500">#ff33b5e5</color> -->
 
     <!-- QS Settings Text Colors -->
     <color name="qs_detail_transition">#ff000000</color>

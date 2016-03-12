@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Dashboard background color -->
     <color name="dashboard_category_background_color">@android:color/transparent</color>
     <color name="dashboard_background_color">@android:color/transparent</color>
+
     <color name="theme_accent">#ffe6e6e6</color>
 
     <!-- SwitchBar -->
@@ -37,6 +39,9 @@
 
     <!-- QS Tile Re-arrange Screen -->
     <!-- <color name="qs_tile_default_background_color">#ff161616</color> -->
-    <color name="qs_tile_tint_color">#ffe6e6e6</color>
+    <!-- <color name="qs_tile_tint_color">#ffe6e6e6</color> -->
     <color name="background_color_gray">@drawable/preference_background</color>
+
+    <!-- Security billing -->
+    <color name="security_settings_billing_desc_color">@color/theme_accent</color>
 </resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <bitmap android:src="@drawable/ic_qs_perf_profile_bal" xmlns:android="http://schemas.android.com/apk/res/android"/> -->
+<bitmap android:src="@drawable/ic_qs_perf_profile_highperf" xmlns:android="http://schemas.android.com/apk/res/android"/>
