@@ -17,18 +17,18 @@
     <translate android:fromXDelta="0%" android:toXDelta="-35%"
                android:zAdjustment="bottom"
                android:duration="@android:integer/config_shortAnimTime"
-        />
+    />
     <scale android:fromXScale="0.80" android:toXScale="1.0"
            android:fromYScale="0.80" android:toYScale="1.0"
            android:pivotX="50%" android:pivotY="50%"
            android:duration="@android:integer/config_shortAnimTime"
-        />
+    />
     <translate android:fromXDelta="-35%" android:toXDelta="35%"
                android:zAdjustment="top"
                android:startOffset="@android:integer/config_shortAnimTime"
                android:duration="@android:integer/config_shortAnimTime"
-        />
+    />
     <alpha android:fromAlpha="0.6" android:toAlpha="1.0"
            android:duration="@android:integer/config_shortAnimTime"
-        />
+    />
 </set>

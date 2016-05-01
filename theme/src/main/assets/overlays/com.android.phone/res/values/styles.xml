@@ -1,12 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Material.Settings" parent="@android:style/Theme.Holo">
+    <style name="Theme.Settings" parent="@android:style/Theme.Holo.DialogWhenLarge">
+        <item name="android:windowCloseOnTouchOutside">true</item>
         <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
     </style>
+
+    <style name="SettingsLight" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/phone_settings_background_color</item>
+        <item name="android:actionMenuTextColor">@color/phone_settings_actionbar_text_color</item>
+        <item name="android:actionBarDivider">@*android:drawable/list_divider_holo_dark</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+    </style>
+
+    <style name="Empty" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- Style for the call settings action bar.  Should be kept in sync with Dialer. -->
+    <style name="DialtactsActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:backgroundSplit">@drawable/actionbar_background</item>
+        <item name="android:backgroundStacked">#ffffff</item>
+        <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
+        <!-- Empty icon -->
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <!-- Text in the action bar at the top of the screen.  Should be kept in sync with Dialer. -->
+    <style name="DialtactsActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/phone_settings_actionbar_text_color</item>
+    </style>
+
+    <style name="DialtactsActionBarSubtitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/phone_settings_actionbar_text_color</item>
+    </style>
+
+    <style name="SimImportTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse</item>
+    </style>
+
+    <style name="EmergencyDialerTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="DialerAlertDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog"/>
 
     <style name="NetworkOperatorsSettingsTheme" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
     </style>
 
+    <style name="TelephonyActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
+        <item name="android:subtitleTextStyle">@style/DialtactsActionBarSubtitleText</item>
+    </style>
+
+    <style name="Theme.Material.Settings" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
+    </style>
+
+    <style name="DialerSettingsLight" parent="SettingsLight">
+        <!-- <item name="android:colorAccent">@color/dialer_theme_color</item> -->
+        <item name="android:dialogTheme">@style/DialerAlertDialogTheme</item>
+    </style>
 </resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialtactsTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:overlapAnchor">true</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+    </style>
+
+    <!-- Style applied to the "Settings" screen.  Keep in sync with SettingsLight in Telephony. -->
+    <style name="SettingsStyle" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MmsActionBarStyle</item>
+    </style>
+
+    <!-- Inherit from Theme.Material.Light.Dialog instead of Theme.Material.Light.Dialog.Alert
+    since the Alert dialog is private. They are identical anyway. -->
+    <style name="AlertDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <!-- <item name="android:colorAccent">@color/dialtacts_theme_color</item> -->
+    </style>
+
+    <style name="Theme.Material.Light.Dialog.NoTitle" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MmsActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid"/>
+</resources>

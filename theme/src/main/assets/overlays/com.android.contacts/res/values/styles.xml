@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DetailActivityTheme" parent="@android:style/Theme.Holo.Light"/>
+
+    <style name="NonPhoneDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+    </style>
+
+    <style name="ConfirmAddDetailDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog.MinWidth">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="PeopleTheme" parent="@android:style/Theme.Holo.Light"/>
+</resources>

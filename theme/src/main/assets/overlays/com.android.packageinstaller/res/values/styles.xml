@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar">
+    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge.NoActionBar">
         <item name="android:colorControlNormal">#ffe6e6e6</item>
     </style>
 
-    <style name="Theme.Header.Settings" parent="@android:style/Theme.DeviceDefault">
+    <style name="Theme.Header.Settings" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/ActionBar</item>
         <item name="android:colorControlNormal">#ffe6e6e6</item>
     </style>

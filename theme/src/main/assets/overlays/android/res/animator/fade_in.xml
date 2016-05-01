@@ -23,4 +23,4 @@
                 android:valueTo="1"
                 android:propertyName="alpha"
                 android:duration="@android:integer/config_mediumAnimTime"
-    />
+/>

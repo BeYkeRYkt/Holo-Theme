@@ -4,7 +4,7 @@
     <color name="title_author_background">#ff292929</color>
     <color name="offwhite">#ff212021</color>
     <color name="author_grey">#ff292929</color>
-    <color name="primary">#ff212021</color>
+    <!-- <color name="primary">#ff212021</color> -->
     <color name="primary_dark">#ff212021</color>
     <color name="accent">#ff212021</color>
     <color name="actionbar_text_color">#ffffffff</color>
@@ -26,4 +26,13 @@
     <color name="default_circle_indicator_fill_color">#ff00b1e5</color>
     <color name="default_circle_indicator_page_color">#ff808184</color>
     <color name="default_circle_indicator_stroke_color">#ffdddddd</color>
+
+    <!-- CM13 19/04/16-->
+    <color name="designed_for_color_light">#ffffffff</color>
+
+    <color name="title_drawer_color">#fafafa</color>
+    <color name="author_drawer_color">#fafafa</color>
+
+    <color name="theme_accent">#ff212021</color>
+    <color name="drawer_icon">#fafafa</color>
 </resources>

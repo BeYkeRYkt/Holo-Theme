@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard padding in its container -->
+    <dimen name="dashboard_padding_start">8dip</dimen>
+    <dimen name="dashboard_padding_end">8dip</dimen>
+    <dimen name="dashboard_padding_top">0dip</dimen>
+    <dimen name="dashboard_padding_bottom">0dip</dimen>
+
+    <!-- Dashboard category padding start / end -->
+    <dimen name="dashboard_category_padding_start">8dip</dimen>
+    <dimen name="dashboard_category_padding_end">8dip</dimen>
+
+    <!-- Dashboard category panel elevation -->
+    <dimen name="dashboard_category_elevation">0dp</dimen> <!-- 4 -->
+
+    <!-- Dashboard category title layout height -->
+    <dimen name="dashboard_category_title_height">32dp</dimen>
+
+    <!-- Dashboard category title margin start -->
+    <dimen name="dashboard_category_title_margin_start">8dp</dimen>
+
+    <!-- Dashboard tile minimum height -->
+    <dimen name="dashboard_tile_minimum_height">56dp</dimen> <!-- 64 -->
+
+    <!-- Dashboard image tile size -->
+    <dimen name="dashboard_tile_image_size">32dp</dimen>
+
+    <!-- Dashboard tile image margin start / end -->
+    <dimen name="dashboard_tile_image_margin_start">8dp</dimen>
+    <dimen name="dashboard_tile_image_margin_end">8dp</dimen>
+
+    <!-- Result item image size -->
+    <dimen name="search_result_item_image_size">32dp</dimen>
+
+    <!-- Suggestion item image size -->
+    <dimen name="search_suggestion_item_image_size">32dp</dimen>
+
+    <dimen name="app_icon_size">56dip</dimen>
+    <dimen name="data_usage_chart_height">252dip</dimen>
+
+    <!-- SwitchBar margin start / end -->
+    <dimen name="switchbar_margin_start">8dp</dimen>
+    <dimen name="switchbar_margin_end">8dp</dimen>
+
+    <!-- SwitchBar sub settings margin start / end -->
+    <dimen name="switchbar_subsettings_margin_start">8dp</dimen>
+    <dimen name="switchbar_subsettings_margin_end">8dp</dimen>
+
+</resources>

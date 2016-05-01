@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Eleven.Theme" parent="@android:style/Theme.Holo"/>
+    <style name="ActionBarWidgetTheme" parent="@android:style/Theme.Holo"/>
+
+    <style name="ListView" parent="@android:style/Widget.Holo.ListView"/>
+
+    <style name="PopupMenu" parent="@android:style/Widget.Holo.PopupMenu"/>
+
+    <style name="DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown"/>
+
+    <!-- Sets the action bar title text style -->
+    <style name="ActionBar" parent="@android:style/Widget.Holo.ActionBar"/>
+
+    <!-- Shortcut Activity theme -->
+    <style name="Theme.Transparent" parent="@android:style/Theme.Holo.NoActionBar"/>
+    <style name="Theme.AudioPreview" parent="@android:style/Theme.Holo.NoActionBar"/>
+
+    <style name="HeaderTabTextStyle" parent="android:style/Widget.Holo.ActionBar.TabText"/>
+</resources>

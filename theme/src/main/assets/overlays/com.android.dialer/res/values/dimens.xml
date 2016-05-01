@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of the actionBar - this is 8dps bigger than the platform standard to give more
+    room to the search box-->
+    <dimen name="action_bar_height">56dp</dimen> <!-- 56 -->
+    <dimen name="action_bar_height_large">64dp</dimen> <!-- 64 -->
+    <dimen name="action_bar_elevation">2dp</dimen>
+    <dimen name="tab_height">40dp</dimen> <!-- 43 -->
+
+    <!-- actionbar height + tab height -->
+    <dimen name="actionbar_and_tab_height">0dp</dimen>
+    <dimen name="actionbar_contentInsetStart">8dp</dimen> <!-- 72 -->
+</resources>

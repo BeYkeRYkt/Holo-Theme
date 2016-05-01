@@ -5,5 +5,5 @@
         <item name="android:colorControlNormal">#ffe6e6e6</item>
     </style>
 
-    <!-- <style name="GrantPermissions" parent="@android:style/Theme.Holo.Dialog.NoActionBar"/> -->
+    <style name="GrantPermissions" parent="@android:style/Theme.Holo.Dialog.NoActionBar"/>
 </resources>

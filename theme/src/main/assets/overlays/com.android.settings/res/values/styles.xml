@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Password Entry-->
+    <style name="TextAppearance.PasswordEntry" parent="@android:TextAppearance.Holo">
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.CryptKeeper_PasswordEntry" parent="@android:TextAppearance.Holo">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">flagForceAscii|actionDone</item>
+    </style>
+
+    <style name="PreferencePanelSinglePane" parent="@android:style/Theme.Holo">
+        <!-- <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item> -->
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+
+    <style name="PreferenceHeaderListSinglePane" parent="@android:style/Theme.Holo">
+        <item name="android:paddingStart">16dip</item>
+        <item name="android:paddingEnd">16dip</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <!-- <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item> -->
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+
+    <style name="PreferenceFragmentListSinglePane" parent="@android:style/Theme.Holo">
+        <item name="android:paddingStart">16dip</item>
+        <item name="android:paddingEnd">16dip</item>
+        <!-- <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item> -->
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+
+    <style name="SettingsPreferenceHeaderPanel" parent="@android:style/Theme.Holo">
+    </style>
+
+    <style name="SettingsPreferenceHeaderList" parent="@android:style/Theme.Holo">
+    </style>
+
+    <style name="PreferenceFragmentStyle" parent="@android:style/Theme.Holo">
+        <!-- <item name="android:layout">@layout/preference_list_fragment</item> -->
+    </style>
+
+    <style name="wifi_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dip</item>
+        <item name="android:layout_marginStart">16dip</item>
+        <item name="android:layout_marginEnd">16dip</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="wifi_item_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="wifi_item_content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="wifi_item_edit_content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="wifi_section">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- CryptKeeperBlankTheme -->
+    <style name="CryptKeeperBlankTheme" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:background">#ff000000</item>
+    </style>
+
+    <!-- Security Preference Button-->
+    <style name="SecurityPreferenceButtonContainer" parent="@android:style/Holo.SegmentedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:weightSum">2</item>
+        <item name="android:dividerPadding">8dip</item>
+    </style>
+
+    <style name="SecurityPreferenceButton" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- CM11 PagerTabs-->
+    <style name="TextAppearance.PagerTabs" parent="@android:style/TextAppearance.DeviceDefault.Small">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- TextAppearance -->
+    <style name="TextAppearance" parent="@*android:TextAppearance.Holo"/>
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Holo.Medium"/>
+    <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Holo.Small"/>
+    <style name="TextAppearance.Switch" parent="@*android:style/TextAppearance.Holo.Widget.Switch">
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="TextAppearance.CategoryTitle" parent="@style/TextAppearance.Small">
+        <item name="android:textColor">@color/theme_accent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.TileTitle" parent="@style/TextAppearance.Medium"/>
+    <style name="TextAppearance.TileSubTitle" parent="@style/TextAppearance.Small"/>
+    <style name="TextAppearance.RemoveDialogContent" parent="@android:style/TextAppearance.Holo"/>
+</resources>

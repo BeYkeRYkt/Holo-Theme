@@ -2,6 +2,7 @@
 <resources>
     <!-- AudioFX -->
     <item component="ComponentInfo{org.cyanogenmod.audiofx}" drawable="audiofx"/>
+    <item component="ComponentInfo{com.cyngn.audiofx}" drawable="audiofx"/>
 
     <!-- Browser -->
     <item component="ComponentInfo{com.android.browser}" drawable="browser"/>

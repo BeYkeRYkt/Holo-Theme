@@ -15,7 +15,7 @@
         <item name="android:ambientShadowAlpha">0.35</item>
     </style>
 
-    <style name="VolumeButtons" parent="@android:style/Widget.DeviceDefault.Button.Borderless"></style>
+    <style name="VolumeButtons" parent="@android:style/Widget.Holo.Button.Borderless"></style>
 
     <style name="TextAppearance.Material.Notification.Parenthetical" parent="@android:style/TextAppearance.Material.Notification">
         <item name="android:textColor">@color/system_primary_color</item>
