@@ -3,6 +3,6 @@
 Holo theme for CyanogenMod 12/12.1/13 from CyanogenMod 11
 
 # Links
-![4PDA] (http://4pda.ru/forum/index.php?showtopic=636805&st=3520#entry45752996)
+[4PDA] (http://4pda.ru/forum/index.php?showtopic=636805&st=3520#entry45752996)
 
 XDA-Developers - Comming soon!
