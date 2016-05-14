@@ -14,7 +14,5 @@
 <resources>
     <style name="Theme.Main" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
-        <item name="android:paddingStart">2dip</item>
-        <item name="android:paddingEnd">2dip</item>
     </style>
 </resources>

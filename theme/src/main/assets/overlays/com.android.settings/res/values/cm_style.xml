@@ -15,11 +15,11 @@
 
     <style name="Theme.SettingsLicenseActivity" parent="@android:style/Theme.Holo.Panel"/>
 
-    <style name="Theme.SettingsDialog" parent="@android:style/Theme.Holo.Dialog.NoActionBar"/>
-
     <style name="Theme.AppPicker" parent="@android:style/Theme.Holo.Light.Dialog"/>
 
-    <!-- NOW USE BASEALERT!-->
-    <!-- <style name="Theme.SettingsAlertDialog" parent="@*common:style/Holo.Dialog.BaseAlert" /> -->
+    <style name="Theme.SettingsDialog" parent="@android:style/Theme.Holo.Dialog.NoActionBar"/>
+
     <style name="Theme.SettingsAlertDialog" parent="@*android:style/Theme.Holo.Dialog.Alert"/>
+
+    <style name="TextAppearance.LightTimeValue" parent="@*android:style/TextAppearance.Holo"/>
 </resources>

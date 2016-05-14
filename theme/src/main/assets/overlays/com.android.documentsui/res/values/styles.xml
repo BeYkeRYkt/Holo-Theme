@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogWhenReallyLarge" parent="@android:style/Theme.Holo.Light"/>
+
+    <style name="DocumentsTheme" parent="@style/DialogWhenReallyLarge">
+        <item name="android:actionBarWidgetTheme">@null</item>
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustUnspecified</item>
+    </style>
+</resources>

@@ -52,9 +52,7 @@
 
     <style name="DialerAlertDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog"/>
 
-    <style name="NetworkOperatorsSettingsTheme" parent="@android:style/Theme.Holo">
-        <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
-    </style>
+    <style name="NetworkOperatorsSettingsTheme" parent="@style/Theme.Material.Settings"/>
 
     <style name="TelephonyActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
         <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>

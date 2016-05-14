@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PadButtonStyle.Numeric" parent="@style/PadButtonStyle">
+        <item name="android:background">@drawable/numeric_button_background</item>
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:layout_margin">4.0dip</item>
+    </style>
+
+    <style name="PadButtonStyle" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:textColor">@color/pad_button_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/pad_button_background</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">0.0dip</item>
+        <item name="android:minHeight">0.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:onClick">onButtonClick</item>
+    </style>
+
+    <style name="PadButtonStyle.Operator" parent="@style/PadButtonStyle">
+        <item name="android:textColor">@color/pad_button_operator_text_color</item>
+        <item name="android:background">@drawable/operator_button_background</item>
+        <item name="android:textSize">23.0sp</item>
+        <item name="android:layout_margin">8.0dip</item>
+    </style>
+
+    <style name="Theme.Calculator" parent="@android:style/Theme.Material">
+        <item name="android:statusBarColor">@color/calculator_accent_color</item>
+        <item name="android:navigationBarColor">@color/calculator_accent_color</item>
+    </style>
+
+    <!-- ExactCalculator -->
+    <style name="DisplayTextStyle" parent="@android:style/Widget.Holo.TextView">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:cursorVisible">false</item>
+        <!-- <item name="android:fontFamily">sans-serif-light</item> -->
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:gravity">bottom|end</item>
+        <item name="android:textAlignment">viewEnd</item>
+    </style>
+</resources>

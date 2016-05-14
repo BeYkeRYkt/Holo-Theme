@@ -10,4 +10,7 @@
     <!-- actionbar height + tab height -->
     <dimen name="actionbar_and_tab_height">0dp</dimen>
     <dimen name="actionbar_contentInsetStart">8dp</dimen> <!-- 72 -->
+
+    <!-- Size of text in tabs. -->
+    <dimen name="tab_text_size">12sp</dimen>
 </resources>

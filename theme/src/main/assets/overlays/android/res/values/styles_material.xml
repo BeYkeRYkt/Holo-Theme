@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+===============================================================
+                        PLEASE READ
+===============================================================
+This file contains the themes that are the Device Defaults.
+If you want to edit styles to skin your device, do it here.
+We recommend that you do not edit styles.xml and instead edit
+this file.
+Editing this file instead of styles.xml will greatly simplify
+merges for future platform versions and CTS compliance will be
+easier.
+===============================================================
+                        PLEASE READ
+===============================================================
+ -->
+<resources>
+    <!-- Text Appearance Styles -->
+    <style name="TextAppearance.Material" parent="@*android:TextAppearance.Holo"/>
+    <style name="TextAppearance.Material.Inverse" parent="@*android:TextAppearance.Holo.Inverse"/>
+    <style name="TextAppearance.Material.Large" parent="@*android:TextAppearance.Holo.Large"/>
+    <style name="TextAppearance.Material.Large.Inverse" parent="@*android:TextAppearance.Holo.Large.Inverse"/>
+    <style name="TextAppearance.Material.Medium" parent="@*android:TextAppearance.Holo.Medium"/>
+    <style name="TextAppearance.Material.Medium.Inverse" parent="@*android:TextAppearance.Holo.Medium.Inverse"/>
+    <style name="TextAppearance.Material.Small" parent="@*android:TextAppearance.Holo.Small"/>
+    <style name="TextAppearance.Material.Small.Inverse" parent="@*android:TextAppearance.Holo.Small.Inverse"/>
+    <style name="TextAppearance.Material.SearchResult.Title" parent="@*android:TextAppearance.Holo.SearchResult.Title"/>
+    <style name="TextAppearance.Material.SearchResult.Subtitle" parent="@*android:TextAppearance.Holo.SearchResult.Subtitle"/>
+    <style name="TextAppearance.Material.Widget" parent="@*android:TextAppearance.Holo.Widget"/>
+    <style name="TextAppearance.Material.Widget.Button" parent="@*android:TextAppearance.Holo.Widget.Button"/>
+    <style name="TextAppearance.Material.Widget.IconMenu.Item" parent="@*android:TextAppearance.Holo.Widget.IconMenu.Item"/>
+    <style name="TextAppearance.Material.Widget.TabWidget" parent="@*android:TextAppearance.Holo.Widget.TabWidget"/>
+    <style name="TextAppearance.Material.Widget.TextView" parent="@*android:TextAppearance.Holo.Widget.TextView"/>
+    <style name="TextAppearance.Material.Widget.TextView.PopupMenu" parent="@*android:TextAppearance.Holo.Widget.TextView.PopupMenu"/>
+    <style name="TextAppearance.Material.Widget.DropDownHint" parent="@*android:TextAppearance.Holo.Widget.DropDownHint"/>
+    <style name="TextAppearance.Material.Widget.DropDownItem" parent="@*android:TextAppearance.Holo.Widget.DropDownItem"/>
+    <style name="TextAppearance.Material.Widget.TextView.SpinnerItem" parent="@*android:TextAppearance.Holo.Widget.TextView.SpinnerItem"/>
+    <style name="TextAppearance.Material.Widget.EditText" parent="@*android:TextAppearance.Holo.Widget.EditText"/>
+    <style name="TextAppearance.Material.Widget.PopupMenu" parent="@*android:TextAppearance.Holo.Widget.PopupMenu"/>
+    <style name="TextAppearance.Material.Widget.PopupMenu.Large" parent="@*android:TextAppearance.Holo.Widget.PopupMenu.Large"/>
+    <style name="TextAppearance.Material.Widget.PopupMenu.Small" parent="@*android:TextAppearance.Holo.Widget.PopupMenu.Small"/>
+    <style name="TextAppearance.Material.Widget.ActionBar.Title" parent="@*android:TextAppearance.Holo.Widget.ActionBar.Title"/>
+    <style name="TextAppearance.Material.Widget.ActionBar.Subtitle" parent="@*android:TextAppearance.Holo.Widget.ActionBar.Subtitle"/>
+    <style name="TextAppearance.Material.Widget.ActionMode.Title" parent="@*android:TextAppearance.Holo.Widget.ActionMode.Title"/>
+    <style name="TextAppearance.Material.Widget.ActionMode.Subtitle" parent="@*android:TextAppearance.Holo.Widget.ActionMode.Subtitle"/>
+    <style name="TextAppearance.Material.WindowTitle" parent="@*android:TextAppearance.Holo.WindowTitle"/>
+    <style name="TextAppearance.Material.DialogWindowTitle" parent="@*android:TextAppearance.Holo.DialogWindowTitle"/>
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
+    <style name="TextAppearance.Material.Widget.ActionBar.Title.Inverse" parent="@*android:TextAppearance.Holo.Widget.ActionBar.Title.Inverse"/>
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
+    <style name="TextAppearance.Material.Widget.ActionBar.Subtitle.Inverse" parent="@*android:TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse"/>
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
+    <style name="TextAppearance.Material.Widget.ActionMode.Title.Inverse" parent="@*android:TextAppearance.Holo.Widget.ActionMode.Title.Inverse"/>
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
+    <style name="TextAppearance.Material.Widget.ActionMode.Subtitle.Inverse" parent="@*android:TextAppearance.Holo.Widget.ActionMode.Subtitle.Inverse"/>
+    <style name="TextAppearance.Material.Widget.ActionBar.Menu" parent="@*android:TextAppearance.Holo.Widget.ActionBar.Menu"/>
+
+    <!-- Preference Styles -->
+    <style name="Preference.Material" parent="@*android:Preference.Holo"/>
+    <style name="Preference.Material.Category" parent="@*android:Preference.Holo.Category"/>
+    <style name="Preference.Material.CheckBoxPreference" parent="@*android:Preference.Holo.CheckBoxPreference"/>
+    <style name="Preference.Material.DialogPreference" parent="@*android:Preference.Holo.DialogPreference"/>
+    <style name="Preference.Material.DialogPreference.EditTextPreference" parent="@*android:Preference.Holo.DialogPreference.EditTextPreference"/>
+    <style name="Preference.Material.DialogPreference.YesNoPreference" parent="@*android:Preference.Holo.DialogPreference.YesNoPreference"/>
+    <style name="Preference.Material.Information" parent="@*android:Preference.Holo.Information"/>
+    <style name="Preference.Material.PreferenceScreen" parent="@*android:Preference.Holo.PreferenceScreen"/>
+    <style name="Preference.Material.RingtonePreference" parent="@*android:Preference.Holo.RingtonePreference"/>
+    <style name="Preference.Material.SwitchPreference" parent="@*android:Preference.Holo.SwitchPreference"/>
+    <style name="Preference.Material.SeekBarPreference" parent="@*android:Preference.Holo.SeekBarPreference"/>
+
+    <!-- AlertDialog Styles -->
+    <style name="AlertDialog.Material" parent="@*android:AlertDialog.Holo"/>
+    <style name="AlertDialog.Material.Light" parent="@*android:AlertDialog.Holo.Light"/>
+
+    <!-- Animation Styles -->
+    <style name="Animation.Material.Activity" parent="@*android:Animation.Holo.Activity"/>
+    <style name="Animation.Material.Dialog" parent="@*android:Animation.Holo.Dialog"/>
+
+    <!-- DialogWindowTitle Styles -->
+    <style name="DialogWindowTitle.Material" parent="@*android:DialogWindowTitle.Holo"/>
+    <style name="DialogWindowTitle.Material.Light" parent="@*android:DialogWindowTitle.Holo.Light"/>
+
+    <!-- WindowTitle Styles -->
+    <style name="WindowTitle.Material" parent="@*android:WindowTitle.Holo"/>
+    <style name="WindowTitleBackground.Material" parent="@*android:WindowTitleBackground.Holo"/>
+</resources>

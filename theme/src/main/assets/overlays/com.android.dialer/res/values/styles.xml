@@ -4,14 +4,45 @@
     <style name="DialtactsTheme" parent="@android:style/Theme.Holo.Light">
         <item name="android:windowActionBarOverlay">true</item>
         <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <!-- Style for the overflow button in the actionbar. -->
+        <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
+        <!--  Drawable for the back button -->
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
         <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
         <item name="android:overlapAnchor">true</item>
         <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
     </style>
 
+    <!-- Action bar overflow menu icon. -->
+    <style name="DialtactsActionBarOverflow"
+           parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_overflow_lt</item>
+    </style>
+
+    <!-- Action bar overflow menu icon.  White with no shadow. -->
+    <style name="DialtactsActionBarOverflowWhite"
+           parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_overflow_lt</item>
+    </style>
+
+    <!-- Text style for tabs. -->
+    <style name="DialtactsActionBarTabTextStyle"
+           parent="android:style/Widget.Holo.Light.ActionBar.TabText">
+        <item name="android:textColor">@color/tab_text_color</item>
+        <item name="android:textSize">@dimen/tab_text_size</item>
+        <item name="android:fontFamily">"sans-serif-medium"</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ListViewStyle" parent="@android:style/Widget.Holo.Light.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+
     <!-- Style applied to the "Settings" screen.  Keep in sync with SettingsLight in Telephony. -->
     <style name="SettingsStyle" parent="@android:style/Theme.Holo.Light">
-        <item name="android:actionBarStyle">@style/MmsActionBarStyle</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
     </style>
 
     <!-- Inherit from Theme.Material.Light.Dialog instead of Theme.Material.Light.Dialog.Alert
@@ -24,5 +55,19 @@
         <item name="android:windowNoTitle">true</item>
     </style>
 
-    <style name="MmsActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid"/>
+    <style name="AlertDialogTheme" parent="@*android:style/Theme.Holo.Light.Dialog.Alert"/>
+
+    <style name="DialtactsActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:backgroundSplit">@drawable/actionbar_background</item>
+        <item name="android:backgroundStacked">#ffffff</item>
+        <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
+        <!-- Empty icon -->
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <!-- Text in the action bar at the top of the screen.  Should be kept in sync with Dialer. -->
+    <style name="DialtactsActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/phone_settings_actionbar_text_color</item>
+    </style>
 </resources>

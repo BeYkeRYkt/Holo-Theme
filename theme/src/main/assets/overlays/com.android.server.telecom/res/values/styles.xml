@@ -17,6 +17,9 @@
 
     <!-- <style name="TelecomDialerSettingsActionBarStyle" parent="android:Widget.Holo.ActionBar"> -->
     <style name="TelecomDialerSettingsActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:backgroundSplit">@drawable/actionbar_background</item>
+        <item name="android:backgroundStacked">#ffffff</item>
         <item name="android:titleTextStyle">@style/TelecomDialerSettingsActionBarTitleText</item>
         <!-- Empty icon -->
         <item name="android:icon">@android:color/transparent</item>

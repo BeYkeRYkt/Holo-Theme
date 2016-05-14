@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background color of action bars.  Ensure this stays in sync with Dialer
+     actionbar_background_color. -->
+    <color name="actionbar_background_color">#3B77E7</color>
+    <!-- Underline color of action bars.  Ensure this stays in sync with Dialer
+         actionbar_underline. -->
+    <color name="actionbar_underline">#3265C1</color>
+</resources>
