@@ -1,5 +1,5 @@
 # Holo-Theme
-![Image](/images/Image1.png)
+![Image](/images/Holo.png)
 Holo theme for CyanogenMod 12/12.1/13 from CyanogenMod 11
 
 # Download
