@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of the main row of in-call buttons. -->
+    <dimen name="in_call_button_height">76dp</dimen>
+</resources>
