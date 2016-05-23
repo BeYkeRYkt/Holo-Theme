@@ -16,6 +16,12 @@
 */
 -->
 <resources>
+    <!-- radius of the corners of the material rounded rect background -->
+    <dimen name="notification_material_rounded_rect_radius">0dp</dimen>
+
+    <!-- 0x37 = fill_horizontal|top -->
+    <integer name="standard_notification_panel_layout_gravity">0x37</integer>
+
     <!-- size at which Notification icons will be drawn in the status bar -->
     <dimen name="status_bar_icon_drawing_size">18dip</dimen>
 
@@ -95,6 +101,8 @@
 
     <!-- Quick Settings tile geometry: icon size -->
     <dimen name="qs_tile_icon_size">29dp</dimen> <!-- 32 -->
+    <dimen name="qs_tile_divider_height">1dp</dimen>
+    <dimen name="qs_brightness_padding_top">3dp</dimen>
 
     <!-- Padding under status bar battery icon -->
     <dimen name="status_bar_battery_bottom_padding">1px</dimen>

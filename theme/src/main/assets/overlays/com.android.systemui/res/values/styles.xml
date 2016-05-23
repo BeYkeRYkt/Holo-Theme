@@ -17,8 +17,9 @@
 
     <style name="VolumeButtons" parent="@android:style/Widget.Holo.Button.Borderless"></style>
 
-    <style name="TextAppearance.Material.Notification.Parenthetical" parent="@android:style/TextAppearance.Material.Notification">
-        <item name="android:textColor">@color/system_primary_color</item>
+    <style name="TextAppearance.Material.Notification.Parenthetical" parent="@android:style/TextAppearance.StatusBar.EventContent">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
     </style>
 
     <!-- Animations for a non-full-screen window or activity. -->
@@ -37,9 +38,9 @@
 
     <style name="TextAppearance.StatusBar.Clock" parent="@*android:style/TextAppearance.StatusBar.Icon">
         <!-- Note: must be dp to fit in status bar -->
-        <item name="android:textSize">15dp</item>
+        <item name="android:textSize">16dp</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textColor">@color/status_bar_clock_color</item>
     </style>
 
     <style name="TextAppearance.StatusBar.Expanded.Clock" parent="@*android:style/TextAppearance.StatusBar">

@@ -80,6 +80,7 @@ easier.
     <style name="Widget.DeviceDefault.ActionBar.TabText" parent="@*android:Widget.Holo.ActionBar.TabText"/>
     <style name="Widget.DeviceDefault.ActionBar.TabBar" parent="@*android:Widget.Holo.ActionBar.TabBar"/>
     <style name="Widget.DeviceDefault.ActionBar.Solid" parent="@*android:Widget.Holo.ActionBar.Solid"/>
+    <!-- @deprecated Action bars are now themed using the inheritable android:theme attribute. -->
     <style name="Widget.DeviceDefault.Button.Borderless.Small" parent="@*android:Widget.Holo.Button.Borderless.Small"/>
     <style name="Widget.DeviceDefault.AbsListView" parent="@*android:Widget.Holo.AbsListView"/>
     <style name="Widget.DeviceDefault.Spinner.DropDown.ActionBar" parent="@*android:Widget.Holo.Spinner.DropDown.ActionBar"/>

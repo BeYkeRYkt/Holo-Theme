@@ -9,7 +9,8 @@
     <color name="qs_title_text_color">#ffe6e6e6</color>
 
     <color name="system_primary_color">#ff161616</color>
-    <color name="system_primary_notification_color">#ff292929</color>
+    <color name="system_primary_notification_color">#ff181818</color>
+    <color name="system_notification_header_bg">#ff000000</color>
 
     <color name="system_accent_color">#ff33b5e5</color>
 
@@ -41,4 +42,11 @@
 
     <!-- Secondary Color -->
     <color name="system_secondary_color">@color/system_primary_color</color>
+
+    <!-- Status bar clock color -->
+    <color name="status_bar_clock_color">#FFFFFFFF</color>
+
+    <!-- Battery -->
+    <color name="batterymeter_frame_color">#66FFFFFF</color><!-- 40% white -->
+
 </resources>
