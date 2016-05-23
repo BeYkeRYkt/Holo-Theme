@@ -12,7 +12,7 @@
      limitations under the License.
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <!-- The default background color -->
     <color name="default_background">@android:color/white</color>
     <!-- The default dissabled background color -->

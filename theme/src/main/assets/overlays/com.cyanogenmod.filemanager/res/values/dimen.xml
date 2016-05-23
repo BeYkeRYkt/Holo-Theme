@@ -12,7 +12,7 @@
      limitations under the License.
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <!-- The primary text size -->
     <dimen name="title_text_size">16sp</dimen>
     <!-- The primary text size -->

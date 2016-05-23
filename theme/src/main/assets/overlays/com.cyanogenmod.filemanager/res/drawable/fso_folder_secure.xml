@@ -14,9 +14,9 @@
      limitations under the License.
  -->
 
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <item android:drawable="@drawable/ic_fso_folder_drawable"/>
-  <item android:drawable="@drawable/ic_overlay_secure_drawable"/>
+    <item android:drawable="@drawable/ic_fso_folder_drawable"/>
+    <item android:drawable="@drawable/ic_overlay_secure_drawable"/>
 
 </layer-list>

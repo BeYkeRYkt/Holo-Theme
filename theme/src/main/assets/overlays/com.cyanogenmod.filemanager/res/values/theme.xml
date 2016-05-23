@@ -23,7 +23,7 @@
     Developers MUST replace the "light" prefix of every resource for the identifier
     of the theme.
  -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <!-- The base theme used to customize some (non-themeables) widgets like dialogs
          2 possibles values:
              - holo: @android:style/Theme.Holo
@@ -47,7 +47,7 @@
     <!-- The drawable for the selection bar -->
     <drawable name="selectionbar_drawable">@drawable/bg_holo_selectionbar</drawable>
 
-      <!-- The drawable for the overflow action bar button -->
+    <!-- The drawable for the overflow action bar button -->
     <drawable name="ab_overflow_drawable">@drawable/ic_holo_light_overflow</drawable>
     <!-- The drawable for the actions action bar button -->
     <drawable name="ab_actions_drawable">@drawable/ic_holo_light_contextual_action</drawable>

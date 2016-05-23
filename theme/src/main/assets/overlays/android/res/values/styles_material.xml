@@ -86,7 +86,7 @@ easier.
     <style name="AlertDialog.Material.Light" parent="@*android:AlertDialog.Holo.Light"/>
 
     <!-- Animation Styles -->
-	<style name="Animation.Material" parent="@*android:Animation.Holo"/>
+    <style name="Animation.Material" parent="@*android:Animation.Holo"/>
     <style name="Animation.Material.Activity" parent="@*android:Animation.Holo.Activity"/>
     <style name="Animation.Material.Dialog" parent="@*android:Animation.Holo.Dialog"/>
 
