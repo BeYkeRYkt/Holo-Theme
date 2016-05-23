@@ -10,5 +10,8 @@ Holo theme for CyanogenMod 12/12.1/13 from CyanogenMod 11
 # Download
 - [GitHub] (https://github.com/BeYkeRYkt/Holo-Theme/tree/master/apks)
 
-#Contributors
+# Contributors
 - [Go to here] (https://github.com/BeYkeRYkt/Holo-Theme/graphs/contributors)
+
+# Useful links
+- [9-patch generator] (https://romannurik.github.io/AndroidAssetStudio/nine-patches.html)
