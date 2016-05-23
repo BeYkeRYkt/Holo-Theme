@@ -1,4 +1,5 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <style name="Theme.GalleryBase" parent="@android:Theme.Holo">
         <item name="android:listPreferredItemHeightSmall">48dp</item>
         <item name="android:switchStyle">@android:style/Widget.CompoundButton</item>
@@ -7,6 +8,7 @@
     <style name="Theme.Gallery.Dialog" parent="@android:Theme.Holo.Dialog"/>
 
     <style name="Theme.Gallery" parent="Theme.GalleryBase">
+        <item name="android:displayOptions"></item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:actionBarStyle">@style/Holo.ActionBar</item>
         <item name="android:windowBackground">@android:color/black</item>
