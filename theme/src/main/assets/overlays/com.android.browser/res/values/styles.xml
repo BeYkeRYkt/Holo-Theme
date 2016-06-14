@@ -74,14 +74,9 @@
     <style name="ShortcutTheme" parent="@android:Theme.Holo.DialogWhenLarge">
     </style>
 
-    <!-- Gello browesr -->
+    <!-- Gello browser -->
     <style name="BrowserBase" parent="@android:style/Theme.Holo">
         <item name="android:windowContentOverlay">@null</item>
-        <!-- these are defined just in Material attrs -->
-        <item name="android:colorPrimary">@color/primary</item>
-        <item name="android:colorPrimaryDark">@color/primary_dark</item>
-        <item name="android:colorAccent">@color/accent</item>
-        <item name="android:colorEdgeEffect">@color/primary</item>
     </style>
 
     <style name="PopupMenuStyle" parent="@android:style/Widget.Holo.Light.PopupMenu">
