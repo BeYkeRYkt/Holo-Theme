@@ -4,6 +4,7 @@
 
     <style name="DocumentsTheme" parent="@style/DialogWhenReallyLarge">
         <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:colorControlNormal">#ff666666</item>
 
         <item name="android:windowActionBar">false</item>
         <item name="android:windowActionModeOverlay">true</item>
