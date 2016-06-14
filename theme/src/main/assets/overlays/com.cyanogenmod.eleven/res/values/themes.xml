@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Eleven.Theme" parent="@android:style/Theme.Holo"/>
+    <style name="Eleven.Theme" parent="@android:style/Theme.Holo">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:actionBarWidgetTheme">@style/ActionBarWidgetTheme</item>
+        <!-- <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item> -->
+    </style>
+
+    <!-- Make the action bar not take up space -->
+    <style name="Eleven.Theme.ActionBar.Overlay" parent="@style/Eleven.Theme"/>
+
     <style name="ActionBarWidgetTheme" parent="@android:style/Theme.Holo"/>
 
     <style name="ListView" parent="@android:style/Widget.Holo.ListView"/>
@@ -12,9 +23,45 @@
     <!-- Sets the action bar title text style -->
     <style name="ActionBar" parent="@android:style/Widget.Holo.ActionBar"/>
 
-    <!-- Shortcut Activity theme -->
-    <style name="Theme.Transparent" parent="@android:style/Theme.Holo.NoActionBar"/>
-    <style name="Theme.AudioPreview" parent="@android:style/Theme.Holo.NoActionBar"/>
+    <!-- Sets the action bar menu icon -->
+    <style name="ActionOverFlowButton" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/menu_button</item>
+    </style>
 
-    <style name="HeaderTabTextStyle" parent="android:style/Widget.Holo.ActionBar.TabText"/>
+    <!-- Shortcut Activity theme -->
+    <style name="Theme.Transparent" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="Theme.AudioPreview" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="HeaderTabTextStyle" parent="android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@color/tab_text_color</item>
+    </style>
+
+    <!-- Bottom Action Bar Image Buttons -->
+    <style name="BottomActionBarItem">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:paddingLeft">@dimen/bottom_action_bar_item_padding_left</item>
+        <item name="android:paddingRight">@dimen/bottom_action_bar_item_padding_right</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="ToolBarTheme" parent="@android:style/Theme.Holo"/>
+
+    <style name="ToolBarPopupTheme" parent="android:style/Theme.Holo"/>
 </resources>
