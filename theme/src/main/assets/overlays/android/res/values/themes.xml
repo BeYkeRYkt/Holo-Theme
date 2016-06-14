@@ -202,7 +202,7 @@
     <style name="Theme.Material.Light.Dialog.NoActionBar.MinWidth" parent="@*android:style/Theme.Holo.Light.Dialog.NoActionBar.MinWidth"/>
 
     <!-- ThemeOverlay -->
-    <style name="ThemeOverlay.Material" parent="@*android:style/Theme.Holo"/>
+    <!-- <style name="ThemeOverlay.Material" parent="@*android:style/Theme.Holo"/>
     <style name="ThemeOverlay.Material.ActionBar" parent="@*android:style/Widget.Holo.ActionBar"/>
     <style name="ThemeOverlay.Material.Dialog" parent="@*android:style/Theme.Holo.Dialog"/>
     <style name="ThemeOverlay.Material.Dialog.Alert" parent="@*android:style/Theme.Holo.Dialog.Alert"/>
@@ -213,7 +213,7 @@
 
     <style name="ThemeOverlay.Material.Dark" parent="@*android:style/Theme.Holo"/>
     <style name="ThemeOverlay.Material.Dark.Dialog" parent="@*android:style/Theme.Holo.Dialog"/>
-    <style name="ThemeOverlay.Material.Dark.Dialog.Alert" parent="@*android:style/Theme.Holo.Dialog.Alert"/>
+    <style name="ThemeOverlay.Material.Dark.Dialog.Alert" parent="@*android:style/Theme.Holo.Dialog.Alert"/> -->
 
     <!-- Notifications -->
     <style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent">
