@@ -33,4 +33,8 @@
     <color name="fab">#FF9800</color>
     <color name="floating_action_button_touch_tint">#FFB74D</color>
     <color name="floating_action_button_icon_color">#ffffff</color>
+
+    <color name="on_viewfinder_label_background_color">#77333333</color>
+    <color name="red">#FFFF4444</color>
+    <color name="toolbar_separation_line">#ff33b5e5</color>
 </resources>
