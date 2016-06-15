@@ -26,12 +26,17 @@
         <item name="android:layout_margin">8.0dip</item>
     </style>
 
-    <style name="Theme.Calculator" parent="@android:style/Theme.Material">
+    <style name="Theme.Calculator" parent="@android:style/Theme.Holo">
         <item name="android:statusBarColor">@color/calculator_accent_color</item>
         <item name="android:navigationBarColor">@color/calculator_accent_color</item>
     </style>
 
     <!-- ExactCalculator -->
+    <style name="Theme" parent="@android:style/Theme.Holo">
+        <item name="android:statusBarColor">@color/calculator_accent_color</item>
+        <item name="android:navigationBarColor">@color/calculator_accent_color</item>
+    </style>
+
     <style name="DisplayTextStyle" parent="@android:style/Widget.Holo.TextView">
         <item name="android:background">@android:color/transparent</item>
         <item name="android:cursorVisible">false</item>
