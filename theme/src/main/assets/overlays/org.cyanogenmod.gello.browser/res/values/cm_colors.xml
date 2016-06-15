@@ -1,0 +1,30 @@
+<resources>
+    <color name="white">#fafafa</color>
+    <color name="black">#212121</color>
+    <color name="primary">#212121</color>
+    <color name="primary_dark">#212121</color>
+    <color name="accent">#1b5e20</color>
+    <color name="floating_action_button_touch_tint">#388e3c</color>
+    <color name="trasparent">#00000000</color>
+
+    <color name="bookmark_thumbnail_label_text_color">#AAAAAA</color>
+    <color name="preference_list_image_view_background">#404040</color>
+    <color name="qc_tab_title_text_color">#DDDDDD</color>
+    <color name="snapshot_item_date_text_color">#AAAAAA</color>
+    <color name="snapshot_item_title_text_color">#AAAAAA</color>
+    <color name="snapshot_item_text_color">@android:color/white</color>
+    <color name="title_bar_autologin_background">#FBF0A0</color>
+    <color name="title_bar_autologin_error_text_color">#dd6826</color>
+    <color name="bookmark_sync_wizard_background">@android:color/black</color>
+    <color name="bookmark_sync_wizard_confirm_background">@android:color/black</color>
+    <color name="select_account_description_background">@android:color/black</color>
+    <color name="bookmark_thumbnail_widget_label_text_color">@android:color/white</color>
+    <color name="bookmark_thumbnail_widget_folder_label_text_color">@android:color/white</color>
+    <color name="autologin_bar_text_color">@android:color/primary_text_light</color>
+    <color name="anim_screen_image_view_background">@color/white</color>
+    <color name="nav_screen_background">@color/white</color>
+    <color name="suggestion_item_text_color">@color/black</color>
+    <color name="suggestion_item_hint_text_color">@color/black</color>
+    <color name="suggestion_item_secondary_text_color">@color/black</color>
+    <color name="suggestion_item_secondary_hint_text_color">@color/black</color>
+</resources>
