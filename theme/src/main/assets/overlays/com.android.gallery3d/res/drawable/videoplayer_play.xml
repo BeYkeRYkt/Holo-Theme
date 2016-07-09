@@ -16,7 +16,7 @@
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_enabled="true"
-        android:drawable="@drawable/ic_vidcontrol_play" />
+          android:drawable="@drawable/ic_vidcontrol_play"/>
     <item android:state_enabled="false"
-        android:drawable="@drawable/ic_vidcontrol_disable_play" />
+          android:drawable="@drawable/ic_vidcontrol_disable_play"/>
 </selector>

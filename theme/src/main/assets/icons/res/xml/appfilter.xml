@@ -67,12 +67,12 @@
 
     <!-- Themes-->
     <item component="ComponentInfo{org.cyanogenmod.theme.chooser}" drawable="themes"/>
-	<item component="ComponentInfo{com.cyngn.themestore}" drawable="themes"/>
+    <item component="ComponentInfo{com.cyngn.themestore}" drawable="themes"/>
     <item component="ComponentInfo{com.cyngn.theme.chooser}" drawable="themes"/>
 
     <!-- Voicesearch -->
     <item component="ComponentInfo{com.google.android.voicesearch}" drawable="voicesearch"/>
-	
-	<!-- Nova Launcher -->
+
+    <!-- Nova Launcher -->
     <item component="ComponentInfo{com.teslacoilsw.launcher/.NovaShortcutHandler}" drawable="ic_allapps"/>
 </resources>
