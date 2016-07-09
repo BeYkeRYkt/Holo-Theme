@@ -27,11 +27,11 @@
         <item name="android:windowActionBar">true</item>
         <item name="android:windowActionBarOverlay">true</item>
         <item name="android:windowNoTitle">false</item>
-        <item name="android:actionBarStyle">@style/LightActionBarStyle</item>
-        <item name="android:actionBarTabBarStyle">@style/LightActionBarTabBarStyle</item>
+        <!-- <item name="android:actionBarStyle">@style/LightActionBarStyle</item> -->
+        <!-- <item name="android:actionBarTabBarStyle">@style/LightActionBarTabBarStyle</item> -->
         <item name="android:windowActionModeOverlay">true</item>
         <item name="android:actionBarSize">56dip</item>
-        <item name="android:popupMenuStyle">@style/PopupMenuStyle</item>
+        <!-- <item name="android:popupMenuStyle">@style/PopupMenuStyle</item> -->
     </style>
 
     <style name="PreferencesTheme" parent="@android:style/Theme.Holo"/>
@@ -61,13 +61,11 @@
         <item name="android:dropDownVerticalOffset">0dip</item>
     </style>
 
-    <style name="SuggestionLineMedium"
-           parent="@android:style/TextAppearance.Holo.Medium">
+    <style name="SuggestionLineMedium" parent="@android:style/TextAppearance.Holo.Medium">
         <item name="android:textSize">16sp</item>
     </style>
 
-    <style name="SuggestionLineSmall"
-           parent="@android:style/TextAppearance.Holo.Small">
+    <style name="SuggestionLineSmall" parent="@android:style/TextAppearance.Holo.Small">
         <item name="android:textSize">12sp</item>
     </style>
 
@@ -89,6 +87,9 @@
     </style>
 
     <style name="LightActionBarSolidStyle" parent="@android:style/Widget.Holo.ActionBar.Solid">
+    </style>
+
+    <style name="LightActionBarStyle" parent="@android:style/Widget.Holo.ActionBar">
     </style>
 
     <style name="LightActionBarTabBarStyle" parent="@android:style/Widget.Holo.ActionBar.TabBar">

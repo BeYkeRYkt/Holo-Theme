@@ -5,6 +5,8 @@
     <color name="material_deep_teal_500">#ff33b5e5</color> -->
 
     <!-- QS Settings Text Colors -->
+    <color name="qs_background_primary_color">@color/system_primary_color</color>
+    <color name="qs_background_secondary_color">@color/system_primary_color</color>
     <color name="qs_detail_transition">#ff000000</color>
     <color name="qs_title_text_color">#ffe6e6e6</color>
 
