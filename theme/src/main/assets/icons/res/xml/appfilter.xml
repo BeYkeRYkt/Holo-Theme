@@ -58,6 +58,7 @@
 
     <!-- Package Installer -->
     <item component="ComponentInfo{com.android.packageinstaller}" drawable="system_settings"/>
+    <item component="ComponentInfo{com.android.packageinstaller/.permission.ui.ManagePermissionsActivity}" drawable="system_settings"/>
 
     <!-- Dialer -->
     <item component="ComponentInfo{com.android.dialer}" drawable="phone"/>
@@ -71,4 +72,7 @@
 
     <!-- Voicesearch -->
     <item component="ComponentInfo{com.google.android.voicesearch}" drawable="voicesearch"/>
+	
+	<!-- Nova Launcher -->
+    <item component="ComponentInfo{com.teslacoilsw.launcher/.NovaShortcutHandler}" drawable="ic_allapps"/>
 </resources>
