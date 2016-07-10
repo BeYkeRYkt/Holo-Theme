@@ -242,6 +242,8 @@
     </style>
     <style name="TextAppearance.Material.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"/>
 
+    <style name="Widget.Material.Notification.ProgressBar" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal" />
+
     <!-- Settings -->
     <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Holo"/>
     <style name="Theme.DeviceDefault.Settings.CompactMenu" parent="@style/Theme.DeviceDefault.Settings"/>
