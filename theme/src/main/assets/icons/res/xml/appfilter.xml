@@ -6,6 +6,7 @@
 
     <!-- Browser -->
     <item component="ComponentInfo{com.android.browser}" drawable="browser"/>
+    <item component="ComponentInfo{org.cyanogenmod.gello.browser}" drawable="browser"/>
 
     <!-- Calculator -->
     <item component="ComponentInfo{com.android.calculator2}" drawable="calculator"/>
@@ -27,9 +28,11 @@
 
     <!-- CyanogenMod Updater -->
     <item component="ComponentInfo{com.cyanogenmod.updater}" drawable="cm_updater"/>
+    <item component="ComponentInfo{com.cyngn.fota}" drawable="cm_updater"/>
 
     <!-- Contacts -->
     <item component="ComponentInfo{com.android.contacts}" drawable="contacts"/>
+    <item component="ComponentInfo{com.android.contacts.common}" drawable="contacts"/>
 
     <!-- Android downloader -->
     <item component="ComponentInfo{com.android.providers.downloads}" drawable="downloads"/>
@@ -55,6 +58,7 @@
 
     <!-- System settings -->
     <item component="ComponentInfo{com.android.settings}" drawable="system_settings"/>
+    <item component="ComponentInfo{com.cyanogenmod.settings.device}" drawable="system_settings"/>
 
     <!-- Package Installer -->
     <item component="ComponentInfo{com.android.packageinstaller}" drawable="system_settings"/>
@@ -64,6 +68,9 @@
     <item component="ComponentInfo{com.android.dialer}" drawable="phone"/>
     <item component="ComponentInfo{com.android.phone}" drawable="phone"/>
     <item component="ComponentInfo{com.cyngn.dialer}" drawable="phone"/>
+    <item component="ComponentInfo{com.android.incallui}" drawable="phone"/>
+    <item component="ComponentInfo{com.android.server.telecom}" drawable="phone"/>
+    <item component="ComponentInfo{com.android.cellbroadcastreceiver}" drawable="phone"/>
 
     <!-- Themes-->
     <item component="ComponentInfo{org.cyanogenmod.theme.chooser}" drawable="themes"/>
@@ -75,4 +82,7 @@
 
     <!-- Nova Launcher -->
     <item component="ComponentInfo{com.teslacoilsw.launcher/.NovaShortcutHandler}" drawable="ic_allapps"/>
+
+    <!-- LockClock -->
+    <item component="ComponentInfo{com.cyanogenmod.lockclock}" drawable="lockclock"/>
 </resources>
