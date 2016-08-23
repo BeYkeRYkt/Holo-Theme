@@ -22,7 +22,7 @@
         android:name="org.cyanogenmod.theme"/>
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="22"
         android:targetSdkVersion="23"/>
 
     <meta-data
