@@ -2,6 +2,7 @@
 <resources>
     <style name="Theme.Main" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/Theme.ActionBar.SubSettings</item>
+        <item name="android:icon">@drawable/ic_settings</item>
     </style>
 
     <style name="Theme.ActionBar.SubSettings" parent="@android:style/Widget.Holo.ActionBar.Solid"/>
