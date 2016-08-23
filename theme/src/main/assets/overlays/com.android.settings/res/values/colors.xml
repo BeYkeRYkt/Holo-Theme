@@ -46,4 +46,7 @@
 
     <!-- Security billing -->
     <color name="security_settings_billing_desc_color">@color/theme_accent</color>
+
+    <!-- Fab Shape -->
+    <color name="fab_shape">#ff161616</color>
 </resources>
