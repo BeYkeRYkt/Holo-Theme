@@ -59,6 +59,7 @@
     <!-- System settings -->
     <item component="ComponentInfo{com.android.settings}" drawable="system_settings"/>
     <item component="ComponentInfo{com.cyanogenmod.settings.device}" drawable="system_settings"/>
+    <item component="ComponentInfo{com.cyngn.modlocksettings}" drawable="system_settings"/>
 
     <!-- Package Installer -->
     <item component="ComponentInfo{com.android.packageinstaller}" drawable="system_settings"/>
