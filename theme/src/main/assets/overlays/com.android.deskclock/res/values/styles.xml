@@ -60,5 +60,5 @@
         <item name="android:windowDrawsSystemBarBackgrounds">false</item>
     </style>
 
-    <style name="ScreensaverSettingsActivityTheme" parent="@android:style/Theme.Holo" />
+    <style name="ScreensaverSettingsActivityTheme" parent="@android:style/Theme.Holo"/>
 </resources>

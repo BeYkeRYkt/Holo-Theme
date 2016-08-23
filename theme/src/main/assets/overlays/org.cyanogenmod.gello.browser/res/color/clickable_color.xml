@@ -29,11 +29,11 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:state_enabled="true" android:state_pressed="true"
-          android:color="@color/accent" />
+          android:color="@color/accent"/>
 
     <item android:state_enabled="true" android:state_selected="true"
-          android:color="@color/accent" />
+          android:color="@color/accent"/>
 
-    <item android:color="@color/bookmarkLabelColor" />
+    <item android:color="@color/bookmarkLabelColor"/>
 
 </selector>

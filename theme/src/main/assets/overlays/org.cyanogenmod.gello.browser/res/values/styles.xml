@@ -26,7 +26,7 @@
     <style name="BrowserBase" parent="@android:style/Theme.Holo.Light">
         <item name="android:windowContentOverlay">@null</item>
     </style>
-    <style name="DialogWhenLarge" parent="@android:style/Theme.Holo.Light.DialogWhenLarge" >
+    <style name="DialogWhenLarge" parent="@android:style/Theme.Holo.Light.DialogWhenLarge">
         <item name="android:windowActionBar">false</item>
     </style>
     <style name="PopupMenuStyle" parent="@android:style/Widget.Holo.Light.PopupMenu">
@@ -36,8 +36,8 @@
         <item name="android:dropDownHorizontalOffset">0dip</item>
         <item name="android:dropDownVerticalOffset">0dip</item>
     </style>
-    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Holo.Medium" />
-    <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Holo.Small" />
+    <style name="TextAppearance.Medium" parent="@android:style/TextAppearance.Holo.Medium"/>
+    <style name="TextAppearance.Small" parent="@android:style/TextAppearance.Holo.Small"/>
 
 
     <!-- common theme elements -->
@@ -84,7 +84,8 @@
 
     <style name="SettingsTheme" parent="@style/BrowserBase">
         <item name="android:actionBarStyle"
-        >@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse</item>
+        >@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse
+        </item>
     </style>
 
     <style name="LightActionBarSolidStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
@@ -163,7 +164,7 @@
         <item name="android:listPreferredItemPaddingEnd">16dp</item>
         <item name="android:textSize">16sp</item>
     </style>
-    <style name="OverflowMenuTheme" parent="@style/OverflowMenuThemeBase" />
+    <style name="OverflowMenuTheme" parent="@style/OverflowMenuThemeBase"/>
     <style name="OverflowMenuAnim">
         <item name="android:windowEnterAnimation">@anim/menu_enter</item>
         <item name="android:windowExitAnimation">@anim/menu_exit</item>
