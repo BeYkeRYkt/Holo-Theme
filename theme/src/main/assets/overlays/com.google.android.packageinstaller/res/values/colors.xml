@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="grant_permissions_app_color">#ffe6e6e6</color>
+    <color name="grant_permissions_progress_color">#ffe6e6e6</color>
+    <!-- <color name="grant_permissions_app_color">@android:color/transparent</color>
+    <color name="grant_permissions_progress_color">@android:color/transparent</color> -->
+    <color name="theme_accent">#ffe6e6e6</color>
+</resources>
