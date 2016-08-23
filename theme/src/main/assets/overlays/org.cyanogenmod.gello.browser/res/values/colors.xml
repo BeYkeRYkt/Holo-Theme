@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The CyanogenMod Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- fundamental colors -->
+    <color name="white">#fafafa</color>
+    <color name="black">#14181C</color>
+    <color name="grey">#eeeeee</color>
+    <color name="trasparent">#ffffffff</color>
+
+    <!-- chrome colors -->
+    <color name="icon_white">#DADADA</color>
+    <color name="icon_black">#5A5A5A</color>
+    <color name="green">#1AC222</color>
+    <color name="yellow">#FFB000</color>
+    <color name="red">#DB4437</color>
+    <color name="blue">#4285F4</color>
+
+    <!-- Material -->
+    <color name="primary">#263238</color>
+    <color name="primary_dark">#161E21</color>
+    <color name="accent">@color/blue</color>
+    <color name="accent_dark">#5595FE</color>
+    <color name="navigation_bars">#263238</color>
+    <color name="browser_window_background">#F2F2F2</color>
+    <!-- <color name="accent_dark">#346AC2</color> -->
+    <!-- <color name="navigation_bars">#263238</color> -->
+    <color name="edge_title">#0096a9</color>
+    <color name="floating_action_button_touch_tint">#DBA000</color>
+    <color name="download_text_hint">#b3b3b3</color>
+
+    <color name="mynav_primary">#37474F</color>
+    <color name="mynav_primary_dark">#263238</color>
+    <color name="mynav_accent">#009688</color>
+    <color name="floating_action_button_touch_tint_mynav">#00796B</color>
+
+    <color name="icon_disabled">#b3b3b3</color>
+
+    <!-- derived colors -->
+    <color name="NavigationBarBackground">@color/primary</color>
+    <color name="NavigationBarBackgroundIncognito">@color/black</color>
+    <color name="PopupBackground">@color/white</color>
+    <color name="TabNavBackgroundColor">#fff</color>
+    <color name="TabPassiveMessageBackground">#f2f2f2</color>
+    <color name="TabPassiveMessageLine">#b3b3b3</color>
+
+    <!-- legacy colors -->
+    <color name="bookmarkWidgetHeader">#383847</color>
+    <color name="bookmarkWidgetDivider">#383847</color>
+    <color name="bookmarkWidgetItemBackground">#2b2b3c</color>
+    <color name="bookmarkWidgetFolderBackground">#A0383847</color>
+    <color name="bookmarkWidgetFaviconBackground">@color/white</color>
+    <color name="bookmarkListFaviconBackground">@color/white</color>
+    <color name="bookmarkLabelColor">@color/black</color>
+    <color name="comboViewActionBarColor">@color/white</color>
+    <color name="comboViewBackground">@color/browser_window_background</color>
+    <color name="tabFaviconBackground">@color/primary</color>
+    <color name="tabFocusHighlight">#99CC00</color>
+    <color name="tabViewTitleBackground">@color/black</color>
+    <color name="navtab_bg">@color/black</color>
+
+    <color name="TileBadgeTextAvoid">@color/white</color>
+    <color name="TileBadgeTextUntrusted">@color/black</color>
+    <color name="TileBadgeTextUnknown">@color/black</color>
+    <color name="TileBadgeTextVerified">@color/white</color>
+
+    <!-- xml configuration for FolderTileView -->
+    <color name="FolderTileBackground">@color/black</color>
+    <color name="FolderTileTitle">@color/white</color>
+    <color name="FolderTileCount">@color/white</color>
+
+    <!-- location infobar color -->
+    <color name="infobar_accent_blue">@color/accent</color>
+
+
+    <!-- Exposed colors for themes -->
+    <color name="bookmark_sync_wizard_background_color">@android:color/black</color>
+    <color name="bookmarkthumbnailwidget_item_label_text_color">@android:color/white</color>
+    <color name="white_background_color">@color/white</color>
+    <color name="black_text_color">@color/black</color>
+    <color name="bookmarks_list_background_color">@color/white</color>
+    <color name="snapshot_item_date_text_color">#AAAAAA</color>
+    <color name="browser_crash_reload_btn_color">@android:color/holo_green_dark</color>
+    <color name="dialog_title_text_color">@android:color/white</color>
+    <color name="thumb_src_color">@color/white</color>
+    <color name="menu_item_checkbox_tint_color">@color/black</color>
+    <color name="navview_opacity_background_color">@color/black</color>
+</resources>
