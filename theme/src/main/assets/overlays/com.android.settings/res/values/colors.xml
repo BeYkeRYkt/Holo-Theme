@@ -49,4 +49,7 @@
 
     <!-- Fab Shape -->
     <color name="fab_shape">#ff161616</color>
+
+    <!-- Owner Info Background -->
+    <color name="background_color_white">@android:color/transparent</color>
 </resources>
