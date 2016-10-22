@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary & accent colors -->
-
-    <!-- Holo_primary -->
-    <!-- <color name="material_deep_teal_200">#ffe6e6e6</color> -->
-
-    <!-- Blue color-->
-    <!-- <color name="material_deep_teal_500">#ff33b5e5</color> -->
-
     <color name="theme_white">#ffffffff</color>
     <color name="theme_accent">#ffe6e6e6</color>
 
@@ -19,5 +11,36 @@
     <color name="notification_mtrl_action_textcolor">@color/theme_accent</color>
 
     <!-- Permissions Icon -->
-    <color name="app_permission_icon_tint">@android:color/white</color>
+    <color name="app_permission_icon_tint">@color/theme_accent</color>
+
+    <!-- User icon colors -->
+    <color name="user_icon_1">@color/theme_accent</color>
+    <color name="user_icon_2">@color/theme_accent</color>
+    <color name="user_icon_3">@color/theme_accent</color>
+    <color name="user_icon_4">@color/theme_accent</color>
+    <color name="user_icon_5">@color/theme_accent</color>
+    <color name="user_icon_6">@color/theme_accent</color>
+    <color name="user_icon_7">@color/theme_accent</color>
+    <color name="user_icon_8">@color/theme_accent</color>
+
+    <!-- Primary & accent colors -->
+    <color name="material_deep_teal_200">@color/theme_accent</color>
+    <color name="material_deep_teal_500">@color/theme_accent</color>
+    <color name="material_blue_grey_800">@*android:color/holo_primary_dark</color>
+    <color name="material_blue_grey_900">@*android:color/holo_primary_dark</color>
+    <color name="material_blue_grey_950">@*android:color/holo_primary_dark</color>
+
+    <color name="primary_material_dark">@*android:color/holo_primary</color>
+    <color name="primary_material_light">@*android:color/holo_light_primary</color>
+    <color name="primary_dark_material_dark">@*android:color/holo_primary_dark</color>
+    <color name="primary_dark_material_light">@*android:color/holo_light_primary_dark</color>
+
+    <color name="accent_material_light">@color/material_deep_teal_200</color>
+    <color name="accent_material_dark">@color/material_deep_teal_200</color>
+
+    <color name="button_material_dark">#bd292f34</color>
+    <color name="button_material_light">#b3cccccc</color>
+
+    <color name="link_text_material_dark">@*android:color/link_text_holo_dark</color>
+    <color name="link_text_material_light">@*android:color/link_text_holo_light</color>
 </resources>
