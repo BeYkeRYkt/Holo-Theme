@@ -8,7 +8,7 @@
     <color name="qs_background_primary_color">@color/system_primary_color</color>
     <color name="qs_background_secondary_color">@color/system_primary_color</color>
     <color name="qs_detail_transition">#ff000000</color>
-    <color name="qs_title_text_color">#ffe6e6e6</color>
+    <color name="qs_title_text_color">@android:color/holo_primary</color>
 
     <color name="system_primary_color">#ff161616</color>
     <color name="system_primary_notification_color">#ff181818</color>
@@ -52,8 +52,6 @@
     <color name="batterymeter_frame_color">#66FFFFFF</color><!-- 40% white -->
 
     <!-- Color for notification icons -->
-    <color name="notification_icon_color">#ffe6e6e6</color>
 
     <!-- Navigation button ripple color -->
-    <color name="navbutton_ripple_color">#ffe6e6e6</color>
 </resources>

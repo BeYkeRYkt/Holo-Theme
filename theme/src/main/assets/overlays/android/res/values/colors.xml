@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="theme_white">#ffffffff</color>
-    <color name="theme_accent">#ffe6e6e6</color>
+    <color name="theme_accent">@*android:color/holo_primary</color>
 
     <!-- Notification -->
     <color name="notification_action_color_filter">@color/theme_accent</color>
