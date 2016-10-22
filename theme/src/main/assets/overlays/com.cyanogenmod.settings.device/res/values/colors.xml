@@ -4,5 +4,5 @@
     <!-- Palette colors referenced by top-level themes. -->
     <color name="theme_primary">#ff263238</color>
     <color name="theme_primary_dark">#ff21272b</color>
-    <color name="theme_accent">#ff33b5e5</color>
+    <color name="theme_accent">@*android:color/holo_blue_light</color>
 </resources>
