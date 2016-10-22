@@ -4,21 +4,15 @@
     <attr name="ic_wps" format="reference"/>
 
     <!--BASE-->
-    <style name="Theme.SettingsBase" parent="@android:style/Theme.Holo">
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Holo"/>
+
+    <style name="Theme.Settings" parent="@style/Theme.SettingsBase">
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
-        <item name="@*android:preferencePanelStyle">@style/PreferencePanelSinglePane</item>
-        <item name="@*android:preferenceListStyle">@style/PreferenceHeaderListSinglePane</item>
-        <item name="@*android:preferenceFragmentListStyle">@style/PreferenceFragmentListSinglePane</item>
-        <item name="@*android:preferenceFragmentStyle">@style/PreferenceFragmentStyle</item>
 
         <item name="ic_wps">@drawable/ic_wps_dark</item>
 
         <item name="switchBarTheme">@style/Theme.SwitchBar.SubSettings</item>
-        <!-- <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item> -->
     </style>
-
-    <style name="Theme.Settings" parent="@style/Theme.SettingsBase"/>
 
     <style name="Theme.SubSettings" parent="@style/Theme.Settings">
         <item name="android:actionBarStyle">@style/Theme.ActionBar.SubSettings</item>

@@ -46,4 +46,9 @@
     <dimen name="switchbar_subsettings_margin_start">8dp</dimen>
     <dimen name="switchbar_subsettings_margin_end">8dp</dimen>
 
+    <!-- Notification app icon size -->
+    <dimen name="notification_app_icon_size">@dimen/app_icon_size</dimen>
+
+    <!-- preference_fragment_padding_side replace -->
+    <dimen name="settings_side_margin">@*android:dimen/preference_fragment_padding_side</dimen>
 </resources>

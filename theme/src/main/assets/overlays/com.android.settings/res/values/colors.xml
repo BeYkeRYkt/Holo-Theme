@@ -52,4 +52,7 @@
 
     <!-- Owner Info Background -->
     <color name="background_color_white">@android:color/transparent</color>
+
+    <!-- Category text color -->
+    <color name="category_text_color">@*android:color/secondary_text_holo_dark</color>
 </resources>

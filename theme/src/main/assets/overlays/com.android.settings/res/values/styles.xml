@@ -15,44 +15,7 @@
         <item name="android:imeOptions">flagForceAscii|actionDone</item>
     </style>
 
-    <style name="PreferencePanelSinglePane" parent="@android:style/Theme.Holo">
-        <!-- <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginEnd">8dp</item> -->
-        <item name="android:paddingStart">16dp</item>
-        <item name="android:paddingEnd">16dp</item>
-        <item name="android:background">@null</item>
-        <item name="android:scrollbarStyle">outsideOverlay</item>
-    </style>
-
-    <style name="PreferenceHeaderListSinglePane" parent="@android:style/Theme.Holo">
-        <item name="android:paddingStart">16dip</item>
-        <item name="android:paddingEnd">16dip</item>
-        <item name="android:paddingTop">16dp</item>
-        <item name="android:paddingBottom">16dp</item>
-        <!-- <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:layout_marginBottom">8dp</item> -->
-        <item name="android:scrollbarStyle">outsideOverlay</item>
-    </style>
-
-    <style name="PreferenceFragmentListSinglePane" parent="@android:style/Theme.Holo">
-        <item name="android:paddingStart">16dip</item>
-        <item name="android:paddingEnd">16dip</item>
-        <!-- <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginEnd">8dp</item> -->
-        <item name="android:scrollbarStyle">outsideOverlay</item>
-    </style>
-
-    <style name="SettingsPreferenceHeaderPanel" parent="@android:style/Theme.Holo">
-    </style>
-
-    <style name="SettingsPreferenceHeaderList" parent="@android:style/Theme.Holo">
-    </style>
-
-    <style name="PreferenceFragmentStyle" parent="@android:style/Theme.Holo">
-        <!-- <item name="android:layout">@layout/preference_list_fragment</item> -->
-    </style>
+    <style name="TrimmedHorizontalProgressBar" parent="android:Widget.Holo.ProgressBar.Horizontal"/>
 
     <style name="wifi_item">
         <item name="android:layout_width">match_parent</item>
@@ -125,8 +88,9 @@
         <item name="android:textAllCaps">true</item>
     </style>
     <style name="TextAppearance.CategoryTitle" parent="@style/TextAppearance.Small">
-        <item name="android:textColor">@color/theme_accent</item>
+        <item name="android:textColor">@color/category_text_color</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
     </style>
     <style name="TextAppearance.TileTitle" parent="@style/TextAppearance.Medium"/>
     <style name="TextAppearance.TileSubTitle" parent="@style/TextAppearance.Small"/>
