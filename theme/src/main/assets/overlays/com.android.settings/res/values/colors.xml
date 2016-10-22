@@ -48,7 +48,7 @@
     <color name="security_settings_billing_desc_color">@color/theme_accent</color>
 
     <!-- Fab Shape -->
-    <color name="fab_shape">@*android:color/holo_primary</color>
+    <color name="fab_shape">@*android:color/holo_primary_dark</color>
 
     <!-- Owner Info Background -->
     <color name="background_color_white">@android:color/transparent</color>
