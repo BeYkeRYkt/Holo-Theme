@@ -2,7 +2,7 @@
 <resources>
     <!-- CM 12.1 -->
     <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge.NoActionBar">
-        <item name="android:colorControlNormal">#ffe6e6e6</item>
+        <item name="android:colorControlNormal">@color/theme_accent</item>
     </style>
 
     <style name="Theme.AlertDialogActivity" parent="@android:style/Theme.Holo.Panel">
@@ -12,7 +12,7 @@
     <!-- CM 13 -->
     <style name="Theme.Header.Settings" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/ActionBar</item>
-        <!-- <item name="android:colorControlNormal">#ffe6e6e6</item> -->
+        <item name="android:colorControlNormal">@color/theme_accent</item>
     </style>
 
     <style name="ActionBar" parent="@android:style/Widget.Holo.ActionBar.Solid"></style>

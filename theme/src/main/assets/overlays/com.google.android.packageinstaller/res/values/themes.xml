@@ -3,8 +3,10 @@
     <style name="Settings" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/ActionBar</item>
         <item name="android:icon">@drawable/ic_settings</item>
+        <item name="android:colorControlNormal">@color/theme_accent</item>
     </style>
 
     <style name="GrantPermissions" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:colorControlNormal">@color/theme_accent</item>
     </style>
 </resources>

@@ -6,4 +6,5 @@
     <!-- <color name="grant_permissions_app_color">@android:color/transparent</color>
     <color name="grant_permissions_progress_color">@android:color/transparent</color> -->
     <color name="theme_accent">#ffe6e6e6</color>
+    <color name="header_background_color">@android:color/transparent</color>
 </resources>
