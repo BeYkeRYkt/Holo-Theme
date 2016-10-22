@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- <attr name="colorSwitchThumbNormal" format="color"/>
-    <attr name="preferencePanelStyle" format="reference"/>
-    <attr name="preferenceHeaderPanelStyle" format="reference"/>
-    <attr name="preferenceListStyle" format="reference"/>
-    <attr name="preferenceFragmentListStyle" format="reference"/>
-    <attr name="preferenceFragmentPaddingSide" format="dimension"/>
-    <attr name="switchPreferenceStyle" format="reference"/>
-    <attr name="windowActionBarFullscreenDecorLayout" format="reference"/> -->
-
     <!-- DeviceDefault -->
     <style name="HoloTheme" parent="@android:style/Theme.Holo"/>
 
