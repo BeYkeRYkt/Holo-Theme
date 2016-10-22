@@ -56,4 +56,18 @@
         <item name="android:textColor">#cccccc</item>
         <item name="android:textAllCaps">true</item>
     </style>
+
+    <style name="TextAppearance.StatusBar.Expanded.WeatherLocation" parent="@*android:style/TextAppearance.StatusBar">
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.Expanded.WeatherTemp" parent="@*android:style/TextAppearance.StatusBar">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#cccccc</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
 </resources>
