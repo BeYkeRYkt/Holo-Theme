@@ -3,12 +3,12 @@
     <!-- Material -->
     <color name="primary">#ff0d0d0d</color>
     <color name="primary_dark">@*android:color/black</color>
-    <color name="accent">#ff33b5e5</color>
+    <color name="accent">@*android:color/holo_blue_light</color>
 
     <color name="semitransparent_black">@color/primary</color>
 
     <!-- Standard Text Color -->
-    <color name="default_text_color">#ffe6e6e6</color>
+    <color name="default_text_color">@*android:color/holo_primary</color>
     <color name="default_text_color_light">#bfffffff</color>
 
     <!-- Cards -->
