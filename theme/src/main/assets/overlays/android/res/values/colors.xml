@@ -2,6 +2,9 @@
 <resources>
     <color name="theme_white">#ffffffff</color>
     <color name="theme_accent">@*android:color/holo_primary</color>
+    <color name="background_material_dark">@*drawable/preference_background</color>
+    <color name="background_material_dark">@*drawable/preference_background</color>
+    <color name="background_floating_material_dark">@*drawable/preference_background</color>
 
     <!-- Notification -->
     <color name="notification_action_color_filter">@color/theme_accent</color>
