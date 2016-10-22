@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+    <color name="grant_permissions_app_color">@*android:color/holo_primary</color>
+    <color name="grant_permissions_progress_color">@*android:color/holo_primary</color>
     <!-- <color name="grant_permissions_app_color">@android:color/transparent</color>
     <color name="grant_permissions_progress_color">@android:color/transparent</color> -->
+    <color name="theme_accent">@*android:color/holo_primary</color>
     <color name="header_background_color">@android:color/transparent</color>
 </resources>

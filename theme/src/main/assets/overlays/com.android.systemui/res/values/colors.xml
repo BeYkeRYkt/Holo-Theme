@@ -52,6 +52,8 @@
     <color name="batterymeter_frame_color">#66FFFFFF</color><!-- 40% white -->
 
     <!-- Color for notification icons -->
+    <color name="notification_icon_color">@*android:color/holo_primary</color>
 
     <!-- Navigation button ripple color -->
+    <color name="navbutton_ripple_color">@*android:color/holo_primary</color>
 </resources>
