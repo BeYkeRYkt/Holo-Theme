@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="FotaButton" parent="*@android:style/Widget.Holo.Button"/>
-    <style name="FotaTheme" parent="*@android:style/Theme.Holo.NoActionBar"/>
+    <style name="FotaButton" parent="@*android:style/Widget.Holo.Button"/>
+    <style name="FotaTheme" parent="@*android:style/Theme.Holo.NoActionBar"/>
+    <color name="FotaTitleColor">@*android:color/holo_blue_light</color>
+    <style name="FotaBuildNameTextColor">@*android:color/holo_blue_light</style>
 </resources>
