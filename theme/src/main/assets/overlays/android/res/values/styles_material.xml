@@ -27,6 +27,10 @@ easier.
 ===============================================================
  -->
 <resources>
+
+    <style name="Material" parent="@*android:style/Holo"/>
+    <style name="Material.Light" parent="@*android:style/Holo.Light"/>
+
     <!-- Widget Styles -->
     <style name="Widget.Material" parent="@*android:Widget.Holo"/>
     <style name="Widget.Material.Button" parent="@*android:Widget.Holo.Button"/>
@@ -50,7 +54,9 @@ easier.
     <style name="Widget.Material.ProgressBar.Small" parent="@*android:Widget.Holo.ProgressBar.Small"/>
     <style name="Widget.Material.ProgressBar.Small.Title" parent="@*android:Widget.Holo.ProgressBar.Small.Title"/>
     <style name="Widget.Material.ProgressBar.Large" parent="@*android:Widget.Holo.ProgressBar.Large"/>
-    <style name="Widget.Material.SeekBar" parent="@*android:Widget.Holo.SeekBar"/>
+    <style name="Widget.Material.SeekBar" parent="@*android:Widget.Holo.SeekBar">
+		<item name="android:splitTrack">false</item>
+	</style>
     <style name="Widget.Material.RatingBar" parent="@*android:Widget.Holo.RatingBar"/>
     <style name="Widget.Material.RatingBar.Indicator" parent="@*android:Widget.Holo.RatingBar.Indicator"/>
     <style name="Widget.Material.RatingBar.Small" parent="@*android:Widget.Holo.RatingBar.Small"/>
@@ -145,7 +151,9 @@ easier.
     <style name="Widget.Material.Light.ProgressBar.Inverse" parent="@*android:Widget.Holo.Light.ProgressBar.Inverse"/>
     <style name="Widget.Material.Light.ProgressBar.Small.Inverse" parent="@*android:Widget.Holo.Light.ProgressBar.Small.Inverse"/>
     <style name="Widget.Material.Light.ProgressBar.Large.Inverse" parent="@*android:Widget.Holo.Light.ProgressBar.Large.Inverse"/>
-    <style name="Widget.Material.Light.SeekBar" parent="@*android:Widget.Holo.Light.SeekBar"/>
+    <style name="Widget.Material.Light.SeekBar" parent="@*android:Widget.Holo.Light.SeekBar">
+		<item name="android:splitTrack">false</item>
+	</style>
     <style name="Widget.Material.Light.RatingBar" parent="@*android:Widget.Holo.Light.RatingBar"/>
     <style name="Widget.Material.Light.RatingBar.Indicator" parent="@*android:Widget.Holo.Light.RatingBar.Indicator"/>
     <style name="Widget.Material.Light.RatingBar.Small" parent="@*android:Widget.Holo.Light.RatingBar.Small"/>
@@ -202,6 +210,92 @@ easier.
 
     <!-- Text Appearance Styles -->
     <style name="TextAppearance.Material" parent="@*android:TextAppearance.Holo"/>
+    <style name="TextAppearance.Material.Display4" parent="TextAppearance.Material.Small">
+        <item name="android:textSize">@*android:dimen/text_size_display_4_material</item>
+        <item name="android:fontFamily">@*android:string/font_family_display_4_material</item>
+        <item name="android:textColor">?*android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Material.Display3" parent="TextAppearance.Material">
+        <item name="android:textSize">@*android:dimen/text_size_display_3_material</item>
+        <item name="android:fontFamily">@*android:string/font_family_display_3_material</item>
+        <item name="android:textColor">?*android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Material.Display2" parent="TextAppearance.Material">
+        <item name="android:textSize">@*android:dimen/text_size_display_2_material</item>
+        <item name="android:fontFamily">@*android:string/font_family_display_2_material</item>
+        <item name="android:textColor">?*android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Material.Display1" parent="TextAppearance.Material">
+        <item name="android:textSize">@*android:dimen/text_size_display_1_material</item>
+        <item name="android:fontFamily">@*android:string/font_family_display_1_material</item>
+        <item name="android:textColor">?*android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Material.Headline" parent="TextAppearance.Material">
+        <item name="android:textSize">@*android:dimen/text_size_headline_material</item>
+        <item name="android:fontFamily">@*android:string/font_family_headline_material</item>
+        <item name="android:textColor">?*android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Material.Title" parent="TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textSize">@*android:dimen/text_size_title_material</item>
+        <item name="android:fontFamily">@*android:string/font_family_title_material</item>
+        <item name="android:textColor">?*android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Material.Title.Inverse" parent="TextAppearance.Material.Widget.ActionBar.Title.Inverse">
+        <item name="android:textColor">@android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">@android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">@android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?*android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Material.Subhead" parent="TextAppearance.Material.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">@*android:dimen/text_size_subhead_material</item>
+        <item name="android:fontFamily">@*android:string/font_family_subhead_material</item>
+        <item name="android:textColor">?*android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Material.Subhead.Inverse" parent="TextAppearance.Material.Widget.ActionBar.Subtitle.Inverse">
+        <item name="android:textColor">?*android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?*android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?*android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?*android:attr/textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Material.Body2" parent="TextAppearance.Material.Medium">
+        <item name="android:textSize">@*android:dimen/text_size_body_2_material</item>
+        <item name="android:fontFamily">@*android:string/font_family_body_2_material</item>
+        <item name="android:textColor">?*android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Material.Body1" parent="TextAppearance.Material">
+        <item name="android:textSize">@*android:dimen/text_size_body_1_material</item>
+        <item name="android:fontFamily">@*android:string/font_family_body_1_material</item>
+        <item name="android:textColor">?*android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.Material.Caption" parent="TextAppearance.Material">
+        <item name="android:textSize">@*android:dimen/text_size_caption_material</item>
+        <item name="android:fontFamily">@*android:string/font_family_caption_material</item>
+        <item name="android:textColor">?*android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Material.Menu" parent="TextAppearance.Material.Widget.ActionBar.Menu">
+        <item name="android:textSize">@*android:dimen/text_size_menu_material</item>
+        <item name="android:fontFamily">@*android:string/font_family_menu_material</item>
+    </style>
+
+    <style name="TextAppearance.Material.Button" parent="TextAppearance.Material.Medium">
+        <item name="android:textSize">@*android:dimen/text_size_button_material</item>
+        <item name="android:fontFamily">@*android:string/font_family_button_material</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?*android:attr/textColorPrimary</item>
+    </style>
+
     <style name="TextAppearance.Material.Inverse" parent="@*android:TextAppearance.Holo.Inverse"/>
     <style name="TextAppearance.Material.Large" parent="@*android:TextAppearance.Holo.Large"/>
     <style name="TextAppearance.Material.Large.Inverse" parent="@*android:TextAppearance.Holo.Large.Inverse"/>
@@ -209,6 +303,7 @@ easier.
     <style name="TextAppearance.Material.Medium.Inverse" parent="@*android:TextAppearance.Holo.Medium.Inverse"/>
     <style name="TextAppearance.Material.Small" parent="@*android:TextAppearance.Holo.Small"/>
     <style name="TextAppearance.Material.Small.Inverse" parent="@*android:TextAppearance.Holo.Small.Inverse"/>
+    <style name="TextAppearance.Material.SearchResult" parent="@*android:TextAppearance.Holo.SearchResult"/>
     <style name="TextAppearance.Material.SearchResult.Title" parent="@*android:TextAppearance.Holo.SearchResult.Title"/>
     <style name="TextAppearance.Material.SearchResult.Subtitle" parent="@*android:TextAppearance.Holo.SearchResult.Subtitle"/>
     <style name="TextAppearance.Material.Widget" parent="@*android:TextAppearance.Holo.Widget"/>
@@ -247,11 +342,28 @@ easier.
     <style name="Preference.Material.DialogPreference" parent="@*android:Preference.Holo.DialogPreference"/>
     <style name="Preference.Material.DialogPreference.EditTextPreference" parent="@*android:Preference.Holo.DialogPreference.EditTextPreference"/>
     <style name="Preference.Material.DialogPreference.YesNoPreference" parent="@*android:Preference.Holo.DialogPreference.YesNoPreference"/>
+    <style name="Preference.Material.DialogPreference.SeekBarPreference" parent="@*android:Preference.DialogPreference.SeekBarPreference"/>
     <style name="Preference.Material.Information" parent="@*android:Preference.Holo.Information"/>
     <style name="Preference.Material.PreferenceScreen" parent="@*android:Preference.Holo.PreferenceScreen"/>
     <style name="Preference.Material.RingtonePreference" parent="@*android:Preference.Holo.RingtonePreference"/>
     <style name="Preference.Material.SwitchPreference" parent="@*android:Preference.Holo.SwitchPreference"/>
     <style name="Preference.Material.SeekBarPreference" parent="@*android:Preference.Holo.SeekBarPreference"/>
+
+    <!-- PreferenceFragment -->
+    <style name="PreferenceFragment.Material" parent="@*android:PreferenceFragment.Holo"/>
+
+    <!-- No margins or background by default. Could be different for x-large screens -->
+    <style name="PreferencePanel.Material" parent="@*android:PreferencePanel"/>
+
+    <!-- The attributes are overridden here because the x-large or large resources may have
+         changed the margins and background in the parent PreferencePanel style. -->
+    <style name="PreferencePanel.Material.Dialog" parent="@*android:PreferencePanel.Dialog"/>
+
+    <style name="PreferenceHeaderPanel.Material" parent="@*android:PreferenceHeaderPanel"/>
+
+    <style name="PreferenceHeaderList.Material" parent="@*android:PreferenceHeaderList"/>
+
+    <style name="PreferenceFragmentList.Material" parent="@*android:PreferenceFragmentList"/>
 
     <!-- AlertDialog Styles -->
     <style name="AlertDialog.Material" parent="@*android:AlertDialog.Holo"/>
@@ -261,6 +373,15 @@ easier.
     <style name="Animation.Material" parent="@*android:Animation.Holo"/>
     <style name="Animation.Material.Activity" parent="@*android:Animation.Holo.Activity"/>
     <style name="Animation.Material.Dialog" parent="@*android:Animation.Holo.Dialog"/>
+
+    <style name="Animation.Material.Popup" parent="@*android:style/Animation.PopupWindow.ActionMode"/>
+
+    <style name="AlertDialog.Material" parent="@*android:AlertDialog.Holo"/>
+    <style name="AlertDialog.Material.Light" parent="@*android:AlertDialog.Holo.Light"/>
+
+    <!-- DialogWindowTitleBackground Styles -->
+    <style name="DialogWindowTitleBackground.Material" parent="@*android:DialogWindowTitleBackground"/>
+    <style name="DialogWindowTitleBackground.Material.Light" parent="@*android:DialogWindowTitleBackground" />
 
     <!-- DialogWindowTitle Styles -->
     <style name="DialogWindowTitle.Material" parent="@*android:DialogWindowTitle.Holo"/>
