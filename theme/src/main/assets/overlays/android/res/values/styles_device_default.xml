@@ -49,7 +49,9 @@ easier.
     <style name="Widget.DeviceDefault.ProgressBar.Small" parent="@*android:Widget.Holo.ProgressBar.Small"/>
     <style name="Widget.DeviceDefault.ProgressBar.Small.Title" parent="@*android:Widget.Holo.ProgressBar.Small.Title"/>
     <style name="Widget.DeviceDefault.ProgressBar.Large" parent="@*android:Widget.Holo.ProgressBar.Large"/>
-    <style name="Widget.DeviceDefault.SeekBar" parent="@*android:Widget.Holo.SeekBar"/>
+    <style name="Widget.DeviceDefault.SeekBar" parent="@*android:Widget.Holo.SeekBar">
+        <item name="android:splitTrack">false</item>
+    </style>
     <style name="Widget.DeviceDefault.RatingBar" parent="@*android:Widget.Holo.RatingBar"/>
     <style name="Widget.DeviceDefault.RatingBar.Indicator" parent="@*android:Widget.Holo.RatingBar.Indicator"/>
     <style name="Widget.DeviceDefault.RatingBar.Small" parent="@*android:Widget.Holo.RatingBar.Small"/>
@@ -143,7 +145,9 @@ easier.
     <style name="Widget.DeviceDefault.Light.ProgressBar.Inverse" parent="@*android:Widget.Holo.Light.ProgressBar.Inverse"/>
     <style name="Widget.DeviceDefault.Light.ProgressBar.Small.Inverse" parent="@*android:Widget.Holo.Light.ProgressBar.Small.Inverse"/>
     <style name="Widget.DeviceDefault.Light.ProgressBar.Large.Inverse" parent="@*android:Widget.Holo.Light.ProgressBar.Large.Inverse"/>
-    <style name="Widget.DeviceDefault.Light.SeekBar" parent="@*android:Widget.Holo.Light.SeekBar"/>
+    <style name="Widget.DeviceDefault.Light.SeekBar" parent="@*android:Widget.Holo.Light.SeekBar">
+        <item name="android:splitTrack">false</item>
+    </style>
     <style name="Widget.DeviceDefault.Light.RatingBar" parent="@*android:Widget.Holo.Light.RatingBar"/>
     <style name="Widget.DeviceDefault.Light.RatingBar.Indicator" parent="@*android:Widget.Holo.Light.RatingBar.Indicator"/>
     <style name="Widget.DeviceDefault.Light.RatingBar.Small" parent="@*android:Widget.Holo.Light.RatingBar.Small"/>
