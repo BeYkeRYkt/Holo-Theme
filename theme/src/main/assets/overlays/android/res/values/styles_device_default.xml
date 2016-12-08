@@ -270,4 +270,12 @@ easier.
     <!-- WindowTitle Styles -->
     <style name="WindowTitle.DeviceDefault" parent="@*android:WindowTitle.Holo"/>
     <style name="WindowTitleBackground.DeviceDefault" parent="@*android:WindowTitleBackground.Holo"/>
+
+    <!-- Holo sector -->
+    <style name="Widget.Holo.SeekBar" parent="@*android:Widget.Holo.SeekBar">
+        <item name="android:splitTrack">false</item>
+    </style>
+    <style name="Widget.Holo.Light.SeekBar" parent="@*android:Widget.Holo.Light.SeekBar">
+        <item name="android:splitTrack">false</item>
+    </style>
 </resources>
