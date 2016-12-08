@@ -55,8 +55,8 @@ easier.
     <style name="Widget.Material.ProgressBar.Small.Title" parent="@*android:Widget.Holo.ProgressBar.Small.Title"/>
     <style name="Widget.Material.ProgressBar.Large" parent="@*android:Widget.Holo.ProgressBar.Large"/>
     <style name="Widget.Material.SeekBar" parent="@*android:Widget.Holo.SeekBar">
-		<item name="android:splitTrack">false</item>
-	</style>
+        <item name="android:splitTrack">false</item>
+    </style>
     <style name="Widget.Material.RatingBar" parent="@*android:Widget.Holo.RatingBar"/>
     <style name="Widget.Material.RatingBar.Indicator" parent="@*android:Widget.Holo.RatingBar.Indicator"/>
     <style name="Widget.Material.RatingBar.Small" parent="@*android:Widget.Holo.RatingBar.Small"/>
@@ -152,8 +152,8 @@ easier.
     <style name="Widget.Material.Light.ProgressBar.Small.Inverse" parent="@*android:Widget.Holo.Light.ProgressBar.Small.Inverse"/>
     <style name="Widget.Material.Light.ProgressBar.Large.Inverse" parent="@*android:Widget.Holo.Light.ProgressBar.Large.Inverse"/>
     <style name="Widget.Material.Light.SeekBar" parent="@*android:Widget.Holo.Light.SeekBar">
-		<item name="android:splitTrack">false</item>
-	</style>
+        <item name="android:splitTrack">false</item>
+    </style>
     <style name="Widget.Material.Light.RatingBar" parent="@*android:Widget.Holo.Light.RatingBar"/>
     <style name="Widget.Material.Light.RatingBar.Indicator" parent="@*android:Widget.Holo.Light.RatingBar.Indicator"/>
     <style name="Widget.Material.Light.RatingBar.Small" parent="@*android:Widget.Holo.Light.RatingBar.Small"/>
@@ -381,7 +381,7 @@ easier.
 
     <!-- DialogWindowTitleBackground Styles -->
     <style name="DialogWindowTitleBackground.Material" parent="@*android:DialogWindowTitleBackground"/>
-    <style name="DialogWindowTitleBackground.Material.Light" parent="@*android:DialogWindowTitleBackground" />
+    <style name="DialogWindowTitleBackground.Material.Light" parent="@*android:DialogWindowTitleBackground"/>
 
     <!-- DialogWindowTitle Styles -->
     <style name="DialogWindowTitle.Material" parent="@*android:DialogWindowTitle.Holo"/>
