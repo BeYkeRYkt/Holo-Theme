@@ -390,4 +390,6 @@ easier.
     <!-- WindowTitle Styles -->
     <style name="WindowTitle.Material" parent="@*android:WindowTitle.Holo"/>
     <style name="WindowTitleBackground.Material" parent="@*android:WindowTitleBackground.Holo"/>
+
+    <style name="Widget.Material.PreferenceFrameLayout" parent="@*android:Widget.Holo.PreferenceFrameLayout"/>
 </resources>
