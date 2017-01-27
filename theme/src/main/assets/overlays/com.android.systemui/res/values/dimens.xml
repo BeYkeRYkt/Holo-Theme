@@ -106,6 +106,9 @@
     <dimen name="qs_tile_divider_height">1dp</dimen>
     <dimen name="qs_brightness_padding_top">3dp</dimen>
 
-    <!-- Padding under status bar battery icon -->
-    <dimen name="status_bar_battery_bottom_padding">1px</dimen>
+    <!-- Inset shadow for FakeShadowDrawable. It is used to avoid gaps between the card
+         and the shadow. -->
+    <dimen name="fake_shadow_inset">0dp</dimen>
+
+    <dimen name="fake_shadow_size">0dp</dimen>
 </resources>
