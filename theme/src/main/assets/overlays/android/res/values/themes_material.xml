@@ -7,8 +7,7 @@
     <!-- Dark Device -->
     <style name="Theme.Material" parent="@style/HoloTheme">
         <item name="android:colorAccent">@color/theme_accent</item>
-        <item name="android:textAppearanceListItem">?android:attr/textAppearanceMedium</item>
-        <item name="android:windowBackground">?android:attr/colorBackground</item>
+
         <item name="android:windowClipToOutline">true</item>
 
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
@@ -19,15 +18,12 @@
         <item name="android:windowActivityTransitions">true</item>
         <item name="windowActionBarFullscreenDecorLayout">@*android:layout/screen_toolbar</item>
 
-        <item name="android:toolbarStyle">@style/Widget.Holo.Toolbar</item>
-
-        <item name="colorSwitchThumbNormal">@*android:color/switch_thumb_material_dark</item>
-
-        <!-- <item name="preferencePanelStyle">@*android:style/PreferencePanel.Material</item>
-        <item name="preferenceHeaderPanelStyle">@*android:style/PreferenceHeaderPanel.Material</item>
-        <item name="preferenceListStyle">@*android:style/PreferenceHeaderList.Material</item>
-        <item name="preferenceFragmentListStyle">@*android:style/PreferenceFragmentList.Material</item> -->
+        <!-- <item name="preferencePanelStyle">@style/PreferencePanel.Material</item>
+        <item name="preferenceHeaderPanelStyle">@style/PreferenceHeaderPanel.Material</item>
+        <item name="preferenceListStyle">@style/PreferenceHeaderList.Material</item>
+        <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList.Material</item>
         <item name="preferenceFragmentPaddingSide">@*android:dimen/preference_fragment_padding_side_material</item>
+        <item name="preferenceFrameLayoutStyle">@style/Widget.Material.PreferenceFrameLayout</item> -->
     </style>
     <style name="Theme.Material.NoActionBar" parent="@android:style/Theme.Holo.NoActionBar"/>
     <style name="Theme.Material.NoActionBar.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen"/>
@@ -58,8 +54,13 @@
     <!-- Light Device -->
     <style name="Theme.Material.Light" parent="@android:style/Theme.Holo.Light">
         <item name="android:colorAccent">@color/theme_accent</item>
-        <item name="android:textAppearanceListItem">?android:attr/textAppearanceMedium</item>
-        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <!-- <item name="preferencePanelStyle">@style/PreferencePanel.Material</item>
+        <item name="preferenceHeaderPanelStyle">@style/PreferenceHeaderPanel.Material</item>
+        <item name="preferenceListStyle">@style/PreferenceHeaderList.Material</item>
+        <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList.Material</item>
+        <item name="preferenceFragmentPaddingSide">@*android:dimen/preference_fragment_padding_side_material</item>
+        <item name="preferenceFrameLayoutStyle">@style/Widget.Material.PreferenceFrameLayout</item> -->
+
         <item name="android:windowClipToOutline">true</item>
 
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
@@ -69,17 +70,6 @@
         <item name="android:windowContentTransitions">false</item>
         <item name="android:windowActivityTransitions">true</item>
         <item name="windowActionBarFullscreenDecorLayout">@*android:layout/screen_toolbar</item>
-
-        <item name="android:toolbarStyle">@style/Widget.Holo.Toolbar</item>
-
-        <item name="colorSwitchThumbNormal">@*android:color/switch_thumb_material_dark</item>
-
-        <!-- <item name="preferencePanelStyle">@*android:style/PreferencePanel.Material</item>
-        <item name="preferenceHeaderPanelStyle">@*android:style/PreferenceHeaderPanel.Material</item>
-        <item name="preferenceListStyle">@*android:style/PreferenceHeaderList.Material</item>
-        <item name="preferenceFragmentListStyle">@*android:style/PreferenceFragmentList.Material</item> -->
-        <item name="preferenceFragmentPaddingSide">@*android:dimen/preference_fragment_padding_side_material</item>
-        -->
     </style>
     <style name="Theme.Material.Light.NoActionBar" parent="@android:style/Theme.Holo.Light.NoActionBar"/>
     <style name="Theme.Material.Light.NoActionBar.Fullscreen" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"/>
