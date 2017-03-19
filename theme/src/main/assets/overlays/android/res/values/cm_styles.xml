@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Exposed styles for framework activities -->
+    <style name="Theme.Material.Light.Dialog.HeavyWeightSwitcherActivity" parent="@style/Theme.DeviceDefault.Dialog"/>
+    <style name="Theme.Material.Light.Dialog.ChooseAccountActivity" parent="@style/Theme.DeviceDefault.Dialog"/>
+    <style name="Theme.Material.Light.Dialog.ChooseTypeAndAccountActivity" parent="@style/Theme.DeviceDefault.Dialog"/>
+    <style name="Theme.Material.Light.Dialog.ChooseAccountTypeActivity" parent="@style/Theme.DeviceDefault.Dialog"/>
+    <style name="Theme.Material.Light.Dialog.NoActionBar.CantAddAccountActivity" parent="@style/Theme.DeviceDefault.Dialog"/>
+    <style name="Theme.Material.Light.DialogWhenLarge.GrantCredentialsPermissionActivity" parent="@style/Theme.DeviceDefault.DialogWhenLarge"/>
+    <style name="Theme.Material.Light.Dialog.SyncActivityTooManyDeletes" parent="@style/Theme.DeviceDefault.Dialog"/>
+    <style name="Theme.Material.Light.Dialog.Alert.NetInitiatedActivity" parent="@style/Theme.DeviceDefault.Dialog.Alert"/>
+
+    <!-- Exposed style for power menu  -->
+    <style name="Theme.Power.Dialog" parent="@style/Theme.DeviceDefault.Dialog"/>
+</resources>

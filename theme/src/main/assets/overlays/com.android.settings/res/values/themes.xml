@@ -2,20 +2,31 @@
 <resources>
     <attr name="switchBarTheme" format="reference"/>
     <attr name="ic_wps" format="reference"/>
+    <attr name="ic_menu_add" format="reference"/>
+    <attr name="ic_menu_moreoverflow" format="reference"/>
 
     <!--BASE-->
-    <style name="Theme.SettingsBase" parent="@android:style/Theme.Holo"/>
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material.Settings"/>
 
     <style name="Theme.Settings" parent="@style/Theme.SettingsBase">
+        <!-- <item name="apnPreferenceStyle">@style/ApnPreference</item> -->
+        <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
+        <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_moreoverflow_holo_dark</item>
+        <item name="ic_wps">@drawable/ic_wps_dark</item>
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
 
-        <item name="ic_wps">@drawable/ic_wps_dark</item>
+        <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar.Settings</item>
 
-        <item name="switchBarTheme">@style/Theme.SwitchBar.SubSettings</item>
+        <item name="@*android:preferenceHeaderPanelStyle">@style/PreferenceHeaderPanelSinglePane</item>
+        <item name="@*android:preferencePanelStyle">@style/PreferencePanelSinglePane</item>
+        <item name="@*android:preferenceListStyle">@style/PreferenceHeaderListSinglePane</item>
+        <item name="@*android:preferenceFragmentListStyle">@style/PreferenceFragmentListSinglePane</item>
+        <item name="@*android:preferenceFragmentPaddingSide">@dimen/settings_side_margin</item>
     </style>
 
     <style name="Theme.SubSettings" parent="@style/Theme.Settings">
         <item name="android:actionBarStyle">@style/Theme.ActionBar.SubSettings</item>
+        <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar.SubSettings</item>
     </style>
 
     <style name="Theme.SwitchBar.Settings" parent="@style/Theme.Settings"/>
@@ -26,23 +37,16 @@
 
     <style name="Theme.ActionBar.SubSettings" parent="@style/Theme.ActionBar"/>
 
-    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge">
+    <style name="Theme.DialogWhenLarge" parent="@*android:style/Theme.Material.Settings.DialogWhenLarge">
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
     </style>
 
     <style name="Theme.SubSettingsDialogWhenLarge" parent="@style/Theme.DialogWhenLarge"/>
     <!--BASE-->
 
-    <style name="Theme.SwitchBar.SubSettings" parent="@android:style/Theme.Holo"/>
-
-    <!-- Wifi Dialogs -->
-    <style name="Theme.WifiDialog" parent="@*android:style/Theme.Holo.Dialog">
-        <item name="android:windowSoftInputMode">adjustResize</item>
-    </style>
-
-    <style name="Theme.Light.WifiDialog" parent="@*android:style/Theme.Holo.Light.Dialog">
-        <item name="android:windowSoftInputMode">adjustResize</item>
-    </style>
+    <!-- ThemeOverlay -->
+    <style name="ThemeOverlay.SwitchBar.Settings" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar"/>
+    <style name="ThemeOverlay.SwitchBar.SubSettings" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar"/>
 
     <!-- AppListSwitch -->
     <style name="AppListSwitchPreference" parent="@*android:style/Preference.Holo.DialogPreference">

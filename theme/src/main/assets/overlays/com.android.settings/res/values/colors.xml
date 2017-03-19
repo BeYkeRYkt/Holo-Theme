@@ -55,4 +55,12 @@
 
     <!-- Category text color -->
     <color name="category_text_color">@*android:color/secondary_text_holo_dark</color>
+
+    <!-- Memory -->
+    <color name="memory_normal">@*android:color/primary_text_holo_dark</color>
+    <color name="memory_moderate">#ffF3B300</color>
+    <color name="memory_low">#ffff9700</color>
+    <color name="memory_critical">#ffff5621</color>
+
+    <color name="icon_accent">@color/theme_accent</color>
 </resources>

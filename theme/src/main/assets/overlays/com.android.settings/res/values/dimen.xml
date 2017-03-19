@@ -50,5 +50,5 @@
     <dimen name="notification_app_icon_size">@dimen/app_icon_size</dimen>
 
     <!-- preference_fragment_padding_side replace -->
-    <!-- <dimen name="settings_side_margin">@*android:dimen/preference_fragment_padding_side</dimen> -->
+    <dimen name="settings_side_margin">@*android:dimen/preference_fragment_padding_side</dimen>
 </resources>

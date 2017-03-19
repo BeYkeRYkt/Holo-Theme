@@ -27,9 +27,8 @@ easier.
 ===============================================================
  -->
 <resources>
-
-    <style name="Material" parent="@*android:style/Holo"/>
-    <style name="Material.Light" parent="@*android:style/Holo.Light"/>
+    <style name="Material" parent="@*android:style/Theme.Holo"/>
+    <style name="Material.Light" parent="@*android:style/Theme.Holo.Light"/>
 
     <!-- Widget Styles -->
     <style name="Widget.Material" parent="@*android:Widget.Holo"/>
@@ -210,19 +209,19 @@ easier.
 
     <!-- Text Appearance Styles -->
     <style name="TextAppearance.Material" parent="@*android:TextAppearance.Holo"/>
-    <style name="TextAppearance.Material.Display4" parent="TextAppearance.Material.Small">
+    <style name="TextAppearance.Material.Display4" parent="TextAppearance.Material.Large">
         <item name="android:textSize">@*android:dimen/text_size_display_4_material</item>
         <item name="android:fontFamily">@*android:string/font_family_display_4_material</item>
         <item name="android:textColor">?*android:attr/textColorSecondary</item>
     </style>
 
-    <style name="TextAppearance.Material.Display3" parent="TextAppearance.Material">
+    <style name="TextAppearance.Material.Display3" parent="TextAppearance.Material.Large">
         <item name="android:textSize">@*android:dimen/text_size_display_3_material</item>
         <item name="android:fontFamily">@*android:string/font_family_display_3_material</item>
         <item name="android:textColor">?*android:attr/textColorSecondary</item>
     </style>
 
-    <style name="TextAppearance.Material.Display2" parent="TextAppearance.Material">
+    <style name="TextAppearance.Material.Display2" parent="TextAppearance.Material.Medium">
         <item name="android:textSize">@*android:dimen/text_size_display_2_material</item>
         <item name="android:fontFamily">@*android:string/font_family_display_2_material</item>
         <item name="android:textColor">?*android:attr/textColorSecondary</item>
@@ -234,13 +233,13 @@ easier.
         <item name="android:textColor">?*android:attr/textColorSecondary</item>
     </style>
 
-    <style name="TextAppearance.Material.Headline" parent="TextAppearance.Material">
+    <style name="TextAppearance.Material.Headline" parent="TextAppearance.Material.Small">
         <item name="android:textSize">@*android:dimen/text_size_headline_material</item>
         <item name="android:fontFamily">@*android:string/font_family_headline_material</item>
         <item name="android:textColor">?*android:attr/textColorPrimary</item>
     </style>
 
-    <style name="TextAppearance.Material.Title" parent="TextAppearance.Material.Widget.ActionBar.Title">
+    <style name="TextAppearance.Material.Title" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textSize">@*android:dimen/text_size_title_material</item>
         <item name="android:fontFamily">@*android:string/font_family_title_material</item>
         <item name="android:textColor">?*android:attr/textColorPrimary</item>
@@ -266,19 +265,19 @@ easier.
         <item name="android:textColorLink">?*android:attr/textColorLinkInverse</item>
     </style>
 
-    <style name="TextAppearance.Material.Body2" parent="TextAppearance.Material.Medium">
+    <style name="TextAppearance.Material.Body2" parent="TextAppearance.Material.Small">
         <item name="android:textSize">@*android:dimen/text_size_body_2_material</item>
         <item name="android:fontFamily">@*android:string/font_family_body_2_material</item>
         <item name="android:textColor">?*android:attr/textColorPrimary</item>
     </style>
 
-    <style name="TextAppearance.Material.Body1" parent="TextAppearance.Material">
+    <style name="TextAppearance.Material.Body1" parent="TextAppearance.Material.Small">
         <item name="android:textSize">@*android:dimen/text_size_body_1_material</item>
         <item name="android:fontFamily">@*android:string/font_family_body_1_material</item>
         <item name="android:textColor">?*android:attr/textColorPrimary</item>
     </style>
 
-    <style name="TextAppearance.Material.Caption" parent="TextAppearance.Material">
+    <style name="TextAppearance.Material.Caption" parent="TextAppearance.Material.Small">
         <item name="android:textSize">@*android:dimen/text_size_caption_material</item>
         <item name="android:fontFamily">@*android:string/font_family_caption_material</item>
         <item name="android:textColor">?*android:attr/textColorSecondary</item>
@@ -288,6 +287,13 @@ easier.
         <item name="android:textSize">@*android:dimen/text_size_menu_material</item>
         <item name="android:fontFamily">@*android:string/font_family_menu_material</item>
     </style>
+
+    <!-- <style name="TextAppearance.Material.Menu.Inverse" parent="TextAppearance.Material.Widget.ActionBar.Menu.Inverse">
+        <item name="android:textColor">?*android:attr/textColorSecondaryInverse</item>
+        <item name="android:textColorHint">?*android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?*android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?*android:attr/textColorLinkInverse</item>
+    </style> -->
 
     <style name="TextAppearance.Material.Button" parent="TextAppearance.Material.Medium">
         <item name="android:textSize">@*android:dimen/text_size_button_material</item>
@@ -316,6 +322,7 @@ easier.
     <style name="TextAppearance.Material.Widget.DropDownItem" parent="@*android:TextAppearance.Holo.Widget.DropDownItem"/>
     <style name="TextAppearance.Material.Widget.TextView.SpinnerItem" parent="@*android:TextAppearance.Holo.Widget.TextView.SpinnerItem"/>
     <style name="TextAppearance.Material.Widget.EditText" parent="@*android:TextAppearance.Holo.Widget.EditText"/>
+    <style name="TextAppearance.Material.Widget.Switch" parent="@*android:TextAppearance.Holo.Widget.Switch"/>
     <style name="TextAppearance.Material.Widget.PopupMenu" parent="@*android:TextAppearance.Holo.Widget.PopupMenu"/>
     <style name="TextAppearance.Material.Widget.PopupMenu.Large" parent="@*android:TextAppearance.Holo.Widget.PopupMenu.Large"/>
     <style name="TextAppearance.Material.Widget.PopupMenu.Small" parent="@*android:TextAppearance.Holo.Widget.PopupMenu.Small"/>
@@ -392,4 +399,5 @@ easier.
     <style name="WindowTitleBackground.Material" parent="@*android:WindowTitleBackground.Holo"/>
 
     <style name="Widget.Material.PreferenceFrameLayout" parent="@*android:Widget.Holo.PreferenceFrameLayout"/>
+
 </resources>

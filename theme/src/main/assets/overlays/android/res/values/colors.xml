@@ -13,6 +13,10 @@
     <!-- Permissions Icon -->
     <color name="app_permission_icon_tint">@color/theme_accent</color>
 
+    <color name="edit_side_paste_window_text_color">@android:color/white</color>
+    <color name="edit_paste_window_text_color">@android:color/white</color>
+    <color name="edit_action_popup_text_color">@android:color/white</color>
+
     <!-- User icon colors -->
     <color name="user_icon_1">@color/theme_accent</color>
     <color name="user_icon_2">@color/theme_accent</color>
