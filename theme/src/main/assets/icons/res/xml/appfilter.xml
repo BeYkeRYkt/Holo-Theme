@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- AudioFX -->
-    <item component="ComponentInfo{org.cyanogenmod.audiofx}" drawable="dspmanager"/>
+    <item component="ComponentInfo{org.cyanogenmod.audiofx}" drawable="audiofx"/>
     <item component="ComponentInfo{com.cyngn.audiofx}" drawable="audiofx"/>
 
     <!-- Browser -->
