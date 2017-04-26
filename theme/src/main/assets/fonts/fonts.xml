@@ -50,44 +50,6 @@
     </family>
     <alias name="sans-serif-condensed-light" to="sans-serif-condensed" weight="300"/>
 
-    <family name="serif">
-        <font weight="400" style="normal">DroidSerif-Regular.ttf</font>
-        <font weight="700" style="normal">DroidSerif-Bold.ttf</font>
-        <font weight="400" style="italic">DroidSerif-Italic.ttf</font>
-        <font weight="700" style="italic">DroidSerif-BoldItalic.ttf</font>
-    </family>
-    <alias name="times" to="serif"/>
-    <alias name="times new roman" to="serif"/>
-    <alias name="palatino" to="serif"/>
-    <alias name="georgia" to="serif"/>
-    <alias name="baskerville" to="serif"/>
-    <alias name="goudy" to="serif"/>
-    <alias name="fantasy" to="serif"/>
-    <alias name="ITC Stone Serif" to="serif"/>
-
-    <family name="monospace">
-        <font weight="400" style="normal">DroidSansMono.ttf</font>
-    </family>
-    <alias name="sans-serif-monospace" to="monospace"/>
-    <alias name="monaco" to="monospace"/>
-
-    <family name="serif-monospace">
-        <font weight="400" style="normal">DroidSansMono.ttf</font>
-    </family>
-    <alias name="courier" to="serif-monospace"/>
-    <alias name="courier new" to="serif-monospace"/>
-
-    <family name="casual">
-        <font weight="400" style="normal">DroidSans.ttf</font>
-    </family>
-
-    <family name="cursive">
-        <font weight="400" style="normal">DroidSerif-Regular.ttf</font>
-        <font weight="700" style="normal">DroidSerif-Bold.ttf</font>
-        <font weight="400" style="italic">DroidSerif-Italic.ttf</font>
-        <font weight="700" style="italic">DroidSerif-BoldItalic.ttf</font>
-    </family>
-
     <family name="sans-serif-smallcaps">
         <font weight="400" style="normal">Roboto-Regular.ttf</font>
     </family>
